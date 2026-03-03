@@ -1,0 +1,165 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Demographic survey questionnaire
+    pages:
+    - id: 1
+      name: what_is_your_age_group
+      label: What is your age group?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: under_18
+        label: Under 18
+      - name: '1824'
+        label: 18-24
+      - name: '2534'
+        label: 25-34
+      - name: '3544'
+        label: 35-44
+      - name: '4554'
+        label: 45-54
+      - name: '55'
+        label: 55+
+    - id: 2
+      name: how_do_you_describe_your_gender_identity
+      label: How do you describe your gender identity?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: woman
+        label: Woman
+      - name: man
+        label: Man
+      - name: nonbinary
+        label: Non-binary
+      - name: prefer_not_to_say
+        label: Prefer not to say
+      - name: other
+        label: Other
+    - id: 3
+      name: what_is_your_highest_level_of_education_completed
+      label: What is your highest level of education completed?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: high_school
+        label: High School
+      - name: associates_degree
+        label: Associate's Degree
+      - name: bachelors_degree
+        label: Bachelor's Degree
+      - name: masters_degree
+        label: Master's Degree
+      - name: doctorate
+        label: Doctorate
+      - name: other
+        label: Other
+    - id: 4
+      name: what_is_your_current_employment_status
+      label: What is your current employment status?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: employed_fulltime
+        label: Employed Full-time
+      - name: employed_parttime
+        label: Employed Part-time
+      - name: selfemployed
+        label: Self-employed
+      - name: student
+        label: Student
+      - name: unemployed
+        label: Unemployed
+      - name: retired
+        label: Retired
+    - id: 5
+      name: which_continent_best_describes_your_primary_residence
+      label: Which continent best describes your primary residence?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: africa
+        label: Africa
+      - name: asia
+        label: Asia
+      - name: europe
+        label: Europe
+      - name: north_america
+        label: North America
+      - name: south_america
+        label: South America
+      - name: oceania
+        label: Oceania
+    - id: 6
+      name: what_is_your_approximate_annual_household_income
+      label: What is your approximate annual household income?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: under_25
+        label: Under $25
+      - name: '0'
+        label: '0'
+      - name: '25'
+        label: $25
+      - name: 000_49
+        label: 000 - $49
+      - name: '999'
+        label: '999'
+      - name: '50'
+        label: $50
+      - name: '000_74'
+        label: 000 - $74
+      - name: '999'
+        label: '999'
+      - name: '75'
+        label: $75
+      - name: 000_99
+        label: 000 - $99
+      - name: '999'
+        label: '999'
+      - name: '100'
+        label: $100
+      - name: '000'
+        label: 000+
+      - name: prefer_not_to_say
+        label: Prefer not to say
+    - id: 7
+      name: which_of_the_following_best_describes_your_racialethnic_background_select_all_that_apply
+      label: Which of the following best describes your racial/ethnic background?
+        (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: white
+        label: White
+      - name: black_or_african_american
+        label: Black or African American
+      - name: asian
+        label: Asian
+      - name: hispanic_or_latino
+        label: Hispanic or Latino
+      - name: indigenous_peoples
+        label: Indigenous Peoples
+      - name: other
+        label: Other
+    - id: 8
+      name: do_you_have_any_additional_demographic_information_youd_like_to_share
+      label: Do you have any additional demographic information you'd like to share?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

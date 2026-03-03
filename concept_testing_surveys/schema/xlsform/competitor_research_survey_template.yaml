@@ -1,0 +1,99 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Competitor research survey
+    pages:
+    - id: 1
+      name: how_familiar_are_you_with_the_main_competitors_in_this_market
+      label: How familiar are you with the main competitors in this market?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_familiar
+        label: Very familiar
+      - name: somewhat_familiar
+        label: Somewhat familiar
+      - name: neutral
+        label: Neutral
+      - name: not_very_familiar
+        label: Not very familiar
+      - name: not_at_all_familiar
+        label: Not at all familiar
+    - id: 2
+      name: how_would_you_rate_the_overall_quality_of_competitor_productsservices
+      label: How would you rate the overall quality of competitor products/services?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 3
+      name: which_of_the_following_aspects_do_competitors_generally_excel_at_select_all_that_apply
+      label: Which of the following aspects do competitors generally excel at? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: pricing
+        label: Pricing
+      - name: feature_set
+        label: Feature set
+      - name: user_experience
+        label: User experience
+      - name: customer_support
+        label: Customer support
+      - name: innovation
+        label: Innovation
+      - name: brand_recognition
+        label: Brand recognition
+    - id: 4
+      name: which_areas_do_competitors_struggle_with_or_have_weaknesses_in_select_all_that_apply
+      label: Which areas do competitors struggle with or have weaknesses in? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: high_cost
+        label: High cost
+      - name: missing_features
+        label: Missing features
+      - name: complex_ui
+        label: Complex UI
+      - name: slow_support
+        label: Slow support
+      - name: outdated_tech
+        label: Outdated tech
+      - name: poor_reputation
+        label: Poor reputation
+    - id: 5
+      name: what_key_features_or_benefits_do_competitor_products_offer_that_you_find_most_compelling
+      label: What key features or benefits do competitor products offer that you find
+        most compelling?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: what_frustrates_you_most_about_current_competitor_solutions
+      label: What frustrates you most about current competitor solutions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

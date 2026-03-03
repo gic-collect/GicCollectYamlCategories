@@ -1,0 +1,101 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Event planning survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_overall_event_experience
+      label: How satisfied were you with the overall event experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_or_sessions_did_you_find_most_valuable_select_all_that_apply
+      label: Which aspects or sessions did you find most valuable? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: keynote_speaker
+        label: Keynote speaker
+      - name: workshop_sessions
+        label: Workshop sessions
+      - name: networking_opportunities
+        label: Networking opportunities
+      - name: panel_discussions
+        label: Panel discussions
+      - name: informational_booths
+        label: Informational booths
+      - name: volunteer_activities
+        label: Volunteer activities
+    - id: 3
+      name: was_the_event_wellorganized_and_easy_to_navigate
+      label: Was the event well-organized and easy to navigate?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: how_likely_are_you_to_attend_a_similar_event_organized_by_us_in_the_future
+      label: How likely are you to attend a similar event organized by us in the future?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 5
+      name: what_was_your_primary_motivation_for_attending_this_event
+      label: What was your primary motivation for attending this event?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: support_the_cause
+        label: Support the cause
+      - name: learn_something_new
+        label: Learn something new
+      - name: network_with_others
+        label: Network with others
+      - name: socialize
+        label: Socialize
+      - name: specific_speakertopic
+        label: Specific speaker/topic
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_for_future_events
+      label: Do you have any additional comments or suggestions for future events?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

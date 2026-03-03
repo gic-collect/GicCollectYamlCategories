@@ -1,0 +1,116 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Work life balance survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_current_worklife_balance
+      label: How satisfied are you with your current work-life balance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_of_the_following_most_impacts_your_worklife_balance
+      label: Which of the following most impacts your work-life balance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: workload
+        label: Workload
+      - name: working_hours
+        label: Working hours
+      - name: commute_time
+        label: Commute time
+      - name: manager_support
+        label: Manager support
+      - name: company_culture
+        label: Company culture
+      - name: personal_commitments
+        label: Personal commitments
+    - id: 3
+      name: which_company_initiatives_currently_help_your_worklife_balance_select_all_that_apply
+      label: Which company initiatives currently help your work-life balance? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: flexible_hours
+        label: Flexible hours
+      - name: remote_work
+        label: Remote work
+      - name: generous_pto
+        label: Generous PTO
+      - name: wellness_programs
+        label: Wellness programs
+      - name: mental_health_support
+        label: Mental health support
+      - name: none_of_these
+        label: None of these
+    - id: 4
+      name: how_often_do_you_feel_you_have_enough_time_for_personal_activities_outside_of_work
+      label: How often do you feel you have enough time for personal activities outside
+        of work?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always
+        label: Always
+      - name: often
+        label: Often
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 5
+      name: what_one_change_would_most_improve_your_worklife_balance
+      label: What one change would most improve your work-life balance?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_important_is_worklife_balance_to_your_overall_job_satisfaction
+      label: How important is work-life balance to your overall job satisfaction?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: extremely_important
+        label: Extremely important
+      - name: very_important
+        label: Very important
+      - name: moderately_important
+        label: Moderately important
+      - name: slightly_important
+        label: Slightly important
+      - name: not_important
+        label: Not important
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions_related_to_worklife_balance
+      label: Do you have any additional comments or suggestions related to work-life
+        balance?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

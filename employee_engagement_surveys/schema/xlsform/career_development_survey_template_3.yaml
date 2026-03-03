@@ -1,0 +1,93 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Career development survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_current_role_at_the_organization
+      label: Overall, how satisfied are you with your current role at the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: do_you_feel_supported_in_your_professional_development_and_career_growth
+      label: Do you feel supported in your professional development and career growth?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 3
+      name: which_of_the_following_professional_development_opportunities_are_most_important_to_you_select_all_that_apply
+      label: Which of the following professional development opportunities are most
+        important to you? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: skill_training
+        label: Skill training
+      - name: mentorship_programs
+        label: Mentorship programs
+      - name: leadership_development
+        label: Leadership development
+      - name: conferencesworkshops
+        label: Conferences/workshops
+      - name: higher_education_support
+        label: Higher education support
+      - name: crossfunctional_projects
+        label: Cross-functional projects
+    - id: 4
+      name: how_would_you_rate_the_clarity_of_career_paths_within_the_organization
+      label: How would you rate the clarity of career paths within the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_clear
+        label: Very clear
+      - name: clear
+        label: Clear
+      - name: neutral
+        label: Neutral
+      - name: unclear
+        label: Unclear
+      - name: very_unclear
+        label: Very unclear
+    - id: 5
+      name: what_initiatives_or_resources_could_most_improve_your_career_development_experience_at_work
+      label: What initiatives or resources could most improve your career development
+        experience at work?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_career_development_at_our_organization
+      label: Do you have any additional comments or suggestions regarding career development
+        at our organization?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

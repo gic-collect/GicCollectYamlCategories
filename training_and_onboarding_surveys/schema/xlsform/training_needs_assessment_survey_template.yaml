@@ -1,0 +1,86 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Training needs assessment survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_current_training_opportunities_available_to_you
+      label: How satisfied are you with the current training opportunities available
+        to you?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_training_topics_or_skills_development_areas_would_be_most_valuable_to_you_select_all_that_apply
+      label: Which training topics or skills development areas would be most valuable
+        to you? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: technical_skills
+        label: Technical skills
+      - name: communication_skills
+        label: Communication skills
+      - name: leadership_development
+        label: Leadership development
+      - name: product_knowledge
+        label: Product knowledge
+      - name: project_management
+        label: Project management
+    - id: 3
+      name: what_training_format_do_you_prefer
+      label: What training format do you prefer?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: inperson_workshops
+        label: In-person workshops
+      - name: online_live_sessions
+        label: Online live sessions
+      - name: selfpaced_modules
+        label: Self-paced modules
+      - name: blended_learning
+        label: Blended learning
+    - id: 4
+      name: how_likely_are_you_to_participate_in_future_training_programs
+      label: How likely are you to participate in future training programs?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 5
+      name: do_you_have_any_other_comments_or_suggestions_regarding_training_and_development
+      label: Do you have any other comments or suggestions regarding training and
+        development?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

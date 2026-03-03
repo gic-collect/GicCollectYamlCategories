@@ -1,0 +1,290 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Corporate social responsibility (CSR) survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_corporate_social_responsibility_csr_survey
+      label: How satisfied are you with the Corporate Social Responsibility (CSR)
+        survey?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_participate_in_surveys_related_to_corporate_social_responsibility
+      label: How often do you participate in surveys related to corporate social responsibility?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: frequently
+        label: Frequently
+      - name: occasionally
+        label: Occasionally
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_applied_to_your_experience_with_this_csr_survey_select_all_that_apply
+      label: Which of the following applied to your experience with this CSR survey?
+        (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: clear
+        label: Clear
+      - name: relevant
+        label: Relevant
+      - name: easy_to_complete
+        label: Easy to complete
+      - name: confusing
+        label: Confusing
+      - name: too_long
+        label: Too long
+      - name: irrelevant
+        label: Irrelevant
+    - id: 4
+      name: what_would_you_improve_or_change_about_the_csr_survey_process
+      label: What would you improve or change about the CSR survey process?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_regarding_csr_surveys
+      label: Do you have any additional comments or feedback regarding CSR surveys?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_important_do_you_consider_corporate_social_responsibility_in_business_decisions
+      label: How important do you consider corporate social responsibility in business
+        decisions?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_important
+        label: Very important
+      - name: important
+        label: Important
+      - name: somewhat_important
+        label: Somewhat important
+      - name: not_very_important
+        label: Not very important
+      - name: not_important_at_all
+        label: Not important at all
+    - id: 7
+      name: how_aware_are_you_of_our_companys_csr_initiatives
+      label: How aware are you of our company's CSR initiatives?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_aware
+        label: Very aware
+      - name: aware
+        label: Aware
+      - name: somewhat_aware
+        label: Somewhat aware
+      - name: not_very_aware
+        label: Not very aware
+      - name: not_aware_at_all
+        label: Not aware at all
+    - id: 8
+      name: which_csr_areas_are_most_important_to_you_select_all_that_apply
+      label: Which CSR areas are most important to you? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: environmental_sustainability
+        label: Environmental sustainability
+      - name: community_development
+        label: Community development
+      - name: employee_welfare
+        label: Employee welfare
+      - name: ethical_business_practices
+        label: Ethical business practices
+      - name: diversity_and_inclusion
+        label: Diversity and inclusion
+      - name: philanthropy
+        label: Philanthropy
+    - id: 9
+      name: how_effective_do_you_think_our_company_is_at_communicating_its_csr_efforts
+      label: How effective do you think our company is at communicating its CSR efforts?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_effective
+        label: Very effective
+      - name: effective
+        label: Effective
+      - name: somewhat_effective
+        label: Somewhat effective
+      - name: not_very_effective
+        label: Not very effective
+      - name: not_effective_at_all
+        label: Not effective at all
+    - id: 10
+      name: how_much_do_our_csr_initiatives_influence_your_loyalty_to_our_company
+      label: How much do our CSR initiatives influence your loyalty to our company?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: significantly
+        label: Significantly
+      - name: moderately
+        label: Moderately
+      - name: somewhat
+        label: Somewhat
+      - name: not_much
+        label: Not much
+      - name: not_at_all
+        label: Not at all
+    - id: 11
+      name: what_csr_activities_would_you_like_to_see_our_company_focus_on_more
+      label: What CSR activities would you like to see our company focus on more?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 12
+      name: how_transparent_do_you_find_our_companys_csr_reporting
+      label: How transparent do you find our company's CSR reporting?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_transparent
+        label: Very transparent
+      - name: transparent
+        label: Transparent
+      - name: somewhat_transparent
+        label: Somewhat transparent
+      - name: not_very_transparent
+        label: Not very transparent
+      - name: not_transparent_at_all
+        label: Not transparent at all
+    - id: 13
+      name: have_you_participated_in_any_of_our_companys_csr_programs_or_initiatives
+      label: Have you participated in any of our company's CSR programs or initiatives?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: yes_actively
+        label: Yes, actively
+      - name: yes_occasionally
+        label: Yes, occasionally
+      - name: no_but_im_interested
+        label: No, but I'm interested
+      - name: no_and_im_not_interested
+        label: No, and I'm not interested
+    - id: 14
+      name: how_do_you_prefer_to_learn_about_our_csr_initiatives_select_all_that_apply
+      label: How do you prefer to learn about our CSR initiatives? (Select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: company_website
+        label: Company website
+      - name: email_newsletters
+        label: Email newsletters
+      - name: social_media
+        label: Social media
+      - name: annual_reports
+        label: Annual reports
+      - name: employee_communications
+        label: Employee communications
+      - name: community_events
+        label: Community events
+    - id: 15
+      name: what_impact_do_you_believe_our_csr_efforts_have_on_the_community
+      label: What impact do you believe our CSR efforts have on the community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_positive
+        label: Very positive
+      - name: positive
+        label: Positive
+      - name: neutral
+        label: Neutral
+      - name: negative
+        label: Negative
+      - name: very_negative
+        label: Very negative
+    - id: 16
+      name: how_do_our_csr_efforts_compare_to_our_competitors
+      label: How do our CSR efforts compare to our competitors?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: much_better
+        label: Much better
+      - name: better
+        label: Better
+      - name: about_the_same
+        label: About the same
+      - name: worse
+        label: Worse
+      - name: much_worse
+        label: Much worse
+    - id: 17
+      name: what_specific_csr_goals_would_you_like_our_company_to_achieve_in_the_next_year
+      label: What specific CSR goals would you like our company to achieve in the
+        next year?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 18
+      name: how_confident_are_you_that_our_company_follows_through_on_its_csr_commitments
+      label: How confident are you that our company follows through on its CSR commitments?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_confident
+        label: Very confident
+      - name: confident
+        label: Confident
+      - name: somewhat_confident
+        label: Somewhat confident
+      - name: not_very_confident
+        label: Not very confident
+      - name: not_confident_at_all
+        label: Not confident at all
+    - id: 19
+      name: what_suggestions_do_you_have_for_improving_our_csr_communication
+      label: What suggestions do you have for improving our CSR communication?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

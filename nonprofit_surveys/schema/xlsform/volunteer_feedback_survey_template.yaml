@@ -1,0 +1,116 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Volunteer feedback survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_volunteer_experience_with_our_organization
+      label: Overall, how satisfied are you with your volunteer experience with our
+        organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_typically_volunteer_with_our_organization
+      label: How often do you typically volunteer with our organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: quarterly
+        label: Quarterly
+      - name: a_few_times_a_year
+        label: A few times a year
+      - name: rarely
+        label: Rarely
+    - id: 3
+      name: which_of_the_following_aspects_best_describe_your_current_volunteer_role_select_all_that_apply
+      label: Which of the following aspects best describe your current volunteer role?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: engaging_and_fulfilling
+        label: Engaging and fulfilling
+      - name: clearly_defined_tasks
+        label: Clearly defined tasks
+      - name: wellsupported
+        label: Well-supported
+      - name: flexible
+        label: Flexible
+      - name: challenging
+        label: Challenging
+      - name: repetitive
+        label: Repetitive
+    - id: 4
+      name: did_you_feel_you_received_adequate_training_and_resources_for_your_volunteer_tasks
+      label: Did you feel you received adequate training and resources for your volunteer
+        tasks?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always
+        label: Always
+      - name: mostly
+        label: Mostly
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 5
+      name: what_is_one_specific_thing_we_could_do_to_improve_your_volunteer_experience
+      label: What is one specific thing we could do to improve your volunteer experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_likely_are_you_to_recommend_volunteering_with_our_organization_to_a_friend_or_colleague
+      label: How likely are you to recommend volunteering with our organization to
+        a friend or colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions_for_our_volunteer_program
+      label: Do you have any additional comments or suggestions for our volunteer
+        program?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

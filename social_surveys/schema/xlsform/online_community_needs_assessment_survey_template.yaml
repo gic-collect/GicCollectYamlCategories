@@ -1,0 +1,119 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Online community needs assessment survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_experience_in_our_online_community
+      label: How satisfied are you with your overall experience in our online community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_actively_participate_or_engage_with_content_in_the_online_community
+      label: How often do you actively participate or engage with content in the online
+        community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: several_times_a_week
+        label: Several times a week
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_benefits_do_you_gain_from_participating_in_our_community_select_all_that_apply
+      label: Which of the following benefits do you gain from participating in our
+        community? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: connect_with_others
+        label: Connect with others
+      - name: share_knowledge
+        label: Share knowledge
+      - name: learn_new_things
+        label: Learn new things
+      - name: find_support
+        label: Find support
+      - name: stay_informed
+        label: Stay informed
+      - name: entertainment
+        label: Entertainment
+    - id: 4
+      name: what_types_of_content_or_activities_would_you_like_to_see_more_of_in_the_community
+      label: What types of content or activities would you like to see more of in
+        the community?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: live_eventswebinars
+        label: Live events/Webinars
+      - name: discussion_topics
+        label: Discussion topics
+      - name: tutorialsguides
+        label: Tutorials/Guides
+      - name: qa_sessions
+        label: Q&A sessions
+      - name: member_spotlights
+        label: Member spotlights
+      - name: social_activities
+        label: Social activities
+    - id: 5
+      name: how_important_is_it_for_you_to_have_a_sense_of_belonging_in_our_online_community
+      label: How important is it for you to have a sense of belonging in our online
+        community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_important
+        label: Very important
+      - name: somewhat_important
+        label: Somewhat important
+      - name: neutral
+        label: Neutral
+      - name: not_very_important
+        label: Not very important
+      - name: not_important_at_all
+        label: Not important at all
+    - id: 6
+      name: what_improvements_or_new_features_would_you_suggest_for_the_online_community
+      label: What improvements or new features would you suggest for the online community?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_other_comments_or_feedback_about_the_community
+      label: Do you have any other comments or feedback about the community?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

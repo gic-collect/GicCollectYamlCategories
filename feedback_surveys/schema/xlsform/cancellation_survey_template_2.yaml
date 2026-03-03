@@ -1,0 +1,78 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Cancellation Survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_serviceproduct_before_deciding_to_cancel
+      label: How satisfied were you with the service/product before deciding to cancel?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_did_you_use_the_serviceproduct
+      label: How often did you use the service/product?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describes_your_primary_reason_for_canceling_select_all_that_apply
+      label: Which of the following best describes your primary reason for canceling?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: cost_too_high
+        label: Cost too high
+      - name: missing_features
+        label: Missing features
+      - name: poor_servicesupport
+        label: Poor service/support
+      - name: found_an_alternative
+        label: Found an alternative
+      - name: not_needed_anymore
+        label: Not needed anymore
+      - name: technical_issues
+        label: Technical issues
+    - id: 4
+      name: what_could_we_improve_about_the_serviceproduct
+      label: What could we improve about the service/product?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_other_comments_or_feedback
+      label: Do you have any other comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

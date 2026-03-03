@@ -1,0 +1,96 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Employee empowerment survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_role_at_the_organization
+      label: Overall, how satisfied are you with your role at the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: to_what_extent_do_you_feel_empowered_to_make_decisions_in_your_role
+      label: To what extent do you feel empowered to make decisions in your role?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: fully_empowered
+        label: Fully empowered
+      - name: mostly_empowered
+        label: Mostly empowered
+      - name: somewhat_empowered
+        label: Somewhat empowered
+      - name: rarely_empowered
+        label: Rarely empowered
+      - name: not_empowered_at_all
+        label: Not empowered at all
+    - id: 3
+      name: do_you_feel_supported_in_your_professional_development_and_growth_opportunities
+      label: Do you feel supported in your professional development and growth opportunities?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 4
+      name: which_of_the_following_factors_contribute_most_to_your_sense_of_empowerment_at_work_select_all_that_apply
+      label: Which of the following factors contribute most to your sense of empowerment
+        at work? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: autonomy
+        label: Autonomy
+      - name: clear_goals
+        label: Clear goals
+      - name: manager_support
+        label: Manager support
+      - name: team_collaboration
+        label: Team collaboration
+      - name: recognition
+        label: Recognition
+      - name: access_to_resources
+        label: Access to resources
+    - id: 5
+      name: what_could_improve_your_experience_at_work_regarding_empowerment_or_engagement
+      label: What could improve your experience at work regarding empowerment or engagement?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_employee_empowerment
+      label: Do you have any additional comments or suggestions regarding employee
+        empowerment?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

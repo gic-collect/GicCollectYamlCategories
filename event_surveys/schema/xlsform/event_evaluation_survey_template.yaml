@@ -1,0 +1,65 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Event evaluation survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_event_overall
+      label: How satisfied were you with the event overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_sessions_or_aspects_did_you_find_most_valuable
+      label: Which sessions or aspects did you find most valuable?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 3
+      name: was_the_event_well_organized
+      label: Was the event well organized?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: how_likely_are_you_to_attend_a_similar_event_in_the_future
+      label: How likely are you to attend a similar event in the future?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: not_likely
+        label: Not likely
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

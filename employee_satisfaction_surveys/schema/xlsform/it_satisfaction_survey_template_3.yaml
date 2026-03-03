@@ -1,0 +1,92 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: IT satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_the_it_services_and_support_provided
+      label: Overall, how satisfied are you with the IT services and support provided?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_responsiveness_of_it_support_when_you_request_assistance
+      label: How would you rate the responsiveness of IT support when you request
+        assistance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: not_applicable
+        label: Not applicable
+    - id: 3
+      name: how_reliable_are_the_it_systems_and_tools_you_use_daily
+      label: How reliable are the IT systems and tools you use daily?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always_reliable
+        label: Always reliable
+      - name: mostly_reliable
+        label: Mostly reliable
+      - name: sometimes_unreliable
+        label: Sometimes unreliable
+      - name: often_unreliable
+        label: Often unreliable
+    - id: 4
+      name: what_kind_of_it_support_or_training_would_be_most_beneficial_for_new_technologies
+      label: What kind of IT support or training would be most beneficial for new
+        technologies?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: workshops
+        label: Workshops
+      - name: online_tutorials
+        label: Online tutorials
+      - name: oneonone_sessions
+        label: One-on-one sessions
+      - name: documentation
+        label: Documentation
+      - name: peer_support
+        label: Peer support
+    - id: 5
+      name: what_specific_it_services_tools_or_processes_could_be_improved
+      label: What specific IT services, tools, or processes could be improved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_it
+      label: Do you have any additional comments or suggestions regarding IT?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,277 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Concept testing survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_concept_presented
+      label: How satisfied are you with the concept presented?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_of_the_concept_influenced_your_overall_opinion_the_most_select_all_that_apply
+      label: Which aspects of the concept influenced your overall opinion the most?
+        (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: design
+        label: Design
+      - name: functionality
+        label: Functionality
+      - name: value_proposition
+        label: Value proposition
+      - name: ease_of_use
+        label: Ease of use
+      - name: problem_solved
+        label: Problem solved
+    - id: 3
+      name: based_on_this_concept_how_likely_would_you_be_to_use_a_product_or_service_built_from_it
+      label: Based on this concept, how likely would you be to use a product or service
+        built from it?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: neutral
+        label: Neutral
+      - name: not_very_likely
+        label: Not very likely
+      - name: not_at_all_likely
+        label: Not at all likely
+    - id: 4
+      name: what_do_you_find_most_appealing_about_the_concept
+      label: What do you find most appealing about the concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: what_would_you_improve_or_change_about_the_concept
+      label: What would you improve or change about the concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_regarding_the_concept
+      label: Do you have any additional comments or feedback regarding the concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: how_clear_is_the_concept_presentation
+      label: How clear is the concept presentation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_clear
+        label: Very clear
+      - name: clear
+        label: Clear
+      - name: somewhat_clear
+        label: Somewhat clear
+      - name: unclear
+        label: Unclear
+      - name: very_unclear
+        label: Very unclear
+    - id: 8
+      name: how_innovative_do_you_find_this_concept_compared_to_existing_solutions
+      label: How innovative do you find this concept compared to existing solutions?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: extremely_innovative
+        label: Extremely innovative
+      - name: very_innovative
+        label: Very innovative
+      - name: moderately_innovative
+        label: Moderately innovative
+      - name: slightly_innovative
+        label: Slightly innovative
+      - name: not_innovative_at_all
+        label: Not innovative at all
+    - id: 9
+      name: how_practical_do_you_think_this_concept_is_for_realworld_implementation
+      label: How practical do you think this concept is for real-world implementation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_practical
+        label: Very practical
+      - name: practical
+        label: Practical
+      - name: somewhat_practical
+        label: Somewhat practical
+      - name: not_very_practical
+        label: Not very practical
+      - name: not_practical_at_all
+        label: Not practical at all
+    - id: 10
+      name: what_target_audience_do_you_think_would_benefit_most_from_this_concept
+      label: What target audience do you think would benefit most from this concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 11
+      name: how_does_this_concept_compare_to_similar_ideas_youve_seen_before
+      label: How does this concept compare to similar ideas you've seen before?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: much_better
+        label: Much better
+      - name: better
+        label: Better
+      - name: about_the_same
+        label: About the same
+      - name: worse
+        label: Worse
+      - name: much_worse
+        label: Much worse
+    - id: 12
+      name: what_concerns_or_potential_drawbacks_do_you_see_with_this_concept
+      label: What concerns or potential drawbacks do you see with this concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 13
+      name: how_much_would_you_be_willing_to_pay_for_a_product_based_on_this_concept
+      label: How much would you be willing to pay for a product based on this concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: '010'
+        label: $0-10
+      - name: '1125'
+        label: $11-25
+      - name: '2650'
+        label: $26-50
+      - name: '51100'
+        label: $51-100
+      - name: more_than_100
+        label: More than $100
+    - id: 14
+      name: which_features_of_the_concept_are_most_important_to_you_select_all_that_apply
+      label: Which features of the concept are most important to you? (Select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: core_functionality
+        label: Core functionality
+      - name: user_interface
+        label: User interface
+      - name: performance
+        label: Performance
+      - name: security
+        label: Security
+      - name: integration_capabilities
+        label: Integration capabilities
+      - name: cost_effectiveness
+        label: Cost effectiveness
+    - id: 15
+      name: how_scalable_do_you_think_this_concept_is_for_different_user_needs
+      label: How scalable do you think this concept is for different user needs?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_scalable
+        label: Very scalable
+      - name: scalable
+        label: Scalable
+      - name: moderately_scalable
+        label: Moderately scalable
+      - name: not_very_scalable
+        label: Not very scalable
+      - name: not_scalable_at_all
+        label: Not scalable at all
+    - id: 16
+      name: what_market_or_industry_applications_can_you_envision_for_this_concept
+      label: What market or industry applications can you envision for this concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 17
+      name: how_urgent_is_the_problem_this_concept_solves_for_you_personally
+      label: How urgent is the problem this concept solves for you personally?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_urgent
+        label: Very urgent
+      - name: urgent
+        label: Urgent
+      - name: somewhat_urgent
+        label: Somewhat urgent
+      - name: not_very_urgent
+        label: Not very urgent
+      - name: not_urgent_at_all
+        label: Not urgent at all
+    - id: 18
+      name: would_you_be_interested_in_participating_in_further_development_or_testing_of_this_concept
+      label: Would you be interested in participating in further development or testing
+        of this concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: yes_definitely
+        label: Yes, definitely
+      - name: yes_maybe
+        label: Yes, maybe
+      - name: not_sure
+        label: Not sure
+      - name: probably_not
+        label: Probably not
+      - name: no_not_interested
+        label: No, not interested
+    - id: 19
+      name: what_similar_products_or_services_are_you_currently_using_that_this_concept_could_replace
+      label: What similar products or services are you currently using that this concept
+        could replace?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 20
+      name: how_would_you_describe_this_concept_to_a_friend_or_colleague
+      label: How would you describe this concept to a friend or colleague?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

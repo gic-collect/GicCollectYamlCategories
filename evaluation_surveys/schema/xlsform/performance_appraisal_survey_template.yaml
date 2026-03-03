@@ -1,0 +1,101 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Performance appraisal survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_overall_performance_appraisal_process
+      label: How satisfied are you with the overall performance appraisal process?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_clear_were_the_performance_expectations_set_for_you
+      label: How clear were the performance expectations set for you?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_clear
+        label: Very clear
+      - name: mostly_clear
+        label: Mostly clear
+      - name: somewhat_clear
+        label: Somewhat clear
+      - name: not_clear_at_all
+        label: Not clear at all
+    - id: 3
+      name: how_helpful_was_the_feedback_you_received_during_your_appraisal
+      label: How helpful was the feedback you received during your appraisal?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_helpful
+        label: Very helpful
+      - name: moderately_helpful
+        label: Moderately helpful
+      - name: slightly_helpful
+        label: Slightly helpful
+      - name: not_helpful
+        label: Not helpful
+    - id: 4
+      name: which_of_the_following_applied_to_your_experience_with_the_appraisal_select_all_that_apply
+      label: Which of the following applied to your experience with the appraisal?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: fair_and_unbiased
+        label: Fair and unbiased
+      - name: encouraged_discussion
+        label: Encouraged discussion
+      - name: clear_next_steps
+        label: Clear next steps
+      - name: timely
+        label: Timely
+      - name: felt_rushed
+        label: Felt rushed
+      - name: unfair
+        label: Unfair
+    - id: 5
+      name: what_aspects_of_the_appraisal_process_would_you_suggest_improving
+      label: What aspects of the appraisal process would you suggest improving?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_feel_the_appraisal_accurately_reflected_your_performance
+      label: Do you feel the appraisal accurately reflected your performance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree

@@ -1,0 +1,95 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Supervisor evaluation survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_supervisors_overall_performance
+      label: How satisfied are you with your supervisor's overall performance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_frequently_do_you_interact_with_your_supervisor
+      label: How frequently do you interact with your supervisor?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: multiple_times_a_week
+        label: Multiple times a week
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+    - id: 3
+      name: which_of_the_following_qualities_best_describe_your_supervisor_select_all_that_apply
+      label: Which of the following qualities best describe your supervisor? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: supportive
+        label: Supportive
+      - name: clear_communicator
+        label: Clear communicator
+      - name: fair
+        label: Fair
+      - name: organized
+        label: Organized
+      - name: inspiring
+        label: Inspiring
+      - name: approachable
+        label: Approachable
+    - id: 4
+      name: how_effective_is_the_feedback_you_receive_from_your_supervisor
+      label: How effective is the feedback you receive from your supervisor?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_effective
+        label: Very effective
+      - name: somewhat_effective
+        label: Somewhat effective
+      - name: neutral
+        label: Neutral
+      - name: not_very_effective
+        label: Not very effective
+      - name: rarely_receive_feedback
+        label: Rarely receive feedback
+    - id: 5
+      name: what_specific_areas_could_your_supervisor_improve_upon
+      label: What specific areas could your supervisor improve upon?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_regarding_your_supervisor
+      label: Do you have any additional comments or feedback regarding your supervisor?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,46 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+description: To gather attendee expectations and feedback on pre-event information
+  and registration.
+questions:
+- options:
+  - Very satisfied
+  - Somewhat satisfied
+  - Neutral
+  - Somewhat dissatisfied
+  - Very dissatisfied
+  text: How satisfied are you with the information provided before the event?
+  type: single
+- options:
+  - Keynote speeches
+  - Interactive workshops
+  - Networking sessions
+  - Panel discussions
+  - Product demos
+  text: Which sessions or topics are you most looking forward to? (select all that
+    apply)
+  type: multiple
+- options:
+  - Very easy
+  - Easy
+  - Neutral
+  - Difficult
+  - Very difficult
+  text: How easy was the event registration process?
+  type: single
+- options:
+  - Networking
+  - Learning new skills
+  - Gaining industry insights
+  - Discovering new products
+  - Career development
+  text: What is your primary goal for attending this event?
+  type: single
+- text: Do you have any specific questions or concerns before the event begins?
+  type: text
+- text: What additional information would be helpful for you prior to the event?
+  type: text
+title: Pre-event survey

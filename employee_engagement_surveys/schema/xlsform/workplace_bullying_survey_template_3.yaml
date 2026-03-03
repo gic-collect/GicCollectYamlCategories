@@ -1,0 +1,105 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Workplace bullying survey
+    pages:
+    - id: 1
+      name: have_you_personally_experienced_workplace_bullying_or_harassment_at_this_organization
+      label: Have you personally experienced workplace bullying or harassment at this
+        organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: prefer_not_to_say
+        label: Prefer not to say
+    - id: 2
+      name: have_you_witnessed_bullying_or_harassment_of_others_at_this_organization
+      label: Have you witnessed bullying or harassment of others at this organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: unsure
+        label: Unsure
+    - id: 3
+      name: if_yes_what_forms_of_bullying_or_harassment_did_you_experience_or_witness_select_all_that_apply
+      label: If yes, what forms of bullying or harassment did you experience or witness?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: verbal_abuse
+        label: Verbal abuse
+      - name: exclusion
+        label: Exclusion
+      - name: intimidation
+        label: Intimidation
+      - name: spreading_rumors
+        label: Spreading rumors
+      - name: sabotage_of_work
+        label: Sabotage of work
+      - name: unfair_treatment
+        label: Unfair treatment
+    - id: 4
+      name: did_you_report_the_incidents_of_bullying_or_harassment
+      label: Did you report the incident(s) of bullying or harassment?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: considered_it_but_didnt
+        label: Considered it but didn't
+    - id: 5
+      name: if_reported_how_satisfied_were_you_with_the_response_or_resolution
+      label: If reported, how satisfied were you with the response or resolution?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+      - name: not_applicable
+        label: Not applicable
+    - id: 6
+      name: how_has_your_experience_of_bullying_or_harassment_affected_you_professionally_or_personally
+      label: How has your experience of bullying or harassment affected you professionally
+        or personally?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: what_measures_do_you_think_the_organization_could_take_to_prevent_bullying_and_harassment
+      label: What measures do you think the organization could take to prevent bullying
+        and harassment?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

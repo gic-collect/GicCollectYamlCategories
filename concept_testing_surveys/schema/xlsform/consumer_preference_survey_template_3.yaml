@@ -1,0 +1,78 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Consumer preference survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_this_concept
+      label: How satisfied are you with this concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_influenced_your_opinion_of_this_concept_select_all_that_apply
+      label: Which aspects influenced your opinion of this concept? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: design
+        label: Design
+      - name: price
+        label: Price
+      - name: performance
+        label: Performance
+      - name: features
+        label: Features
+      - name: support
+        label: Support
+      - name: usability
+        label: Usability
+    - id: 3
+      name: how_likely_are_you_to_adopt_or_use_this_concept
+      label: How likely are you to adopt or use this concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: neutral
+        label: Neutral
+      - name: not_very_likely
+        label: Not very likely
+      - name: not_at_all_likely
+        label: Not at all likely
+    - id: 4
+      name: what_would_you_improve_or_change_about_this_concept
+      label: What would you improve or change about this concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

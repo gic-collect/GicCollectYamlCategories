@@ -1,0 +1,78 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Technology survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_technology_you_currently_use
+      label: How satisfied are you with the technology you currently use?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_actively_seek_out_and_adopt_new_technology
+      label: How often do you actively seek out and adopt new technology?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_frequently
+        label: Very frequently
+      - name: frequently
+        label: Frequently
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describes_your_general_experience_with_technology_select_all_that_apply
+      label: Which of the following best describes your general experience with technology?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: easy_to_use
+        label: Easy to use
+      - name: fast
+        label: Fast
+      - name: reliable
+        label: Reliable
+      - name: innovative
+        label: Innovative
+      - name: secure
+        label: Secure
+      - name: confusing
+        label: Confusing
+    - id: 4
+      name: what_would_you_most_like_to_improve_or_change_about_technology_in_general
+      label: What would you most like to improve or change about technology in general?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_on_technology
+      label: Do you have any additional comments or feedback on technology?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,85 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Self evaluation form
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_performance_this_review_period
+      label: How satisfied are you with your overall performance this review period?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_your_contribution_to_team_or_company_goals
+      label: How would you rate your contribution to team or company goals?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: exceeded_expectations
+        label: Exceeded expectations
+      - name: met_all_expectations
+        label: Met all expectations
+      - name: met_most_expectations
+        label: Met most expectations
+      - name: partially_met_expectations
+        label: Partially met expectations
+      - name: did_not_meet_expectations
+        label: Did not meet expectations
+    - id: 3
+      name: which_of_the_following_areas_represent_your_key_achievements_this_period_select_all_that_apply
+      label: Which of the following areas represent your key achievements this period?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: project_completion
+        label: Project completion
+      - name: process_improvement
+        label: Process improvement
+      - name: skill_development
+        label: Skill development
+      - name: team_collaboration
+        label: Team collaboration
+      - name: problem_solving
+        label: Problem solving
+      - name: client_satisfaction
+        label: Client satisfaction
+    - id: 4
+      name: what_challenges_did_you_face_and_how_did_you_address_them
+      label: What challenges did you face, and how did you address them?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: what_are_your_primary_development_goals_for_the_next_period
+      label: What are your primary development goals for the next period?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_regarding_your_selfevaluation
+      label: Do you have any additional comments or feedback regarding your self-evaluation?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

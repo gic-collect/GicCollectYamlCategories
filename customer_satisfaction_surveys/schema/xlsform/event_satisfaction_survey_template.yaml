@@ -1,0 +1,108 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Event satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_the_event
+      label: Overall, how satisfied were you with the event?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_events_organization_and_communication
+      label: How would you rate the event's organization and communication?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: did_the_event_content_meet_your_expectations
+      label: Did the event content meet your expectations?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: partially
+        label: Partially
+      - name: not_really
+        label: Not really
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: which_of_the_following_activities_did_you_participate_in_select_all_that_apply
+      label: Which of the following activities did you participate in? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: keynote_sessions
+        label: Keynote sessions
+      - name: breakout_sessions
+        label: Breakout sessions
+      - name: networking_events
+        label: Networking events
+      - name: workshops
+        label: Workshops
+      - name: exhibition_hall
+        label: Exhibition hall
+    - id: 5
+      name: how_likely_are_you_to_recommend_this_event_to_a_colleague_or_friend
+      label: How likely are you to recommend this event to a colleague or friend?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_aspect_of_the_event_could_be_improved_for_future_editions
+      label: What aspect of the event could be improved for future editions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

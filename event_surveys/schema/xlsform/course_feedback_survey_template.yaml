@@ -1,0 +1,86 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Course feedback survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_course_overall
+      label: How satisfied were you with the course overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_sessions_did_you_find_most_valuable_select_all_that_apply
+      label: Which sessions did you find most valuable? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: introduction
+        label: Introduction
+      - name: core_concepts
+        label: Core Concepts
+      - name: practical_workshop
+        label: Practical Workshop
+      - name: advanced_topics
+        label: Advanced Topics
+      - name: qa_panel
+        label: Q&A Panel
+    - id: 3
+      name: was_the_course_event_well_organized
+      label: Was the course event well organized?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 4
+      name: how_likely_are_you_to_attend_a_similar_course_again
+      label: How likely are you to attend a similar course again?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: not_likely
+        label: Not likely
+      - name: unsure
+        label: Unsure
+    - id: 5
+      name: what_was_the_most_impactful_takeaway_from_the_course
+      label: What was the most impactful takeaway from the course?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

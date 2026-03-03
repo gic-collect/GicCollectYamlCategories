@@ -1,0 +1,73 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Product research survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_product_research_survey
+      label: Overall, how satisfied are you with product research survey?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_of_the_following_did_you_use_select_all_that_apply
+      label: Which of the following did you use? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: product
+        label: Product
+      - name: research
+        label: Research
+      - name: survey
+        label: Survey
+      - name: other
+        label: Other
+    - id: 3
+      name: how_often_do_you_interact_with_product_research_survey
+      label: How often do you interact with product research survey?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 4
+      name: what_would_you_improve_about_it
+      label: What would you improve about it?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: any_additional_comments_or_suggestions
+      label: Any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

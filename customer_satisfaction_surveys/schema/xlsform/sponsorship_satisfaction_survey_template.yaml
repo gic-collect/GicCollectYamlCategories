@@ -1,0 +1,108 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Sponsorship satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_experience_as_a_sponsor
+      label: Overall, how satisfied are you with your experience as a sponsor?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_communication_you_received_regarding_your_sponsorship
+      label: How would you rate the communication you received regarding your sponsorship?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: which_aspects_of_your_sponsorship_delivered_the_most_value_select_all_that_apply
+      label: Which aspects of your sponsorship delivered the most value? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: brand_visibility
+        label: Brand visibility
+      - name: networking
+        label: Networking
+      - name: lead_generation
+        label: Lead generation
+      - name: content_integration
+        label: Content integration
+      - name: event_access
+        label: Event access
+      - name: csr_alignment
+        label: CSR alignment
+    - id: 4
+      name: how_would_you_rate_the_support_and_assistance_provided_by_our_team
+      label: How would you rate the support and assistance provided by our team?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 5
+      name: how_likely_are_you_to_continue_your_sponsorship_with_us_in_the_future
+      label: How likely are you to continue your sponsorship with us in the future?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_specific_improvements_would_you_suggest_for_our_sponsorship_program
+      label: What specific improvements would you suggest for our sponsorship program?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

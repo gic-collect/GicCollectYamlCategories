@@ -1,0 +1,99 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Professional development feedback survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_current_role_at_the_organization
+      label: Overall, how satisfied are you with your current role at the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_clarity_and_effectiveness_of_communication_from_management
+      label: How would you rate the clarity and effectiveness of communication from
+        management?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: very_poor
+        label: Very Poor
+    - id: 3
+      name: do_you_feel_adequately_supported_in_your_professional_development_and_career_growth
+      label: Do you feel adequately supported in your professional development and
+        career growth?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly Agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly Disagree
+    - id: 4
+      name: which_of_the_following_professional_development_areas_are_you_most_interested_in_select_all_that_apply
+      label: Which of the following professional development areas are you most interested
+        in? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: leadership_skills
+        label: Leadership skills
+      - name: technical_skills
+        label: Technical skills
+      - name: project_management
+        label: Project management
+      - name: communication
+        label: Communication
+      - name: personal_effectiveness
+        label: Personal effectiveness
+      - name: industry_certifications
+        label: Industry certifications
+    - id: 5
+      name: what_specific_changes_or_initiatives_could_most_improve_your_overall_experience_at_work
+      label: What specific changes or initiatives could most improve your overall
+        experience at work?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_your_professional_development_or_work_experience
+      label: Do you have any additional comments or suggestions regarding your professional
+        development or work experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,92 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Student satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_academic_experience_at_this_institution
+      label: Overall, how satisfied are you with your academic experience at this
+        institution?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_clarity_and_timeliness_of_communication_from_the_institution_eg_faculty_administration
+      label: How would you rate the clarity and timeliness of communication from the
+        institution (e.g., faculty, administration)?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: do_you_feel_adequately_supported_in_your_academic_and_career_development
+      label: Do you feel adequately supported in your academic and career development?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 4
+      name: which_of_the_following_aspects_contribute_most_to_your_satisfaction_select_all_that_apply
+      label: Which of the following aspects contribute most to your satisfaction?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: quality_of_teaching
+        label: Quality of teaching
+      - name: course_content
+        label: Course content
+      - name: campus_facilities
+        label: Campus facilities
+      - name: student_support_services
+        label: Student support services
+      - name: social_opportunities
+        label: Social opportunities
+      - name: career_services
+        label: Career services
+    - id: 5
+      name: what_is_the_most_significant_area_you_believe_could_improve_your_student_experience
+      label: What is the most significant area you believe could improve your student
+        experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

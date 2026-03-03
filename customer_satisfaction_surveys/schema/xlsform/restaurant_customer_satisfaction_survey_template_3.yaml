@@ -1,0 +1,105 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Restaurant customer satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_your_dining_experience
+      label: Overall, how satisfied were you with your dining experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_quality_of_the_food
+      label: How would you rate the quality of the food?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: how_would_you_rate_the_service_provided_by_our_staff
+      label: How would you rate the service provided by our staff?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 4
+      name: what_was_the_main_reason_for_your_visit_today_select_all_that_apply
+      label: What was the main reason for your visit today? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: special_occasion
+        label: Special occasion
+      - name: casual_meal
+        label: Casual meal
+      - name: business
+        label: Business
+      - name: try_new_place
+        label: Try new place
+      - name: social_gathering
+        label: Social gathering
+    - id: 5
+      name: how_likely_are_you_to_recommend_our_restaurant_to_a_friend_or_colleague
+      label: How likely are you to recommend our restaurant to a friend or colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_could_we_do_to_improve_your_next_visit
+      label: What could we do to improve your next visit?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,96 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Employee recognition survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_role_at_the_organization
+      label: Overall, how satisfied are you with your role at the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_feel_recognized_for_your_contributions_at_work
+      label: How often do you feel recognized for your contributions at work?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_often
+        label: Very often
+      - name: often
+        label: Often
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_forms_of_recognition_are_most_meaningful_to_you_select_all_that_apply
+      label: Which forms of recognition are most meaningful to you? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: verbal_praise
+        label: Verbal praise
+      - name: written_acknowledgment
+        label: Written acknowledgment
+      - name: monetary_bonus
+        label: Monetary bonus
+      - name: giftvoucher
+        label: Gift/voucher
+      - name: public_recognition
+        label: Public recognition
+      - name: professional_development_opportunities
+        label: Professional development opportunities
+    - id: 4
+      name: how_would_you_rate_communication_from_management_regarding_your_performance_and_contributions
+      label: How would you rate communication from management regarding your performance
+        and contributions?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 5
+      name: what_initiatives_or_changes_could_further_improve_your_experience_and_sense_of_recognition_at_work
+      label: What initiatives or changes could further improve your experience and
+        sense of recognition at work?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_employee_recognition
+      label: Do you have any additional comments or suggestions regarding employee
+        recognition?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

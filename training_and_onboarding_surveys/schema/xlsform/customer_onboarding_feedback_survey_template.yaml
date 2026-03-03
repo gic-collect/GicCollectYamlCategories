@@ -1,0 +1,96 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Customer onboarding feedback survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_overall_customer_onboarding_process
+      label: How satisfied are you with the overall customer onboarding process?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_of_the_onboarding_process_did_you_find_most_valuable_select_all_that_apply
+      label: Which aspects of the onboarding process did you find most valuable? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: product_demo
+        label: Product demo
+      - name: setup_guide
+        label: Setup guide
+      - name: welcome_emails
+        label: Welcome emails
+      - name: support_contact
+        label: Support contact
+      - name: knowledge_base
+        label: Knowledge base
+      - name: live_training_sessions
+        label: Live training sessions
+    - id: 3
+      name: was_the_onboarding_process_clear_and_easy_to_follow
+      label: Was the onboarding process clear and easy to follow?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: neutral
+        label: Neutral
+      - name: not_really
+        label: Not really
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: how_confident_do_you_feel_using_our_product_after_completing_the_onboarding
+      label: How confident do you feel using our product after completing the onboarding?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_confident
+        label: Very confident
+      - name: moderately_confident
+        label: Moderately confident
+      - name: neutral
+        label: Neutral
+      - name: slightly_uncertain
+        label: Slightly uncertain
+      - name: not_confident_at_all
+        label: Not confident at all
+    - id: 5
+      name: do_you_have_any_suggestions_for_improving_the_onboarding_experience
+      label: Do you have any suggestions for improving the onboarding experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: what_information_or_resources_do_you_feel_were_missing_from_the_onboarding_process
+      label: What information or resources do you feel were missing from the onboarding
+        process?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

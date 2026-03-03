@@ -1,0 +1,97 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Customer success story questionnaire
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_results_achieved_using_our_solution
+      label: How satisfied are you with the results achieved using our solution?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: highly_satisfied
+        label: Highly satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: dissatisfied
+        label: Dissatisfied
+    - id: 2
+      name: what_primary_business_challenge_were_you_facing_before_using_our_solution
+      label: What primary business challenge were you facing before using our solution?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 3
+      name: which_of_the_following_benefits_have_you_realized_since_implementing_our_solution_select_all_that_apply
+      label: Which of the following benefits have you realized since implementing
+        our solution? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: increased_efficiency
+        label: Increased efficiency
+      - name: cost_savings
+        label: Cost savings
+      - name: improved_customer_satisfaction
+        label: Improved customer satisfaction
+      - name: enhanced_productivity
+        label: Enhanced productivity
+      - name: better_decisionmaking
+        label: Better decision-making
+      - name: reduced_risk
+        label: Reduced risk
+    - id: 4
+      name: which_features_of_our_solution_have_been_most_impactful_for_you_select_all_that_apply
+      label: Which features of our solution have been most impactful for you? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: core_feature_x
+        label: Core Feature X
+      - name: analytics_dashboard
+        label: Analytics Dashboard
+      - name: integration_module
+        label: Integration Module
+      - name: reporting_tools
+        label: Reporting Tools
+      - name: support_training
+        label: Support & Training
+    - id: 5
+      name: how_likely_are_you_to_recommend_our_solution_to_a_colleague_or_peer
+      label: How likely are you to recommend our solution to a colleague or peer?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: extremely_likely
+        label: Extremely likely
+      - name: very_likely
+        label: Very likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_specific_achievement_or_quantifiable_result_stands_out_from_your_experience_with_our_solution
+      label: What specific achievement or quantifiable result stands out from your
+        experience with our solution?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

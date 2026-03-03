@@ -1,0 +1,75 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Art submission form
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_art_submission_process
+      label: How satisfied are you with the art submission process?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_use_this_art_submission_form
+      label: How often do you use this art submission form?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: regularly
+        label: Regularly
+      - name: occasionally
+        label: Occasionally
+      - name: rarely
+        label: Rarely
+      - name: this_is_my_first_time
+        label: This is my first time
+    - id: 3
+      name: which_of_the_following_applied_to_your_experience_select_all_that_apply
+      label: Which of the following applied to your experience? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: easy_to_use
+        label: Easy to use
+      - name: fast
+        label: Fast
+      - name: clear_instructions
+        label: Clear instructions
+      - name: technical_issues
+        label: Technical issues
+      - name: confusing
+        label: Confusing
+      - name: missing_a_feature
+        label: Missing a feature
+    - id: 4
+      name: what_improvements_would_you_suggest_for_the_art_submission_form
+      label: What improvements would you suggest for the art submission form?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,89 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Customer feedback form
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_our_productservice
+      label: Overall, how satisfied are you with our product/service?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_your_experience_with_our_customer_support
+      label: How would you rate your experience with our customer support?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: does_our_productservice_meet_your_current_needs
+      label: Does our product/service meet your current needs?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 4
+      name: which_aspects_of_our_productservice_are_most_valuable_to_you_select_all_that_apply
+      label: Which aspects of our product/service are most valuable to you? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: ease_of_use
+        label: Ease of use
+      - name: performance
+        label: Performance
+      - name: feature_set
+        label: Feature set
+      - name: reliability
+        label: Reliability
+      - name: customer_support
+        label: Customer support
+      - name: pricing
+        label: Pricing
+    - id: 5
+      name: what_improvements_would_you_suggest_for_our_productservice
+      label: What improvements would you suggest for our product/service?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

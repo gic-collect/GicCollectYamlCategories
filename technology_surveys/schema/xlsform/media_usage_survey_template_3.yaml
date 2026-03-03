@@ -1,0 +1,101 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Media usage survey
+    pages:
+    - id: 1
+      name: how_often_do_you_consume_digital_media_content
+      label: How often do you consume digital media content?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: multiple_times_daily
+        label: Multiple times daily
+      - name: daily
+        label: Daily
+      - name: a_few_times_a_week
+        label: A few times a week
+      - name: weekly
+        label: Weekly
+      - name: rarely
+        label: Rarely
+    - id: 2
+      name: what_are_your_primary_sources_for_news_and_information_select_all_that_apply
+      label: What are your primary sources for news and information? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: social_media
+        label: Social media
+      - name: news_websitesapps
+        label: News websites/apps
+      - name: tvradio
+        label: TV/Radio
+      - name: podcasts
+        label: Podcasts
+      - name: print_media
+        label: Print media
+      - name: friendsfamily
+        label: Friends/Family
+    - id: 3
+      name: which_devices_do_you_primarily_use_to_consume_media_select_all_that_apply
+      label: Which devices do you primarily use to consume media? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: smartphone
+        label: Smartphone
+      - name: laptoppc
+        label: Laptop/PC
+      - name: tablet
+        label: Tablet
+      - name: smart_tv
+        label: Smart TV
+      - name: gaming_console
+        label: Gaming Console
+      - name: smart_speaker
+        label: Smart Speaker
+    - id: 4
+      name: what_types_of_digital_content_do_you_engage_with_most_select_all_that_apply
+      label: What types of digital content do you engage with most? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: video
+        label: Video
+      - name: articlesblogs
+        label: Articles/Blogs
+      - name: music
+        label: Music
+      - name: podcasts
+        label: Podcasts
+      - name: social_media_posts
+        label: Social media posts
+      - name: ebooks
+        label: E-books
+    - id: 5
+      name: what_is_your_biggest_challenge_or_frustration_with_current_media_consumption
+      label: What is your biggest challenge or frustration with current media consumption?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_about_your_media_usage
+      label: Do you have any additional comments or feedback about your media usage?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

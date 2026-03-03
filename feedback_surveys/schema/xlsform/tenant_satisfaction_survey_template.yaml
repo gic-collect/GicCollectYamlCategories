@@ -1,0 +1,116 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Tenant satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_living_experience_as_a_tenant
+      label: Overall, how satisfied are you with your living experience as a tenant?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_communication_from_property_managementlandlord
+      label: How would you rate communication from property management/landlord?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: how_satisfied_are_you_with_the_responsiveness_to_maintenance_requests
+      label: How satisfied are you with the responsiveness to maintenance requests?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+      - name: not_applicable
+        label: Not applicable
+    - id: 4
+      name: which_aspects_of_the_property_or_community_are_most_important_to_you_select_all_that_apply
+      label: Which aspects of the property or community are most important to you?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: cleanliness
+        label: Cleanliness
+      - name: safety
+        label: Safety
+      - name: quietness
+        label: Quietness
+      - name: amenities_gym
+        label: Amenities (gym
+      - name: pool
+        label: pool)
+      - name: parking
+        label: Parking
+      - name: location
+        label: Location
+      - name: neighborliness
+        label: Neighborliness
+    - id: 5
+      name: how_likely_are_you_to_recommend_this_property_to_a_friend_or_colleague
+      label: How likely are you to recommend this property to a friend or colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_could_significantly_improve_your_living_experience_here
+      label: What could significantly improve your living experience here?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

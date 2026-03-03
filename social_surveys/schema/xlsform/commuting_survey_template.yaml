@@ -1,0 +1,99 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Commuting survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_current_daily_commute
+      label: How satisfied are you with your current daily commute?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: what_is_your_primary_mode_of_transportation_for_commuting
+      label: What is your primary mode of transportation for commuting?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: car_driver
+        label: Car (driver)
+      - name: car_passenger
+        label: Car (passenger)
+      - name: public_transport
+        label: Public transport
+      - name: cycling
+        label: Cycling
+      - name: walking
+        label: Walking
+      - name: motorcycle
+        label: Motorcycle
+      - name: ridesharetaxi
+        label: Rideshare/Taxi
+    - id: 3
+      name: how_long_does_your_typical_oneway_commute_take
+      label: How long does your typical one-way commute take?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: under_15_minutes
+        label: Under 15 minutes
+      - name: 1530_minutes
+        label: 15-30 minutes
+      - name: 3145_minutes
+        label: 31-45 minutes
+      - name: 4660_minutes
+        label: 46-60 minutes
+      - name: over_60_minutes
+        label: Over 60 minutes
+    - id: 4
+      name: what_are_the_biggest_challenges_you_face_during_your_commute_select_all_that_apply
+      label: What are the biggest challenges you face during your commute? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: traffic_congestion
+        label: Traffic congestion
+      - name: crowded_transport
+        label: Crowded transport
+      - name: high_costs
+        label: High costs
+      - name: long_delays
+        label: Long delays
+      - name: safety_concerns
+        label: Safety concerns
+      - name: lack_of_convenient_options
+        label: Lack of convenient options
+    - id: 5
+      name: what_one_change_would_most_improve_your_daily_commuting_experience
+      label: What one change would most improve your daily commuting experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_commuting
+      label: Do you have any additional comments or suggestions regarding commuting?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

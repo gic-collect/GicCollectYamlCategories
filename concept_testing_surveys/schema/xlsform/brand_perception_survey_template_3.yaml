@@ -1,0 +1,81 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Brand perception survey
+    pages:
+    - id: 1
+      name: overall_how_would_you_describe_your_initial_perception_of_this_brand_concept
+      label: Overall, how would you describe your initial perception of this brand
+        concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_positive
+        label: Very positive
+      - name: positive
+        label: Positive
+      - name: neutral
+        label: Neutral
+      - name: negative
+        label: Negative
+      - name: very_negative
+        label: Very negative
+    - id: 2
+      name: which_aspects_most_influenced_your_current_perception_of_the_brand_concept_select_all_that_apply
+      label: Which aspects most influenced your current perception of the brand concept?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: designvisuals
+        label: Design/Visuals
+      - name: messagingvalues
+        label: Messaging/Values
+      - name: potential_use
+        label: Potential use
+      - name: uniqueness
+        label: Uniqueness
+      - name: price_perception
+        label: Price perception
+      - name: reputation
+        label: Reputation
+    - id: 3
+      name: based_on_your_current_understanding_how_likely_are_you_to_engage_further_with_this_brand_concept
+      label: Based on your current understanding, how likely are you to engage further
+        with this brand concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: neutral
+        label: Neutral
+      - name: not_very_likely
+        label: Not very likely
+      - name: not_at_all_likely
+        label: Not at all likely
+    - id: 4
+      name: what_aspects_if_any_would_you_improve_or_change_about_this_brand_concept
+      label: What aspects, if any, would you improve or change about this brand concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_regarding_this_brand_concept
+      label: Do you have any additional comments or feedback regarding this brand
+        concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

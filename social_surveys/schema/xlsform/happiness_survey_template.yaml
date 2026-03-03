@@ -1,0 +1,101 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Happiness survey
+    pages:
+    - id: 1
+      name: overall_how_would_you_rate_your_current_level_of_happiness
+      label: Overall, how would you rate your current level of happiness?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_happy
+        label: Very happy
+      - name: happy
+        label: Happy
+      - name: neutral
+        label: Neutral
+      - name: slightly_unhappy
+        label: Slightly unhappy
+      - name: unhappy
+        label: Unhappy
+    - id: 2
+      name: how_often_do_you_feel_truly_joyful_or_content_in_your_daily_life
+      label: How often do you feel truly joyful or content in your daily life?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: multiple_times_a_week
+        label: Multiple times a week
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+    - id: 3
+      name: which_of_the_following_factors_contribute_most_to_your_happiness_select_all_that_apply
+      label: Which of the following factors contribute most to your happiness? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: relationships
+        label: Relationships
+      - name: hobbiesleisure
+        label: Hobbies/Leisure
+      - name: workcareer
+        label: Work/Career
+      - name: health
+        label: Health
+      - name: financial_security
+        label: Financial security
+      - name: personal_growth
+        label: Personal growth
+      - name: spiritualitybeliefs
+        label: Spirituality/Beliefs
+    - id: 4
+      name: what_is_the_biggest_challenge_currently_impacting_your_happiness
+      label: What is the biggest challenge currently impacting your happiness?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: stress
+        label: Stress
+      - name: lack_of_time
+        label: Lack of time
+      - name: financial_worries
+        label: Financial worries
+      - name: health_issues
+        label: Health issues
+      - name: relationship_problems
+        label: Relationship problems
+      - name: work_dissatisfaction
+        label: Work dissatisfaction
+      - name: other
+        label: Other
+    - id: 5
+      name: what_is_one_thing_you_would_change_in_your_life_to_increase_your_happiness
+      label: What is one thing you would change in your life to increase your happiness?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_thoughts_on_happiness_or_wellbeing
+      label: Do you have any additional thoughts on happiness or well-being?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,93 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Resident satisfaction survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_living_experience_at_the_school
+      label: How satisfied are you with your overall living experience at the school?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_quality_of_the_schools_facilities_eg_dorms_common_areas
+      label: How would you rate the quality of the school's facilities (e.g., dorms,
+        common areas)?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: do_you_feel_a_sense_of_belonging_and_support_within_the_school_community
+      label: Do you feel a sense of belonging and support within the school community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 4
+      name: which_types_of_school_activities_or_programs_do_you_most_often_participate_in_or_find_valuable_select_all_that_apply
+      label: Which types of school activities or programs do you most often participate
+        in or find valuable? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: academic_workshops
+        label: Academic workshops
+      - name: social_events
+        label: Social events
+      - name: sportsclubs
+        label: Sports/Clubs
+      - name: volunteer_opportunities
+        label: Volunteer opportunities
+      - name: wellness_programs
+        label: Wellness programs
+    - id: 5
+      name: what_is_one_thing_that_could_significantly_improve_your_experience_as_a_resident
+      label: What is one thing that could significantly improve your experience as
+        a resident?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

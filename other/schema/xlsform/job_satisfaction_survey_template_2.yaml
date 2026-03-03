@@ -1,0 +1,86 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Job satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_role_at_the_organization
+      label: Overall, how satisfied are you with your role at the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_communication_from_management
+      label: How would you rate communication from management?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: do_you_feel_supported_in_your_professional_development
+      label: Do you feel supported in your professional development?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 4
+      name: what_aspects_of_your_job_do_you_find_most_fulfilling
+      label: What aspects of your job do you find most fulfilling?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: worklife_balance
+        label: Work-life balance
+      - name: team_collaboration
+        label: Team collaboration
+      - name: challenging_tasks
+        label: Challenging tasks
+      - name: learning_opportunities
+        label: Learning opportunities
+      - name: compensation_benefits
+        label: Compensation & benefits
+    - id: 5
+      name: what_could_improve_your_experience_at_work
+      label: What could improve your experience at work?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: any_additional_comments_or_suggestions
+      label: Any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

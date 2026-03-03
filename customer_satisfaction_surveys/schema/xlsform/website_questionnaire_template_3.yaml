@@ -1,0 +1,103 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Website questionnaire
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_our_website
+      label: Overall, how satisfied are you with our website?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_easy_was_it_to_find_the_information_you_were_looking_for
+      label: How easy was it to find the information you were looking for?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_easy
+        label: Very easy
+      - name: easy
+        label: Easy
+      - name: neutral
+        label: Neutral
+      - name: difficult
+        label: Difficult
+      - name: very_difficult
+        label: Very difficult
+    - id: 3
+      name: what_was_the_primary_reason_for_your_visit_today_select_all_that_apply
+      label: What was the primary reason for your visit today? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: find_information
+        label: Find information
+      - name: make_a_purchase
+        label: Make a purchase
+      - name: contact_support
+        label: Contact support
+      - name: browse_productsservices
+        label: Browse products/services
+      - name: other
+        label: Other
+    - id: 4
+      name: how_would_you_rate_the_visual_design_and_aesthetics_of_the_website
+      label: How would you rate the visual design and aesthetics of the website?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 5
+      name: did_you_encounter_any_issues_or_difficulties_during_your_visit
+      label: Did you encounter any issues or difficulties during your visit?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: not_sure
+        label: Not sure
+    - id: 6
+      name: what_specific_improvements_would_you_suggest_for_our_website
+      label: What specific improvements would you suggest for our website?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

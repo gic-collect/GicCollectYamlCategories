@@ -1,0 +1,143 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: IT Satisfaction Survey
+    pages:
+    - id: 1
+      name: question_1
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 2
+      name: question_2
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 3
+      name: question_3
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 4
+      name: question_4
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: question_5
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: question_6
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: question_7
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 8
+      name: question_8
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 9
+      name: question_9
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 10
+      name: question_10
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 11
+      name: question_11
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 12
+      name: question_12
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 13
+      name: question_13
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 14
+      name: question_14
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 15
+      name: question_15
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 16
+      name: question_16
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 17
+      name: question_17
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 18
+      name: question_18
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 19
+      name: question_19
+      label: ''
+      hint: null
+      type: text
+      required: 'false'
+      options: []

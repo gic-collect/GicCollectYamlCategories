@@ -1,0 +1,79 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: School climate survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_overall_school_climate
+      label: How satisfied are you with the overall school climate?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_feel_a_sense_of_belonging_at_school
+      label: How often do you feel a sense of belonging at school?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always
+        label: Always
+      - name: often
+        label: Often
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describe_the_learning_environment_at_school_select_all_that_apply
+      label: Which of the following best describe the learning environment at school?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: supportive
+        label: Supportive
+      - name: engaging
+        label: Engaging
+      - name: challenging
+        label: Challenging
+      - name: respectful
+        label: Respectful
+      - name: safe
+        label: Safe
+      - name: inclusive
+        label: Inclusive
+    - id: 4
+      name: what_would_you_improve_or_change_about_the_school_climate
+      label: What would you improve or change about the school climate?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_regarding_the_school_environment
+      label: Do you have any additional comments or feedback regarding the school
+        environment?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

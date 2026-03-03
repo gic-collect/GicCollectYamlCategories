@@ -1,0 +1,90 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Training satisfaction survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_overall_training_program
+      label: How satisfied were you with the overall training program?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_relevant_was_the_training_content_to_your_role
+      label: How relevant was the training content to your role?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: highly_relevant
+        label: Highly relevant
+      - name: mostly_relevant
+        label: Mostly relevant
+      - name: somewhat_relevant
+        label: Somewhat relevant
+      - name: not_relevant
+        label: Not relevant
+    - id: 3
+      name: which_training_topics_did_you_find_most_useful_select_all_that_apply
+      label: Which training topics did you find most useful? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: core_product_knowledge
+        label: Core product knowledge
+      - name: company_culture
+        label: Company culture
+      - name: tools_systems
+        label: Tools & systems
+      - name: rolespecific_skills
+        label: Role-specific skills
+      - name: compliance_policies
+        label: Compliance & policies
+      - name: team_collaboration
+        label: Team collaboration
+    - id: 4
+      name: how_would_you_rate_the_effectiveness_of_the_trainersinstructors
+      label: How would you rate the effectiveness of the trainers/instructors?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 5
+      name: what_aspects_of_the_training_program_could_be_improved
+      label: What aspects of the training program could be improved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_other_comments_or_suggestions_regarding_the_training
+      label: Do you have any other comments or suggestions regarding the training?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

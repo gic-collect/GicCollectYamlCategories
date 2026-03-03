@@ -1,0 +1,78 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Online community needs assessment survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_our_online_community_platform
+      label: How satisfied are you with our online community platform?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_engage_with_our_online_community
+      label: How often do you engage with our online community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: what_do_you_primarily_use_our_online_community_for_select_all_that_apply
+      label: What do you primarily use our online community for? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: networking
+        label: Networking
+      - name: information_sharing
+        label: Information sharing
+      - name: supportadvice
+        label: Support/Advice
+      - name: event_announcements
+        label: Event announcements
+      - name: general_discussion
+        label: General discussion
+      - name: resource_discovery
+        label: Resource discovery
+    - id: 4
+      name: what_improvements_would_you_suggest_for_our_online_community
+      label: What improvements would you suggest for our online community?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: is_there_anything_else_youd_like_to_share_about_our_online_community
+      label: Is there anything else you'd like to share about our online community?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

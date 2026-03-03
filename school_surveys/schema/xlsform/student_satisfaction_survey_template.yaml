@@ -1,0 +1,94 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Student satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_academic_experience_at_the_school
+      label: Overall, how satisfied are you with your academic experience at the school?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_quality_of_teaching_and_instruction
+      label: How would you rate the quality of teaching and instruction?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: very_poor
+        label: Very Poor
+    - id: 3
+      name: do_you_feel_adequately_supported_by_student_services_eg_counseling_career_services
+      label: Do you feel adequately supported by student services (e.g., counseling,
+        career services)?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+      - name: not_applicable
+        label: Not applicable
+    - id: 4
+      name: which_of_the_following_campus_facilities_do_you_use_regularly_select_all_that_apply
+      label: Which of the following campus facilities do you use regularly? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: library
+        label: Library
+      - name: study_spaces
+        label: Study spaces
+      - name: cafeteria
+        label: Cafeteria
+      - name: gymrecreation
+        label: Gym/Recreation
+      - name: labsworkshops
+        label: Labs/Workshops
+      - name: student_common_areas
+        label: Student common areas
+    - id: 5
+      name: what_could_significantly_improve_your_overall_experience_at_the_school
+      label: What could significantly improve your overall experience at the school?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_further_comments_or_suggestions
+      label: Do you have any further comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

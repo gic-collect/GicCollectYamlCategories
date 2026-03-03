@@ -1,0 +1,92 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Price sensitivity survey
+    pages:
+    - id: 1
+      name: how_would_you_rate_the_overall_value_for_money_of_this_concept
+      label: How would you rate the overall value for money of this concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent_value
+        label: Excellent value
+      - name: good_value
+        label: Good value
+      - name: fair_value
+        label: Fair value
+      - name: poor_value
+        label: Poor value
+      - name: very_poor_value
+        label: Very poor value
+    - id: 2
+      name: what_price_range_would_you_consider_most_appealing_for_this_concept
+      label: What price range would you consider most appealing for this concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: below_25
+        label: Below $25
+      - name: '25_50'
+        label: $25 - $50
+      - name: '51_75'
+        label: $51 - $75
+      - name: over_75
+        label: Over $75
+    - id: 3
+      name: which_factors_most_influence_your_perception_of_this_concepts_value_select_all_that_apply
+      label: Which factors most influence your perception of this concept's value?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: quality
+        label: Quality
+      - name: features
+        label: Features
+      - name: brand_reputation
+        label: Brand reputation
+      - name: design
+        label: Design
+      - name: performance
+        label: Performance
+    - id: 4
+      name: if_this_product_were_priced_at_40_how_likely_would_you_be_to_purchase_it
+      label: If this product were priced at $40, how likely would you be to purchase
+        it?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 5
+      name: what_would_make_this_concept_feel_like_a_better_value_to_you
+      label: What would make this concept feel like a better value to you?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_thoughts_on_the_pricing_or_value_of_this_concept
+      label: Do you have any additional thoughts on the pricing or value of this concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

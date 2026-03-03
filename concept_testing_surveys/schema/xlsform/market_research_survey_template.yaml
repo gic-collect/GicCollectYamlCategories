@@ -1,0 +1,95 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Market research survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_concept_presented
+      label: How satisfied are you with the concept presented?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_of_this_concept_appeal_most_to_you_select_all_that_apply
+      label: Which aspects of this concept appeal most to you? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: innovation
+        label: Innovation
+      - name: practicality
+        label: Practicality
+      - name: potential_benefit
+        label: Potential benefit
+      - name: ease_of_use
+        label: Ease of use
+      - name: designaesthetics
+        label: Design/Aesthetics
+      - name: value_proposition
+        label: Value proposition
+    - id: 3
+      name: what_is_your_initial_impression_of_this_concept
+      label: What is your initial impression of this concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excited
+        label: Excited
+      - name: interested
+        label: Interested
+      - name: neutral
+        label: Neutral
+      - name: unsure
+        label: Unsure
+      - name: disinterested
+        label: Disinterested
+    - id: 4
+      name: based_on_this_concept_would_you_consider_using_a_product_or_service_built_around_it
+      label: Based on this concept, would you consider using a product or service
+        built around it?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: definitely
+        label: Definitely
+      - name: likely
+        label: Likely
+      - name: maybe
+        label: Maybe
+      - name: unlikely
+        label: Unlikely
+      - name: definitely_not
+        label: Definitely not
+    - id: 5
+      name: what_improvements_or_changes_would_you_suggest_for_this_concept
+      label: What improvements or changes would you suggest for this concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_thoughts_or_feedback_about_the_concept
+      label: Do you have any additional thoughts or feedback about the concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

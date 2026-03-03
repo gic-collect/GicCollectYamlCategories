@@ -1,0 +1,109 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Salon evaluation survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_your_salon_visit_today
+      label: Overall, how satisfied were you with your salon visit today?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_service_provided_by_your_stylist_or_technician
+      label: How would you rate the service provided by your stylist or technician?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: which_services_did_you_receive_during_this_visit_select_all_that_apply
+      label: Which services did you receive during this visit? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: haircut
+        label: Haircut
+      - name: hair_color
+        label: Hair color
+      - name: hair_styling
+        label: Hair styling
+      - name: manicure
+        label: Manicure
+      - name: pedicure
+        label: Pedicure
+      - name: facial
+        label: Facial
+      - name: other
+        label: Other
+    - id: 4
+      name: how_would_you_rate_the_salons_ambiance_and_cleanliness
+      label: How would you rate the salon's ambiance and cleanliness?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: acceptable
+        label: Acceptable
+      - name: needs_improvement
+        label: Needs improvement
+    - id: 5
+      name: what_could_improve_your_experience_at_our_salon
+      label: What could improve your experience at our salon?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_likely_are_you_to_recommend_our_salon_to_a_friend_or_family_member
+      label: How likely are you to recommend our salon to a friend or family member?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions_for_us
+      label: Do you have any additional comments or suggestions for us?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

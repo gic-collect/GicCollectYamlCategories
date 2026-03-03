@@ -1,0 +1,99 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Mobile app survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_experience_using_the_mobile_app
+      label: How satisfied are you with your overall experience using the mobile app?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_typically_use_the_mobile_app
+      label: How often do you typically use the mobile app?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: several_times_a_week
+        label: Several times a week
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describe_your_experience_with_the_app_select_all_that_apply
+      label: Which of the following best describe your experience with the app? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: easy_to_use
+        label: Easy to use
+      - name: fast_and_responsive
+        label: Fast and responsive
+      - name: reliable
+        label: Reliable
+      - name: intuitive
+        label: Intuitive
+      - name: lacking_features
+        label: Lacking features
+      - name: confusing_interface
+        label: Confusing interface
+    - id: 4
+      name: what_is_the_primary_reason_you_use_the_mobile_app
+      label: What is the primary reason you use the mobile app?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: browsing_content
+        label: Browsing content
+      - name: making_purchases
+        label: Making purchases
+      - name: checking_status
+        label: Checking status
+      - name: communicating
+        label: Communicating
+      - name: information_retrieval
+        label: Information retrieval
+      - name: other
+        label: Other
+    - id: 5
+      name: what_specific_features_or_improvements_would_you_like_to_see_in_the_app
+      label: What specific features or improvements would you like to see in the app?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_about_the_mobile_app
+      label: Do you have any additional comments or feedback about the mobile app?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

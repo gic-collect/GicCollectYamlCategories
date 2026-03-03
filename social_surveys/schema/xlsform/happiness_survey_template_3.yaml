@@ -1,0 +1,78 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Happiness survey
+    pages:
+    - id: 1
+      name: overall_how_would_you_rate_your_current_level_of_happiness
+      label: Overall, how would you rate your current level of happiness?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_happy
+        label: Very happy
+      - name: somewhat_happy
+        label: Somewhat happy
+      - name: neutral
+        label: Neutral
+      - name: somewhat_unhappy
+        label: Somewhat unhappy
+      - name: very_unhappy
+        label: Very unhappy
+    - id: 2
+      name: how_often_do_you_engage_in_activities_that_bring_you_joy
+      label: How often do you engage in activities that bring you joy?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_contribute_most_to_your_happiness_select_all_that_apply
+      label: Which of the following contribute most to your happiness? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: familyfriends
+        label: Family/Friends
+      - name: workcareer
+        label: Work/Career
+      - name: hobbies
+        label: Hobbies
+      - name: health
+        label: Health
+      - name: personal_growth
+        label: Personal growth
+      - name: financial_stability
+        label: Financial stability
+    - id: 4
+      name: what_is_one_thing_you_would_change_to_improve_your_overall_happiness
+      label: What is one thing you would change to improve your overall happiness?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_thoughts_on_wellbeing_or_happiness
+      label: Do you have any additional thoughts on well-being or happiness?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

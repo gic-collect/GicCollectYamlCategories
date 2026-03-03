@@ -1,0 +1,102 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Customer success story questionnaire
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_outcomes_achieved_using_our_solution
+      label: How satisfied are you with the outcomes achieved using our solution?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: approximately_how_long_have_you_been_using_our_solution
+      label: Approximately how long have you been using our solution?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: less_than_6_months
+        label: Less than 6 months
+      - name: 612_months
+        label: 6-12 months
+      - name: 12_years
+        label: 1-2 years
+      - name: 25_years
+        label: 2-5 years
+      - name: more_than_5_years
+        label: More than 5 years
+    - id: 3
+      name: which_of_the_following_key_benefits_have_you_experienced_select_all_that_apply
+      label: Which of the following key benefits have you experienced? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: increased_efficiency
+        label: Increased efficiency
+      - name: reduced_costs
+        label: Reduced costs
+      - name: improved_productivity
+        label: Improved productivity
+      - name: better_decision_making
+        label: Better decision making
+      - name: enhanced_customer_experience
+        label: Enhanced customer experience
+    - id: 4
+      name: in_what_ways_has_our_solution_directly_contributed_to_your_business_growth_or_achieving_key_goals
+      label: In what ways has our solution directly contributed to your business growth
+        or achieving key goals?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: what_improvements_or_changes_would_you_suggest_for_our_solution
+      label: What improvements or changes would you suggest for our solution?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_likely_are_you_to_recommend_our_solution_to_a_colleague_or_friend
+      label: How likely are you to recommend our solution to a colleague or friend?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: extremely_likely
+        label: Extremely likely
+      - name: very_likely
+        label: Very likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: extremely_unlikely
+        label: Extremely unlikely
+    - id: 7
+      name: do_you_have_any_additional_comments_or_insights_youd_like_to_share_about_your_success
+      label: Do you have any additional comments or insights you'd like to share about
+        your success?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,94 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Product onboarding form
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_product_onboarding_experience
+      label: How satisfied are you with your overall product onboarding experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_easy_was_it_to_understand_and_apply_the_training_materials_provided_during_onboarding
+      label: How easy was it to understand and apply the training materials provided
+        during onboarding?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_easy
+        label: Very easy
+      - name: easy
+        label: Easy
+      - name: neutral
+        label: Neutral
+      - name: difficult
+        label: Difficult
+      - name: very_difficult
+        label: Very difficult
+    - id: 3
+      name: which_aspects_of_the_onboarding_were_most_helpful_to_you_select_all_that_apply
+      label: Which aspects of the onboarding were most helpful to you? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: guided_product_tour
+        label: Guided product tour
+      - name: documentationguides
+        label: Documentation/guides
+      - name: video_tutorials
+        label: Video tutorials
+      - name: live_training_sessions
+        label: Live training sessions
+      - name: support_team_assistance
+        label: Support team assistance
+    - id: 4
+      name: do_you_feel_confident_using_the_product_independently_after_completing_the_onboarding
+      label: Do you feel confident using the product independently after completing
+        the onboarding?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: not_really
+        label: Not really
+      - name: 'false'
+        label: 'False'
+    - id: 5
+      name: what_specific_improvements_would_you_suggest_for_the_product_onboarding_process
+      label: What specific improvements would you suggest for the product onboarding
+        process?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_regarding_your_onboarding
+      label: Do you have any additional comments or feedback regarding your onboarding?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,75 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Brand awareness survey
+    pages:
+    - id: 1
+      name: how_familiar_are_you_with_our_brand
+      label: How familiar are you with our brand?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_familiar
+        label: Very familiar
+      - name: somewhat_familiar
+        label: Somewhat familiar
+      - name: heard_of_it
+        label: Heard of it
+      - name: not_familiar
+        label: Not familiar
+    - id: 2
+      name: where_have_you_seen_or_heard_about_our_brand_select_all_that_apply
+      label: Where have you seen or heard about our brand? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: social_media
+        label: Social media
+      - name: newsarticles
+        label: News/articles
+      - name: advertising
+        label: Advertising
+      - name: wordofmouth
+        label: Word-of-mouth
+      - name: our_website
+        label: Our website
+      - name: events
+        label: Events
+    - id: 3
+      name: what_is_your_overall_impression_of_our_brand
+      label: What is your overall impression of our brand?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_positive
+        label: Very positive
+      - name: positive
+        label: Positive
+      - name: neutral
+        label: Neutral
+      - name: negative
+        label: Negative
+      - name: very_negative
+        label: Very negative
+    - id: 4
+      name: what_comes_to_mind_when_you_think_of_our_brand
+      label: What comes to mind when you think of our brand?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: what_could_we_do_to_improve_awareness_or_perception_of_our_brand
+      label: What could we do to improve awareness or perception of our brand?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,94 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Communication survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_the_communication_you_receive_from_us
+      label: Overall, how satisfied are you with the communication you receive from
+        us?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_clarity_of_our_communication
+      label: How would you rate the clarity of our communication?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: very_poor
+        label: Very Poor
+    - id: 3
+      name: through_which_channels_do_you_prefer_to_receive_communication_from_us_select_all_that_apply
+      label: Through which channels do you prefer to receive communication from us?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: email
+        label: Email
+      - name: phone_calls
+        label: Phone calls
+      - name: text_messages
+        label: Text messages
+      - name: social_media
+        label: Social media
+      - name: websiteportal
+        label: Website/Portal
+    - id: 4
+      name: how_timely_do_you_find_our_communication_regarding_updates_or_inquiries
+      label: How timely do you find our communication regarding updates or inquiries?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always_timely
+        label: Always timely
+      - name: usually_timely
+        label: Usually timely
+      - name: sometimes_timely
+        label: Sometimes timely
+      - name: rarely_timely
+        label: Rarely timely
+      - name: never_timely
+        label: Never timely
+    - id: 5
+      name: what_specific_aspects_of_our_communication_could_be_improved
+      label: What specific aspects of our communication could be improved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_about_our_communication
+      label: Do you have any additional comments or suggestions about our communication?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

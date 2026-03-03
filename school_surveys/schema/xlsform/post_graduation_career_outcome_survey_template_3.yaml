@@ -1,0 +1,115 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Post-graduation career outcome survey
+    pages:
+    - id: 1
+      name: what_is_your_primary_activity_after_graduation
+      label: What is your primary activity after graduation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: fulltime_employment
+        label: Full-time employment
+      - name: parttime_employment
+        label: Part-time employment
+      - name: graduate_studies
+        label: Graduate studies
+      - name: entrepreneurship
+        label: Entrepreneurship
+      - name: unemployedseeking
+        label: Unemployed/seeking
+      - name: other
+        label: Other
+    - id: 2
+      name: how_relevant_is_your_current_employment_to_your_academic_major
+      label: How relevant is your current employment to your academic major?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: directly_related
+        label: Directly related
+      - name: somewhat_related
+        label: Somewhat related
+      - name: not_related
+        label: Not related
+      - name: na_not_employed
+        label: N/A (not employed)
+    - id: 3
+      name: how_satisfied_are_you_with_your_postgraduation_career_path_and_current_situation
+      label: How satisfied are you with your post-graduation career path and current
+        situation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 4
+      name: which_of_the_following_skills_from_your_academic_program_have_been_most_useful_in_your_career_or_studies_select_all_that_apply
+      label: Which of the following skills from your academic program have been most
+        useful in your career or studies? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: critical_thinking
+        label: Critical thinking
+      - name: problemsolving
+        label: Problem-solving
+      - name: communication
+        label: Communication
+      - name: teamwork
+        label: Teamwork
+      - name: technical_skills
+        label: Technical skills
+      - name: research_skills
+        label: Research skills
+    - id: 5
+      name: how_well_did_your_academic_program_prepare_you_for_your_postgraduation_endeavors
+      label: How well did your academic program prepare you for your post-graduation
+        endeavors?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_well
+        label: Very well
+      - name: well
+        label: Well
+      - name: adequately
+        label: Adequately
+      - name: not_very_well
+        label: Not very well
+      - name: not_at_all
+        label: Not at all
+    - id: 6
+      name: what_were_the_biggest_challenges_you_faced_in_your_postgraduation_transition
+      label: What were the biggest challenges you faced in your post-graduation transition?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: what_advice_would_you_give_current_students_preparing_for_graduation_and_their_careers
+      label: What advice would you give current students preparing for graduation
+        and their careers?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

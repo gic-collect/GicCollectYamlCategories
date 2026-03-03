@@ -1,0 +1,99 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Mobile app survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_mobile_app
+      label: How satisfied are you with the mobile app?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_use_the_mobile_app
+      label: How often do you use the mobile app?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: multiple_times_a_week
+        label: Multiple times a week
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_describes_your_experience_with_the_app_select_all_that_apply
+      label: Which of the following describes your experience with the app? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: easy_to_use
+        label: Easy to use
+      - name: fast
+        label: Fast
+      - name: reliable
+        label: Reliable
+      - name: intuitive
+        label: Intuitive
+      - name: lacks_features
+        label: Lacks features
+      - name: confusing
+        label: Confusing
+      - name: buggy
+        label: Buggy
+    - id: 4
+      name: what_is_the_primary_reason_you_use_the_mobile_app
+      label: What is the primary reason you use the mobile app?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: convenience
+        label: Convenience
+      - name: specific_feature
+        label: Specific feature
+      - name: notifications
+        label: Notifications
+      - name: habit
+        label: Habit
+      - name: other
+        label: Other
+    - id: 5
+      name: what_would_you_improve_or_change_about_the_mobile_app
+      label: What would you improve or change about the mobile app?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

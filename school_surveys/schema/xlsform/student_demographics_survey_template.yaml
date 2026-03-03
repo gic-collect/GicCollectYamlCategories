@@ -1,0 +1,132 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Student demographics survey
+    pages:
+    - id: 1
+      name: what_is_your_current_age_group
+      label: What is your current age group?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: under_18
+        label: Under 18
+      - name: '1820'
+        label: 18-20
+      - name: '2124'
+        label: 21-24
+      - name: '2530'
+        label: 25-30
+      - name: over_30
+        label: Over 30
+    - id: 2
+      name: how_do_you_primarily_identify_your_gender
+      label: How do you primarily identify your gender?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: female
+        label: Female
+      - name: male
+        label: Male
+      - name: nonbinary
+        label: Non-binary
+      - name: prefer_to_selfdescribe
+        label: Prefer to self-describe
+      - name: prefer_not_to_say
+        label: Prefer not to say
+    - id: 3
+      name: what_is_your_current_academic_level
+      label: What is your current academic level?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: high_school
+        label: High School
+      - name: undergraduate
+        label: Undergraduate
+      - name: graduate
+        label: Graduate
+      - name: doctoral
+        label: Doctoral
+      - name: other
+        label: Other
+    - id: 4
+      name: what_is_your_primary_field_of_study_or_major
+      label: What is your primary field of study or major?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: which_of_the_following_best_describes_your_ethnicityracial_background_select_all_that_apply
+      label: Which of the following best describes your ethnicity/racial background?
+        (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: asian
+        label: Asian
+      - name: black
+        label: Black
+      - name: hispaniclatinx
+        label: Hispanic/Latinx
+      - name: white
+        label: White
+      - name: indigenous
+        label: Indigenous
+      - name: middle_eastern
+        label: Middle Eastern
+      - name: pacific_islander
+        label: Pacific Islander
+      - name: other
+        label: Other
+    - id: 6
+      name: what_is_your_current_living_situation
+      label: What is your current living situation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: oncampus_housing
+        label: On-campus housing
+      - name: offcampus_with_family
+        label: Off-campus (with family)
+      - name: offcampus_independent
+        label: Off-campus (independent)
+      - name: other
+        label: Other
+    - id: 7
+      name: do_you_currently_work_while_studying
+      label: Do you currently work while studying?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: fulltime
+        label: full-time
+      - name: 'true'
+        label: 'True'
+      - name: parttime
+        label: part-time
+      - name: 'false'
+        label: 'False'
+    - id: 8
+      name: is_there_anything_else_youd_like_to_share_about_your_background_or_experiences_at_our_school
+      label: Is there anything else you'd like to share about your background or experiences
+        at our school?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

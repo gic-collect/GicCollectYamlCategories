@@ -1,0 +1,78 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Product research survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_this_product_concept
+      label: How satisfied are you with this product concept?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_influenced_your_opinion_of_this_concept_most_select_all_that_apply
+      label: Which aspects influenced your opinion of this concept most? (Select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: design
+        label: Design
+      - name: potential_features
+        label: Potential features
+      - name: price_point
+        label: Price point
+      - name: performance_potential
+        label: Performance potential
+      - name: ease_of_use
+        label: Ease of use
+      - name: innovation
+        label: Innovation
+    - id: 3
+      name: how_likely_are_you_to_consider_using_this_product_if_it_were_available
+      label: How likely are you to consider using this product if it were available?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: neutral
+        label: Neutral
+      - name: somewhat_unlikely
+        label: Somewhat unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 4
+      name: what_improvements_would_you_suggest_for_this_product_concept
+      label: What improvements would you suggest for this product concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_other_feedback_or_thoughts_on_this_concept
+      label: Do you have any other feedback or thoughts on this concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

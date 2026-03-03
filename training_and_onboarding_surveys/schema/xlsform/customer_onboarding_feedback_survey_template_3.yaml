@@ -1,0 +1,106 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Customer onboarding feedback survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_the_onboarding_process
+      label: Overall, how satisfied were you with the onboarding process?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_clear_was_the_information_provided_during_onboarding
+      label: How clear was the information provided during onboarding?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_clear
+        label: Very clear
+      - name: mostly_clear
+        label: Mostly clear
+      - name: neutral
+        label: Neutral
+      - name: somewhat_unclear
+        label: Somewhat unclear
+      - name: very_unclear
+        label: Very unclear
+    - id: 3
+      name: which_resources_did_you_find_most_helpful_during_onboarding_select_all_that_apply
+      label: Which resources did you find most helpful during onboarding? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: welcome_email
+        label: Welcome email
+      - name: product_tour
+        label: Product tour
+      - name: help_center
+        label: Help center
+      - name: support_team
+        label: Support team
+      - name: documentation
+        label: Documentation
+    - id: 4
+      name: did_you_easily_find_the_key_features_you_needed_after_onboarding
+      label: Did you easily find the key features you needed after onboarding?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 5
+      name: what_was_the_most_challenging_part_of_your_onboarding_experience
+      label: What was the most challenging part of your onboarding experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_likely_are_you_to_recommend_our_productservice_based_on_your_onboarding
+      label: How likely are you to recommend our product/service based on your onboarding?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 7
+      name: do_you_have_any_further_suggestions_for_improving_the_onboarding_process
+      label: Do you have any further suggestions for improving the onboarding process?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

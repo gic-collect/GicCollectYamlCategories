@@ -1,0 +1,46 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+description: Share your feedback to help us improve the quality and relevance of our
+  content.
+questions:
+- options:
+  - Very satisfied
+  - Satisfied
+  - Neutral
+  - Dissatisfied
+  - Very dissatisfied
+  text: Overall, how satisfied are you with the content you read?
+  type: single
+- options:
+  - Daily
+  - Weekly
+  - Monthly
+  - Occasionally
+  - Rarely
+  text: How often do you read our content?
+  type: single
+- options:
+  - Articles
+  - Blog posts
+  - Newsletters
+  - Videos
+  - Infographics
+  - Podcasts
+  text: Which content formats do you prefer? (select all that apply)
+  type: multiple
+- options:
+  - Always
+  - Often
+  - Sometimes
+  - Rarely
+  - Never
+  text: Do you find our content relevant to your interests?
+  type: single
+- text: What topics would you like us to cover more?
+  type: text
+- text: What could improve your overall reading experience?
+  type: text
+title: Reader satisfaction survey

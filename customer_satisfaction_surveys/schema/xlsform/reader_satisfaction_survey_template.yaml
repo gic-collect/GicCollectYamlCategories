@@ -1,0 +1,94 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Reader satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_the_content_you_read
+      label: Overall, how satisfied are you with the content you read?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_read_our_content
+      label: How often do you read our content?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: occasionally
+        label: Occasionally
+      - name: rarely
+        label: Rarely
+    - id: 3
+      name: which_content_formats_do_you_prefer_select_all_that_apply
+      label: Which content formats do you prefer? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: articles
+        label: Articles
+      - name: blog_posts
+        label: Blog posts
+      - name: newsletters
+        label: Newsletters
+      - name: videos
+        label: Videos
+      - name: infographics
+        label: Infographics
+      - name: podcasts
+        label: Podcasts
+    - id: 4
+      name: do_you_find_our_content_relevant_to_your_interests
+      label: Do you find our content relevant to your interests?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always
+        label: Always
+      - name: often
+        label: Often
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 5
+      name: what_topics_would_you_like_us_to_cover_more
+      label: What topics would you like us to cover more?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: what_could_improve_your_overall_reading_experience
+      label: What could improve your overall reading experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

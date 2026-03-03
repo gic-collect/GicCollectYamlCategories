@@ -1,0 +1,92 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Event planning survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_the_event
+      label: Overall, how satisfied were you with the event?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_sessions_or_activities_did_you_find_most_valuable
+      label: Which sessions or activities did you find most valuable?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: keynote_speeches
+        label: Keynote speeches
+      - name: breakout_sessions
+        label: Breakout sessions
+      - name: workshops
+        label: Workshops
+      - name: networking_activities
+        label: Networking activities
+      - name: panel_discussions
+        label: Panel discussions
+    - id: 3
+      name: was_the_event_well_organized_and_executed
+      label: Was the event well organized and executed?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: neutral
+        label: Neutral
+      - name: not_really
+        label: Not really
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: how_likely_are_you_to_attend_a_similar_event_in_the_future
+      label: How likely are you to attend a similar event in the future?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 5
+      name: what_aspects_of_the_event_met_or_exceeded_your_expectations
+      label: What aspects of the event met or exceeded your expectations?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: what_suggestions_do_you_have_for_improving_future_events
+      label: What suggestions do you have for improving future events?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

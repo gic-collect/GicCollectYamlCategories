@@ -1,0 +1,83 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Performance appraisal survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_overall_performance_appraisal_process
+      label: How satisfied are you with the overall performance appraisal process?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_participate_in_performance_appraisals_as_appraiser_or_appraisee
+      label: How often do you participate in performance appraisals (as appraiser
+        or appraisee)?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: annually
+        label: Annually
+      - name: biannually
+        label: Bi-annually
+      - name: quarterly
+        label: Quarterly
+      - name: less_often
+        label: Less often
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_describe_your_experience_with_the_performance_appraisal_process_select_all_that_apply
+      label: Which of the following describe your experience with the performance
+        appraisal process? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: clear_expectations
+        label: Clear expectations
+      - name: fair_assessment
+        label: Fair assessment
+      - name: constructive_feedback
+        label: Constructive feedback
+      - name: goaloriented
+        label: Goal-oriented
+      - name: timeconsuming
+        label: Time-consuming
+      - name: stressful
+        label: Stressful
+      - name: not_helpful
+        label: Not helpful
+    - id: 4
+      name: what_specific_improvements_would_you_suggest_for_the_performance_appraisal_process
+      label: What specific improvements would you suggest for the performance appraisal
+        process?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_regarding_performance_reviews
+      label: Do you have any additional comments or feedback regarding performance
+        reviews?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

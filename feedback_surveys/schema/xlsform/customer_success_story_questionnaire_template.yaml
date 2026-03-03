@@ -1,0 +1,93 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Customer success story questionnaire
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_our_productservice_overall
+      label: How satisfied are you with our product/service overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: what_primary_challenge_were_you_facing_before_using_our_solution
+      label: What primary challenge were you facing before using our solution?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: inefficiency
+        label: Inefficiency
+      - name: high_costs
+        label: High costs
+      - name: limited_functionality
+        label: Limited functionality
+      - name: data_silos
+        label: Data silos
+      - name: no_specific_challenge
+        label: No specific challenge
+    - id: 3
+      name: which_of_our_features_or_aspects_have_been_most_impactful_for_you_select_all_that_apply
+      label: Which of our features or aspects have been most impactful for you? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: ease_of_use
+        label: Ease of use
+      - name: performance
+        label: Performance
+      - name: customer_support
+        label: Customer support
+      - name: integration_capabilities
+        label: Integration capabilities
+      - name: reporting_analytics
+        label: Reporting & analytics
+    - id: 4
+      name: what_measurable_results_or_improvements_have_you_achieved
+      label: What measurable results or improvements have you achieved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: how_likely_are_you_to_recommend_our_productservice_to_others
+      label: How likely are you to recommend our product/service to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: would_you_like_to_share_a_quote_or_testimonial_for_your_success_story
+      label: Would you like to share a quote or testimonial for your success story?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

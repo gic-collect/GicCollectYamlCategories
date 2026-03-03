@@ -1,0 +1,76 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Market research survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_experience_completing_this_market_research_survey
+      label: How satisfied are you with your experience completing this Market Research
+        Survey?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_most_influenced_your_overall_opinion_of_this_survey_select_all_that_apply
+      label: Which aspects most influenced your overall opinion of this survey? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: question_clarity
+        label: Question clarity
+      - name: survey_length
+        label: Survey length
+      - name: topic_relevance
+        label: Topic relevance
+      - name: designlayout
+        label: Design/layout
+      - name: ease_of_completion
+        label: Ease of completion
+      - name: technical_performance
+        label: Technical performance
+    - id: 3
+      name: would_you_recommend_participating_in_a_similar_market_research_survey_to_others
+      label: Would you recommend participating in a similar market research survey
+        to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: maybe
+        label: Maybe
+    - id: 4
+      name: what_would_you_improve_or_change_about_this_market_research_survey
+      label: What would you improve or change about this Market Research Survey?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_about_this_survey
+      label: Do you have any additional comments or feedback about this survey?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

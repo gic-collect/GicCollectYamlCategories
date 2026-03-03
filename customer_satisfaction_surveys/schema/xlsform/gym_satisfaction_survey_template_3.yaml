@@ -1,0 +1,108 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Gym satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_gym_experience
+      label: Overall, how satisfied are you with your gym experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_cleanliness_and_maintenance_of_the_gym_facilities
+      label: How would you rate the cleanliness and maintenance of the gym facilities?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: very_poor
+        label: Very Poor
+    - id: 3
+      name: how_would_you_rate_the_availability_and_quality_of_exercise_equipment
+      label: How would you rate the availability and quality of exercise equipment?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 4
+      name: which_of_the_following_gym_services_or_areas_do_you_use_select_all_that_apply
+      label: Which of the following gym services or areas do you use? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: weight_room
+        label: Weight room
+      - name: cardio_area
+        label: Cardio area
+      - name: group_classes
+        label: Group classes
+      - name: swimming_pool
+        label: Swimming pool
+      - name: personal_training
+        label: Personal training
+      - name: saunaspa
+        label: Sauna/Spa
+    - id: 5
+      name: how_often_do_you_typically_visit_the_gym_each_week
+      label: How often do you typically visit the gym each week?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 5_times
+        label: 5+ times
+      - name: 34_times
+        label: 3-4 times
+      - name: 12_times
+        label: 1-2 times
+      - name: less_than_once
+        label: Less than once
+    - id: 6
+      name: what_specific_improvements_would_you_suggest_for_our_gym
+      label: What specific improvements would you suggest for our gym?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

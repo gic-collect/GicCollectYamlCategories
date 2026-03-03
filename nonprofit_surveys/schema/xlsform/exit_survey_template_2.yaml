@@ -1,0 +1,96 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Exit survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_your_overall_experience_with_the_organizationprogram
+      label: How satisfied were you with your overall experience with the organization/program?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: what_was_the_primary_reason_for_your_departure_or_completing_the_program
+      label: What was the primary reason for your departure or completing the program?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: new_opportunity
+        label: New opportunity
+      - name: personal_reasons
+        label: Personal reasons
+      - name: program_completion
+        label: Program completion
+      - name: relocation
+        label: Relocation
+      - name: dissatisfaction
+        label: Dissatisfaction
+      - name: other
+        label: Other
+    - id: 3
+      name: which_aspects_of_your_involvement_did_you_find_most_valuable_select_all_that_apply
+      label: Which aspects of your involvement did you find most valuable? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: community_connection
+        label: Community connection
+      - name: skill_development
+        label: Skill development
+      - name: support_services
+        label: Support services
+      - name: mission_impact
+        label: Mission impact
+      - name: resources_provided
+        label: Resources provided
+    - id: 4
+      name: what_could_the_organizationprogram_improve_upon_to_better_serve_its_participants
+      label: What could the organization/program improve upon to better serve its
+        participants?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: would_you_recommend_this_organizationprogram_to_others
+      label: Would you recommend this organization/program to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: definitely_yes
+        label: Definitely yes
+      - name: likely_yes
+        label: Likely yes
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: definitely_no
+        label: Definitely no
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

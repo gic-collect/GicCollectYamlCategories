@@ -1,0 +1,110 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Political survey
+    pages:
+    - id: 1
+      name: how_would_you_describe_your_overall_satisfaction_with_the_current_political_direction_of_the_country
+      label: How would you describe your overall satisfaction with the current political
+        direction of the country?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neither_satisfied_nor_dissatisfied
+        label: Neither satisfied nor dissatisfied
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_actively_follow_political_news_or_current_events
+      label: How often do you actively follow political news or current events?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: several_times_a_week
+        label: Several times a week
+      - name: weekly
+        label: Weekly
+      - name: less_often
+        label: Less often
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_issues_do_you_consider_most_important_for_the_government_to_address_select_up_to_three
+      label: Which of the following issues do you consider most important for the
+        government to address? (Select up to three)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: economy
+        label: Economy
+      - name: healthcare
+        label: Healthcare
+      - name: environment
+        label: Environment
+      - name: education
+        label: Education
+      - name: immigration
+        label: Immigration
+      - name: national_security
+        label: National security
+      - name: social_justice
+        label: Social justice
+      - name: infrastructure
+        label: Infrastructure
+    - id: 4
+      name: do_you_feel_your_political_views_are_adequately_represented_by_current_elected_officials
+      label: Do you feel your political views are adequately represented by current
+        elected officials?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: partially
+        label: Partially
+      - name: not_at_all
+        label: Not at all
+    - id: 5
+      name: what_is_one_specific_change_you_would_like_to_see_in_the_political_system_or_government_policy
+      label: What is one specific change you would like to see in the political system
+        or government policy?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_plan_to_vote_in_the_next_general_election
+      label: Do you plan to vote in the next general election?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: definitely_yes
+        label: Definitely yes
+      - name: probably_yes
+        label: Probably yes
+      - name: undecided
+        label: Undecided
+      - name: probably_no
+        label: Probably no
+      - name: definitely_no
+        label: Definitely no

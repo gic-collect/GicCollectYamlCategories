@@ -1,0 +1,115 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: User persona survey
+    pages:
+    - id: 1
+      name: what_is_your_primary_role_or_occupation
+      label: What is your primary role or occupation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: student
+        label: Student
+      - name: professional
+        label: Professional
+      - name: manager
+        label: Manager
+      - name: entrepreneur
+        label: Entrepreneur
+      - name: other
+        label: Other
+    - id: 2
+      name: what_is_your_primary_motivation_for_engaging_with_digital_tools_or_services_in_your_field
+      label: What is your primary motivation for engaging with digital tools or services
+        in your field?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: improve_efficiency
+        label: Improve efficiency
+      - name: learn_new_skills
+        label: Learn new skills
+      - name: connect_with_others
+        label: Connect with others
+      - name: solve_specific_problems
+        label: Solve specific problems
+      - name: stay_informed
+        label: Stay informed
+    - id: 3
+      name: how_often_do_you_interact_with_digital_tools_or_services_related_to_your_primary_workstudy
+      label: How often do you interact with digital tools or services related to your
+        primary work/study?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 4
+      name: which_of_the_following_challenges_do_you_frequently_encounter_when_trying_to_achieve_your_goals_select_all_that_apply
+      label: Which of the following challenges do you frequently encounter when trying
+        to achieve your goals? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: lack_of_time
+        label: Lack of time
+      - name: complex_software
+        label: Complex software
+      - name: insufficient_resources
+        label: Insufficient resources
+      - name: finding_relevant_information
+        label: Finding relevant information
+      - name: technical_difficulties
+        label: Technical difficulties
+    - id: 5
+      name: what_features_are_most_important_to_you_in_a_digital_product_or_service_select_all_that_apply
+      label: What features are most important to you in a digital product or service?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: ease_of_use
+        label: Ease of use
+      - name: robust_functionality
+        label: Robust functionality
+      - name: integrations
+        label: Integrations
+      - name: strong_customer_support
+        label: Strong customer support
+      - name: customization
+        label: Customization
+    - id: 6
+      name: what_is_one_significant_improvement_or_change_that_would_help_you_achieve_your_goals_more_effectively
+      label: What is one significant improvement or change that would help you achieve
+        your goals more effectively?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: is_there_anything_else_youd_like_to_share_about_your_needs_workflows_or_expectations
+      label: Is there anything else you'd like to share about your needs, workflows,
+        or expectations?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

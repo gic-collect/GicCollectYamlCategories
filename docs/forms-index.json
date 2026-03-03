@@ -1,0 +1,2232 @@
+[
+  {
+    "id": 1,
+    "title": "Branding questionnaire",
+    "category": "business_surveys",
+    "description": "Generate a Branding questionnaire survey for the \"Business surveys\" category. Use the template name: \"Branding questionnaire template\".",
+    "filename": "002_business_surveys_branding_questionnaire_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "business_surveys/002_business_surveys_branding_questionnaire_result.yaml"
+  },
+  {
+    "id": 2,
+    "title": "Beta product feedback survey",
+    "category": "business_surveys",
+    "description": "Gathering insights from beta users to improve our product.",
+    "filename": "beta_product_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "business_surveys/beta_product_feedback_survey_template.yaml"
+  },
+  {
+    "id": 3,
+    "title": "Branding Questionnaire",
+    "category": "business_surveys",
+    "description": "A survey to gather insights on brand perception and strategy",
+    "filename": "branding_questionnaire_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "business_surveys/branding_questionnaire_20_questions.yaml"
+  },
+  {
+    "id": 4,
+    "title": "Branding questionnaire",
+    "category": "business_surveys",
+    "description": "A survey to gather insights on brand perception and strategy.",
+    "filename": "branding_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "business_surveys/branding_questionnaire_template.yaml"
+  },
+  {
+    "id": 5,
+    "title": "Customer Success Story Questionnaire",
+    "category": "business_surveys",
+    "description": "Gather key insights and quantifiable results for crafting compelling customer success stories and testimonials.",
+    "filename": "customer_success_story_questionnaire_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "business_surveys/customer_success_story_questionnaire_template_2.yaml"
+  },
+  {
+    "id": 6,
+    "title": "Employee engagement survey",
+    "category": "business_surveys",
+    "description": "Gathering feedback to understand and enhance employee experience and satisfaction.",
+    "filename": "employee_engagement_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "business_surveys/employee_engagement_survey_template.yaml"
+  },
+  {
+    "id": 7,
+    "title": "Product feedback survey",
+    "category": "business_surveys",
+    "description": "Gathering feedback on our product to enhance user experience and inform future development.",
+    "filename": "product_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "business_surveys/product_feedback_survey_template.yaml"
+  },
+  {
+    "id": 8,
+    "title": "Price sensitivity survey",
+    "category": "concept_testing_surveys",
+    "description": "Generate a Price sensitivity survey survey for the \"Concept testing surveys\" category. Use the template name: \"Price sensitivity survey template\".",
+    "filename": "006_concept_testing_surveys_price_sensitivity_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "concept_testing_surveys/006_concept_testing_surveys_price_sensitivity_survey_result.yaml"
+  },
+  {
+    "id": 9,
+    "title": "Brand perception survey",
+    "category": "concept_testing_surveys",
+    "description": "Generate a Brand perception survey survey for the \"Concept testing surveys\" category. Use the template name: \"Brand perception survey template\".",
+    "filename": "007_concept_testing_surveys_brand_perception_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "concept_testing_surveys/007_concept_testing_surveys_brand_perception_survey_result.yaml"
+  },
+  {
+    "id": 10,
+    "title": "Focus group survey",
+    "category": "concept_testing_surveys",
+    "description": "Generate a Focus group survey survey for the \"Concept testing surveys\" category. Use the template name: \"Focus group survey template\".",
+    "filename": "009_concept_testing_surveys_focus_group_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "concept_testing_surveys/009_concept_testing_surveys_focus_group_survey_result.yaml"
+  },
+  {
+    "id": 11,
+    "title": "Consumer preference survey",
+    "category": "concept_testing_surveys",
+    "description": "Generate a Consumer preference survey survey for the \"Concept testing surveys\" category. Use the template name: \"Consumer preference survey template\".",
+    "filename": "010_concept_testing_surveys_consumer_preference_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "concept_testing_surveys/010_concept_testing_surveys_consumer_preference_survey_result.yaml"
+  },
+  {
+    "id": 12,
+    "title": "Competitor research survey",
+    "category": "concept_testing_surveys",
+    "description": "Generate a Competitor research survey survey for the \"Concept testing surveys\" category. Use the template name: \"Competitor research survey template\".",
+    "filename": "011_concept_testing_surveys_competitor_research_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "concept_testing_surveys/011_concept_testing_surveys_competitor_research_survey_result.yaml"
+  },
+  {
+    "id": 13,
+    "title": "Market research survey",
+    "category": "concept_testing_surveys",
+    "description": "Generate a Market research survey survey for the \"Concept testing surveys\" category. Use the template name: \"Market research survey template\".",
+    "filename": "012_concept_testing_surveys_market_research_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "concept_testing_surveys/012_concept_testing_surveys_market_research_survey_result.yaml"
+  },
+  {
+    "id": 14,
+    "title": "Brand Perception Survey",
+    "category": "concept_testing_surveys",
+    "description": "A survey to gauge initial perceptions of a brand concept and gather feedback",
+    "filename": "brand_perception_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "concept_testing_surveys/brand_perception_survey_20_questions.yaml"
+  },
+  {
+    "id": 15,
+    "title": "Competitor research survey",
+    "category": "concept_testing_surveys",
+    "description": "Gather insights into competitor offerings and market perceptions to inform future product development.",
+    "filename": "competitor_research_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "concept_testing_surveys/competitor_research_survey_20_questions.yaml"
+  },
+  {
+    "id": 16,
+    "title": "Concept testing survey",
+    "category": "concept_testing_surveys",
+    "description": "A survey to gather initial impressions and feedback on a presented concept.",
+    "filename": "concept_testing_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "concept_testing_surveys/concept_testing_survey_20_questions.yaml"
+  },
+  {
+    "id": 17,
+    "title": "Consumer Preference Survey",
+    "category": "concept_testing_surveys",
+    "description": "Gather insights on consumer preferences for a new concept",
+    "filename": "consumer_preference_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "concept_testing_surveys/consumer_preference_survey_20_questions.yaml"
+  },
+  {
+    "id": 18,
+    "title": "Focus Group Survey",
+    "category": "concept_testing_surveys",
+    "description": "A survey to gather feedback from a focus group on a new concept",
+    "filename": "focus_group_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "concept_testing_surveys/focus_group_survey_template_2.yaml"
+  },
+  {
+    "id": 19,
+    "title": "Market research survey",
+    "category": "concept_testing_surveys",
+    "description": "Gathering feedback on a new concept or idea.",
+    "filename": "market_research_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "concept_testing_surveys/market_research_survey_template.yaml"
+  },
+  {
+    "id": 20,
+    "title": "Price sensitivity survey",
+    "category": "concept_testing_surveys",
+    "description": "Understanding user willingness to pay and perceived value for a new concept or product.",
+    "filename": "price_sensitivity_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "concept_testing_surveys/price_sensitivity_survey_template.yaml"
+  },
+  {
+    "id": 21,
+    "title": "Price Sensitivity Survey",
+    "category": "concept_testing_surveys",
+    "description": "Understanding user willingness to pay and perceived value for a new concept or product.",
+    "filename": "price_sensitivity_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "concept_testing_surveys/price_sensitivity_survey_template_2.yaml"
+  },
+  {
+    "id": 22,
+    "title": "Customer onboarding feedback survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Generate a Customer onboarding feedback survey survey for the \"Customer satisfaction surveys\" category. Use the template name: \"Customer onboarding feedback survey template\".",
+    "filename": "015_customer_satisfaction_surveys_customer_onboarding_feedback_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "customer_satisfaction_surveys/015_customer_satisfaction_surveys_customer_onboarding_feedback_survey_result.yaml"
+  },
+  {
+    "id": 23,
+    "title": "(CES) customer effort score survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Generate a (CES) customer effort score survey survey for the \"Customer satisfaction surveys\" category. Use the template name: \"(CES) customer effort score survey template\".",
+    "filename": "032_customer_satisfaction_surveys_ces_customer_effort_score_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "customer_satisfaction_surveys/032_customer_satisfaction_surveys_ces_customer_effort_score_survey_result.yaml"
+  },
+  {
+    "id": 24,
+    "title": "Client Satisfaction Survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback to enhance our client services and satisfaction.",
+    "filename": "client_satisfaction_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "customer_satisfaction_surveys/client_satisfaction_survey_20_questions.yaml"
+  },
+  {
+    "id": 25,
+    "title": "Customer Effort Score (CES) Survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "A survey to measure the effort customers expend when interacting with our service and achieve their goals.",
+    "filename": "customer_effort_score_ces_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/customer_effort_score_ces_survey_template.yaml"
+  },
+  {
+    "id": 26,
+    "title": "Customer Effort Score (CES) Survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "A comprehensive survey to measure the effort customers expend when interacting with our service and achieving their goals.",
+    "filename": "customer_effort_score_ces_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "customer_satisfaction_surveys/customer_effort_score_ces_survey_template_2.yaml"
+  },
+  {
+    "id": 27,
+    "title": "Customer feedback form",
+    "category": "customer_satisfaction_surveys",
+    "description": "Help us improve our products and services by sharing your valuable feedback.",
+    "filename": "customer_feedback_form_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/customer_feedback_form_template.yaml"
+  },
+  {
+    "id": 28,
+    "title": "Customer onboarding feedback survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback on the customer onboarding experience to identify areas for improvement.",
+    "filename": "customer_onboarding_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/customer_onboarding_feedback_survey_template.yaml"
+  },
+  {
+    "id": 29,
+    "title": "Customer satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Help us improve by sharing your feedback on our product or service.",
+    "filename": "customer_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/customer_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 30,
+    "title": "Customer Satisfaction Survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Help us improve by sharing your comprehensive feedback on our product or service and your overall satisfaction.",
+    "filename": "customer_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "customer_satisfaction_surveys/customer_satisfaction_survey_template_2.yaml"
+  },
+  {
+    "id": 31,
+    "title": "Customer service satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "We value your feedback to improve our customer service interactions.",
+    "filename": "customer_service_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/customer_service_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 32,
+    "title": "Event satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback on your recent event experience to help us improve.",
+    "filename": "event_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/event_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 33,
+    "title": "Gym satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Quick survey to gauge member satisfaction and gather feedback for improvements.",
+    "filename": "gym_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/gym_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 34,
+    "title": "Gym Satisfaction Survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Quick survey to gauge member satisfaction and gather feedback for improvements",
+    "filename": "gym_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "customer_satisfaction_surveys/gym_satisfaction_survey_template_2.yaml"
+  },
+  {
+    "id": 35,
+    "title": "Member satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback to understand and improve overall member satisfaction.",
+    "filename": "member_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/member_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 36,
+    "title": "Net promoter score (NPS) survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "A survey to measure customer loyalty and satisfaction with our product/service.",
+    "filename": "net_promoter_score_nps_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/net_promoter_score_nps_survey_template.yaml"
+  },
+  {
+    "id": 37,
+    "title": "Net Promoter Score (NPS) Survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "A comprehensive survey to measure customer loyalty and satisfaction with our product/service",
+    "filename": "net_promoter_score_nps_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "customer_satisfaction_surveys/net_promoter_score_nps_survey_template_2.yaml"
+  },
+  {
+    "id": 38,
+    "title": "New member questionnaire",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback from new members to understand their initial experience and satisfaction.",
+    "filename": "new_member_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/new_member_questionnaire_template.yaml"
+  },
+  {
+    "id": 39,
+    "title": "New Member Questionnaire",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback from new members to understand their initial experience and satisfaction",
+    "filename": "new_member_questionnaire_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "customer_satisfaction_surveys/new_member_questionnaire_template_2.yaml"
+  },
+  {
+    "id": 40,
+    "title": "Reader satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Share your feedback to help us improve the quality and relevance of our content.",
+    "filename": "reader_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/reader_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 41,
+    "title": "Restaurant customer satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback to improve your dining experience at our restaurant.",
+    "filename": "restaurant_customer_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/restaurant_customer_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 42,
+    "title": "Restaurant Customer Satisfaction Survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Comprehensive feedback survey to improve your dining experience at our restaurant.",
+    "filename": "restaurant_customer_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "customer_satisfaction_surveys/restaurant_customer_satisfaction_survey_template_2.yaml"
+  },
+  {
+    "id": 43,
+    "title": "Salon evaluation survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Help us improve your experience at our salon.",
+    "filename": "salon_evaluation_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/salon_evaluation_survey_template.yaml"
+  },
+  {
+    "id": 44,
+    "title": "Software customer satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback on your experience to improve our software products and services.",
+    "filename": "software_customer_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "customer_satisfaction_surveys/software_customer_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 45,
+    "title": "Sponsorship satisfaction survey",
+    "category": "customer_satisfaction_surveys",
+    "description": "This survey gathers feedback on your satisfaction with our sponsorship program and identifies areas for improvement.",
+    "filename": "sponsorship_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/sponsorship_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 46,
+    "title": "Website questionnaire",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback on overall website satisfaction and user experience.",
+    "filename": "website_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "customer_satisfaction_surveys/website_questionnaire_template.yaml"
+  },
+  {
+    "id": 47,
+    "title": "Website Questionnaire",
+    "category": "customer_satisfaction_surveys",
+    "description": "Gathering feedback on overall website satisfaction and user experience",
+    "filename": "website_questionnaire_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "customer_satisfaction_surveys/website_questionnaire_template_2.yaml"
+  },
+  {
+    "id": 48,
+    "title": "Employee of the month voting form",
+    "category": "employee_engagement_surveys",
+    "description": "Generate a Employee of the month voting form survey for the \"Employee engagement surveys\" category. Use the template name: \"Employee of the month voting form template\".",
+    "filename": "037_employee_engagement_surveys_employee_of_the_month_voting_form_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "employee_engagement_surveys/037_employee_engagement_surveys_employee_of_the_month_voting_form_result.yaml"
+  },
+  {
+    "id": 49,
+    "title": "Workplace bullying survey",
+    "category": "employee_engagement_surveys",
+    "description": "Generate a Workplace bullying survey survey for the \"Employee engagement surveys\" category. Use the template name: \"Workplace bullying survey template\".",
+    "filename": "044_employee_engagement_surveys_workplace_bullying_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "employee_engagement_surveys/044_employee_engagement_surveys_workplace_bullying_survey_result.yaml"
+  },
+  {
+    "id": 50,
+    "title": "Career Development Survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering feedback on career development and overall satisfaction to improve employee experience and growth opportunities.",
+    "filename": "career_development_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "employee_engagement_surveys/career_development_survey_20_questions.yaml"
+  },
+  {
+    "id": 51,
+    "title": "Career development survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering feedback on career development and overall satisfaction to improve employee experience and growth opportunities.",
+    "filename": "career_development_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_engagement_surveys/career_development_survey_template.yaml"
+  },
+  {
+    "id": 52,
+    "title": "Employee empowerment survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering insights on employee empowerment and engagement to foster a more supportive work environment.",
+    "filename": "employee_empowerment_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_engagement_surveys/employee_empowerment_survey_template.yaml"
+  },
+  {
+    "id": 53,
+    "title": "Employee Engagement Survey",
+    "category": "employee_engagement_surveys",
+    "description": "Confidential survey to gather comprehensive feedback on work experience, organizational culture, and identify opportunities for enhancing employee engagement and satisfaction.",
+    "filename": "employee_engagement_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "employee_engagement_surveys/employee_engagement_survey_template_2.yaml"
+  },
+  {
+    "id": 54,
+    "title": "Employee morale survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering feedback on employee morale and engagement to foster a positive work environment.",
+    "filename": "employee_morale_survey_template.yaml",
+    "language": "en",
+    "question_count": 8,
+    "file_path": "employee_engagement_surveys/employee_morale_survey_template.yaml"
+  },
+  {
+    "id": 55,
+    "title": "Employee Morale Survey",
+    "category": "employee_engagement_surveys",
+    "description": "Comprehensive assessment of employee morale, motivation, and workplace satisfaction to identify factors affecting engagement and well-being.",
+    "filename": "employee_morale_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "employee_engagement_surveys/employee_morale_survey_template_2.yaml"
+  },
+  {
+    "id": 56,
+    "title": "Employee of the month voting form",
+    "category": "employee_engagement_surveys",
+    "description": "Nominate a colleague who has demonstrated outstanding performance and contributions this month.",
+    "filename": "employee_of_the_month_voting_form_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_engagement_surveys/employee_of_the_month_voting_form_template.yaml"
+  },
+  {
+    "id": 57,
+    "title": "Employee recognition survey",
+    "category": "employee_engagement_surveys",
+    "description": "This survey aims to gather feedback on employee recognition and overall engagement. Your responses will help us improve our workplace culture.",
+    "filename": "employee_recognition_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_engagement_surveys/employee_recognition_survey_template.yaml"
+  },
+  {
+    "id": 58,
+    "title": "Employee Recognition Survey",
+    "category": "employee_engagement_surveys",
+    "description": "This survey aims to gather feedback on employee recognition and overall engagement. Your responses will help us improve our workplace culture.",
+    "filename": "employee_recognition_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "employee_engagement_surveys/employee_recognition_survey_template_2.yaml"
+  },
+  {
+    "id": 59,
+    "title": "Employee wellness survey",
+    "category": "employee_engagement_surveys",
+    "description": "This survey aims to gather feedback on employee wellness and engagement, covering job satisfaction, communication, and areas for improvement.",
+    "filename": "employee_wellness_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_engagement_surveys/employee_wellness_survey_template.yaml"
+  },
+  {
+    "id": 60,
+    "title": "Employee Wellness Survey",
+    "category": "employee_engagement_surveys",
+    "description": "This comprehensive survey aims to gather feedback on employee wellness and engagement, covering physical health, mental health, work-life balance, and organizational support.",
+    "filename": "employee_wellness_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "employee_engagement_surveys/employee_wellness_survey_template_2.yaml"
+  },
+  {
+    "id": 61,
+    "title": "Organizational culture survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering insights on our organizational culture and employee engagement to foster a positive work environment.",
+    "filename": "organizational_culture_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_engagement_surveys/organizational_culture_survey_template.yaml"
+  },
+  {
+    "id": 62,
+    "title": "Organizational Culture Survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering insights on our organizational culture and employee engagement to foster a positive work environment",
+    "filename": "organizational_culture_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "employee_engagement_surveys/organizational_culture_survey_template_2.yaml"
+  },
+  {
+    "id": 63,
+    "title": "Professional development survey",
+    "category": "employee_engagement_surveys",
+    "description": "A survey to gauge employee satisfaction and identify opportunities for professional growth and development within the organization.",
+    "filename": "professional_development_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_engagement_surveys/professional_development_survey_template.yaml"
+  },
+  {
+    "id": 64,
+    "title": "Salary and compensation survey",
+    "category": "employee_engagement_surveys",
+    "description": "A survey to gather feedback on employee satisfaction with salary, benefits, and overall compensation, contributing to improved engagement.",
+    "filename": "salary_and_compensation_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_engagement_surveys/salary_and_compensation_survey_template.yaml"
+  },
+  {
+    "id": 65,
+    "title": "Salary and Compensation Survey",
+    "category": "employee_engagement_surveys",
+    "description": "A comprehensive survey to gather feedback on employee satisfaction with salary, benefits, and overall compensation to improve engagement and retention.",
+    "filename": "salary_and_compensation_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 15,
+    "file_path": "employee_engagement_surveys/salary_and_compensation_survey_template_2.yaml"
+  },
+  {
+    "id": 66,
+    "title": "Work environment survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering feedback on the work environment to improve employee engagement and satisfaction.",
+    "filename": "work_environment_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_engagement_surveys/work_environment_survey_template.yaml"
+  },
+  {
+    "id": 67,
+    "title": "Work Environment Survey",
+    "category": "employee_engagement_surveys",
+    "description": "Gathering feedback on the work environment to improve employee engagement and satisfaction.",
+    "filename": "work_environment_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "employee_engagement_surveys/work_environment_survey_template_2.yaml"
+  },
+  {
+    "id": 68,
+    "title": "Workplace bullying survey",
+    "category": "employee_engagement_surveys",
+    "description": "Understanding experiences of bullying and harassment to improve workplace safety and culture.",
+    "filename": "workplace_bullying_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_engagement_surveys/workplace_bullying_survey_template.yaml"
+  },
+  {
+    "id": 69,
+    "title": "Workplace Bullying Survey",
+    "category": "employee_engagement_surveys",
+    "description": "Understanding experiences of bullying and harassment to improve workplace safety and culture.",
+    "filename": "workplace_bullying_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "employee_engagement_surveys/workplace_bullying_survey_template_2.yaml"
+  },
+  {
+    "id": 70,
+    "title": "Candidate experience survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Generate a Candidate experience survey survey for the \"Employee satisfaction surveys\" category. Use the template name: \"Candidate experience survey template\".",
+    "filename": "052_employee_satisfaction_surveys_candidate_experience_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "employee_satisfaction_surveys/052_employee_satisfaction_surveys_candidate_experience_survey_result.yaml"
+  },
+  {
+    "id": 71,
+    "title": "Candidate Experience Survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Help us improve our hiring process and overall candidate journey.",
+    "filename": "candidate_experience_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "employee_satisfaction_surveys/candidate_experience_survey_20_questions.yaml"
+  },
+  {
+    "id": 72,
+    "title": "Candidate experience survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Help us improve our hiring process and overall candidate journey.",
+    "filename": "candidate_experience_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_satisfaction_surveys/candidate_experience_survey_template.yaml"
+  },
+  {
+    "id": 73,
+    "title": "Communication survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Gathering feedback on internal communication and employee satisfaction.",
+    "filename": "communication_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_satisfaction_surveys/communication_survey_template.yaml"
+  },
+  {
+    "id": 74,
+    "title": "Company satisfaction survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "This survey aims to gather employee feedback to understand and improve overall satisfaction and the work environment.",
+    "filename": "company_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_satisfaction_surveys/company_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 75,
+    "title": "Employee benefits survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Gathering feedback on current employee benefits to improve satisfaction and offerings.",
+    "filename": "employee_benefits_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_satisfaction_surveys/employee_benefits_survey_template.yaml"
+  },
+  {
+    "id": 76,
+    "title": "Employee Benefits Survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Comprehensive feedback on employee benefits packages to enhance satisfaction, retention, and overall employee well-being.",
+    "filename": "employee_benefits_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "employee_satisfaction_surveys/employee_benefits_survey_template_2.yaml"
+  },
+  {
+    "id": 77,
+    "title": "Employee on-boarding survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Gathering feedback on the new employee on-boarding experience to make improvements.",
+    "filename": "employee_on_boarding_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "employee_satisfaction_surveys/employee_on_boarding_survey_template.yaml"
+  },
+  {
+    "id": 78,
+    "title": "Employee On-Boarding Survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Gathering feedback on the new employee on-boarding experience to make improvements.",
+    "filename": "employee_on_boarding_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "employee_satisfaction_surveys/employee_on_boarding_survey_template_2.yaml"
+  },
+  {
+    "id": 79,
+    "title": "Employee Orientation Survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Gathering feedback on the initial employee orientation and onboarding experience.",
+    "filename": "employee_orientation_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "employee_satisfaction_surveys/employee_orientation_survey_template_2.yaml"
+  },
+  {
+    "id": 80,
+    "title": "Employee Satisfaction Survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "A comprehensive survey to gather feedback on employee satisfaction and identify areas for improvement within the organization.",
+    "filename": "employee_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "employee_satisfaction_surveys/employee_satisfaction_survey_template_2.yaml"
+  },
+  {
+    "id": 81,
+    "title": "IT satisfaction survey",
+    "category": "employee_satisfaction_surveys",
+    "description": "Gathering feedback on IT services and support to improve employee experience.",
+    "filename": "it_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "employee_satisfaction_surveys/it_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 82,
+    "title": "Conference evaluation survey",
+    "category": "evaluation_surveys",
+    "description": "Generate a Conference evaluation survey survey for the \"Evaluation surveys\" category. Use the template name: \"Conference evaluation survey template\".",
+    "filename": "062_evaluation_surveys_conference_evaluation_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "evaluation_surveys/062_evaluation_surveys_conference_evaluation_survey_result.yaml"
+  },
+  {
+    "id": 83,
+    "title": "Performance appraisal survey",
+    "category": "evaluation_surveys",
+    "description": "Generate a Performance appraisal survey survey for the \"Evaluation surveys\" category. Use the template name: \"Performance appraisal survey template\".",
+    "filename": "065_evaluation_surveys_performance_appraisal_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "evaluation_surveys/065_evaluation_surveys_performance_appraisal_survey_result.yaml"
+  },
+  {
+    "id": 84,
+    "title": "Personality questionnaire",
+    "category": "evaluation_surveys",
+    "description": "Generate a Personality questionnaire survey for the \"Evaluation surveys\" category. Use the template name: \"Personality questionnaire template\".",
+    "filename": "068_evaluation_surveys_personality_questionnaire_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "evaluation_surveys/068_evaluation_surveys_personality_questionnaire_result.yaml"
+  },
+  {
+    "id": 85,
+    "title": "Course evaluation survey",
+    "category": "evaluation_surveys",
+    "description": "Generate a Course evaluation survey survey for the \"Evaluation surveys\" category. Use the template name: \"Course evaluation survey template\".",
+    "filename": "072_evaluation_surveys_course_evaluation_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "evaluation_surveys/072_evaluation_surveys_course_evaluation_survey_result.yaml"
+  },
+  {
+    "id": 86,
+    "title": "Conference evaluation survey",
+    "category": "evaluation_surveys",
+    "description": "Gathering feedback to improve future conference experiences.",
+    "filename": "conference_evaluation_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "evaluation_surveys/conference_evaluation_survey_20_questions.yaml"
+  },
+  {
+    "id": 87,
+    "title": "Course evaluation survey",
+    "category": "evaluation_surveys",
+    "description": "Please provide feedback on your course experience.",
+    "filename": "course_evaluation_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "evaluation_surveys/course_evaluation_survey_20_questions.yaml"
+  },
+  {
+    "id": 88,
+    "title": "Event evaluation survey",
+    "category": "evaluation_surveys",
+    "description": "Your feedback is valuable for improving future events.",
+    "filename": "event_evaluation_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "evaluation_surveys/event_evaluation_survey_template.yaml"
+  },
+  {
+    "id": 89,
+    "title": "Manager effectiveness survey",
+    "category": "evaluation_surveys",
+    "description": "Gathering feedback on manager effectiveness to improve leadership and employee experience within the organization.",
+    "filename": "manager_effectiveness_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "evaluation_surveys/manager_effectiveness_survey_template.yaml"
+  },
+  {
+    "id": 90,
+    "title": "Manager Effectiveness Survey",
+    "category": "evaluation_surveys",
+    "description": "A survey to gather feedback on manager effectiveness and leadership skills",
+    "filename": "manager_effectiveness_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "evaluation_surveys/manager_effectiveness_survey_template_2.yaml"
+  },
+  {
+    "id": 91,
+    "title": "Mobile app survey",
+    "category": "evaluation_surveys",
+    "description": "Gathering feedback on your experience with our mobile application.",
+    "filename": "mobile_app_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "evaluation_surveys/mobile_app_survey_template.yaml"
+  },
+  {
+    "id": 92,
+    "title": "Performance appraisal survey",
+    "category": "evaluation_surveys",
+    "description": "Collect feedback to improve the performance appraisal process and its effectiveness.",
+    "filename": "performance_appraisal_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "evaluation_surveys/performance_appraisal_survey_template.yaml"
+  },
+  {
+    "id": 93,
+    "title": "Personality questionnaire",
+    "category": "evaluation_surveys",
+    "description": "A series of questions designed to explore personal traits and preferences for evaluation.",
+    "filename": "personality_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "evaluation_surveys/personality_questionnaire_template.yaml"
+  },
+  {
+    "id": 94,
+    "title": "Software evaluation form",
+    "category": "evaluation_surveys",
+    "description": "Please share your feedback on your recent experience with the software.",
+    "filename": "software_evaluation_form_template.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "evaluation_surveys/software_evaluation_form_template.yaml"
+  },
+  {
+    "id": 95,
+    "title": "Software Evaluation Form",
+    "category": "evaluation_surveys",
+    "description": "Comprehensive feedback collection on your recent experience with the software to guide future improvements.",
+    "filename": "software_evaluation_form_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "evaluation_surveys/software_evaluation_form_template_2.yaml"
+  },
+  {
+    "id": 96,
+    "title": "Supervisor evaluation survey",
+    "category": "evaluation_surveys",
+    "description": "Gather feedback on supervisor performance and identify areas for improvement.",
+    "filename": "supervisor_evaluation_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "evaluation_surveys/supervisor_evaluation_survey_template.yaml"
+  },
+  {
+    "id": 97,
+    "title": "Supervisor Evaluation Survey",
+    "category": "evaluation_surveys",
+    "description": "Gather feedback on supervisor performance and identify areas for improvement",
+    "filename": "supervisor_evaluation_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "evaluation_surveys/supervisor_evaluation_survey_template_2.yaml"
+  },
+  {
+    "id": 98,
+    "title": "Event planning survey",
+    "category": "event_surveys",
+    "description": "Generate a Event planning survey survey for the \"Event surveys\" category. Use the template name: \"Event planning survey template\".",
+    "filename": "074_event_surveys_event_planning_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "event_surveys/074_event_surveys_event_planning_survey_result.yaml"
+  },
+  {
+    "id": 99,
+    "title": "Pre-event survey",
+    "category": "event_surveys",
+    "description": "Generate a Pre-event survey survey for the \"Event surveys\" category. Use the template name: \"Pre-event survey template\".",
+    "filename": "075_event_surveys_pre_event_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "event_surveys/075_event_surveys_pre_event_survey_result.yaml"
+  },
+  {
+    "id": 100,
+    "title": "Event questionnaire",
+    "category": "event_surveys",
+    "description": "Generate a Event questionnaire survey for the \"Event surveys\" category. Use the template name: \"Event questionnaire template\".",
+    "filename": "076_event_surveys_event_questionnaire_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "event_surveys/076_event_surveys_event_questionnaire_result.yaml"
+  },
+  {
+    "id": 101,
+    "title": "Event feedback form",
+    "category": "event_surveys",
+    "description": "Generate a Event feedback form survey for the \"Event surveys\" category. Use the template name: \"Event feedback form template\".",
+    "filename": "080_event_surveys_event_feedback_form_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "event_surveys/080_event_surveys_event_feedback_form_result.yaml"
+  },
+  {
+    "id": 102,
+    "title": "Event feedback form",
+    "category": "event_surveys",
+    "description": "Please share your valuable feedback to help us improve future events.",
+    "filename": "event_feedback_form_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "event_surveys/event_feedback_form_template.yaml"
+  },
+  {
+    "id": 103,
+    "title": "Event Feedback Form",
+    "category": "event_surveys",
+    "description": "Please share your valuable feedback to help us improve future events and create better experiences for all attendees.",
+    "filename": "event_feedback_form_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "event_surveys/event_feedback_form_template_2.yaml"
+  },
+  {
+    "id": 104,
+    "title": "Event planning survey",
+    "category": "event_surveys",
+    "description": "Gather feedback to improve future event planning and attendee experience.",
+    "filename": "event_planning_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "event_surveys/event_planning_survey_template.yaml"
+  },
+  {
+    "id": 105,
+    "title": "Event Planning Survey",
+    "category": "event_surveys",
+    "description": "Gathering comprehensive feedback on our recent event to improve future nonprofit activities and community engagement.",
+    "filename": "event_planning_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "event_surveys/event_planning_survey_template_2.yaml"
+  },
+  {
+    "id": 106,
+    "title": "Event Questionnaire",
+    "category": "event_surveys",
+    "description": "A comprehensive survey to gather detailed feedback on the recent event and help us improve future experiences for all participants.",
+    "filename": "event_questionnaire_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "event_surveys/event_questionnaire_template_2.yaml"
+  },
+  {
+    "id": 107,
+    "title": "Post Event Feedback Survey",
+    "category": "event_surveys",
+    "description": "Thank you for attending our event! Please share your feedback to help us improve future events.",
+    "filename": "post_event_feedback_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "event_surveys/post_event_feedback_survey_template_2.yaml"
+  },
+  {
+    "id": 108,
+    "title": "Pre-event survey",
+    "category": "event_surveys",
+    "description": "To gather attendee expectations and feedback on pre-event information and registration.",
+    "filename": "pre_event_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "event_surveys/pre_event_survey_template.yaml"
+  },
+  {
+    "id": 109,
+    "title": "Pre-Event Survey",
+    "category": "event_surveys",
+    "description": "To gather attendee expectations and feedback on pre-event information and registration.",
+    "filename": "pre_event_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "event_surveys/pre_event_survey_template_2.yaml"
+  },
+  {
+    "id": 110,
+    "title": "Post-training survey",
+    "category": "feedback_surveys",
+    "description": "Generate a Post-training survey survey for the \"Feedback surveys\" category. Use the template name: \"Post-training survey template\".",
+    "filename": "084_feedback_surveys_post_training_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "feedback_surveys/084_feedback_surveys_post_training_survey_result.yaml"
+  },
+  {
+    "id": 111,
+    "title": "Cancellation survey",
+    "category": "feedback_surveys",
+    "description": "Generate a Cancellation survey survey for the \"Feedback surveys\" category. Use the template name: \"Cancellation survey template\".",
+    "filename": "088_feedback_surveys_cancellation_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "feedback_surveys/088_feedback_surveys_cancellation_survey_result.yaml"
+  },
+  {
+    "id": 112,
+    "title": "Lead generation survey",
+    "category": "feedback_surveys",
+    "description": "Generate a Lead generation survey survey for the \"Feedback surveys\" category. Use the template name: \"Lead generation survey template\".",
+    "filename": "093_feedback_surveys_lead_generation_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "feedback_surveys/093_feedback_surveys_lead_generation_survey_result.yaml"
+  },
+  {
+    "id": 113,
+    "title": "Beta Product Feedback Survey",
+    "category": "feedback_surveys",
+    "description": "Gathering insights from beta users to improve our product",
+    "filename": "beta_product_feedback_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "feedback_surveys/beta_product_feedback_survey_20_questions.yaml"
+  },
+  {
+    "id": 114,
+    "title": "Cancellation Survey",
+    "category": "feedback_surveys",
+    "description": "Gathering feedback on why you're canceling your subscription or service",
+    "filename": "cancellation_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "feedback_surveys/cancellation_survey_20_questions.yaml"
+  },
+  {
+    "id": 115,
+    "title": "Customer Feedback Form",
+    "category": "feedback_surveys",
+    "description": "Help us improve our products and services by sharing your valuable feedback on various aspects of your experience.",
+    "filename": "customer_feedback_form_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "feedback_surveys/customer_feedback_form_template_2.yaml"
+  },
+  {
+    "id": 116,
+    "title": "Email design questionnaire",
+    "category": "feedback_surveys",
+    "description": "Gathering feedback on the design and effectiveness of our emails to improve user experience.",
+    "filename": "email_design_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "feedback_surveys/email_design_questionnaire_template.yaml"
+  },
+  {
+    "id": 117,
+    "title": "Email Design Questionnaire",
+    "category": "feedback_surveys",
+    "description": "Gathering comprehensive feedback on email design elements, user experience, and effectiveness to optimize our email marketing strategy.",
+    "filename": "email_design_questionnaire_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "feedback_surveys/email_design_questionnaire_template_2.yaml"
+  },
+  {
+    "id": 118,
+    "title": "Help desk feedback survey",
+    "category": "feedback_surveys",
+    "description": "Gather insights to improve our help desk service and user experience.",
+    "filename": "help_desk_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "feedback_surveys/help_desk_feedback_survey_template.yaml"
+  },
+  {
+    "id": 119,
+    "title": "Help Desk Feedback Survey",
+    "category": "feedback_surveys",
+    "description": "Gather insights to improve our help desk service and user experience",
+    "filename": "help_desk_feedback_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "feedback_surveys/help_desk_feedback_survey_template_2.yaml"
+  },
+  {
+    "id": 120,
+    "title": "Lead Generation Survey",
+    "category": "feedback_surveys",
+    "description": "Gathering feedback to optimize our lead generation strategy and processes",
+    "filename": "lead_generation_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "feedback_surveys/lead_generation_survey_template_2.yaml"
+  },
+  {
+    "id": 121,
+    "title": "Office feedback survey",
+    "category": "feedback_surveys",
+    "description": "A survey to gather feedback on the current office environment and facilities.",
+    "filename": "office_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "feedback_surveys/office_feedback_survey_template.yaml"
+  },
+  {
+    "id": 122,
+    "title": "Office Feedback Survey",
+    "category": "feedback_surveys",
+    "description": "A comprehensive survey to gather feedback on the current office environment and facilities",
+    "filename": "office_feedback_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "feedback_surveys/office_feedback_survey_template_2.yaml"
+  },
+  {
+    "id": 123,
+    "title": "Post event feedback survey",
+    "category": "feedback_surveys",
+    "description": "Gather feedback on your recent event experience.",
+    "filename": "post_event_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "feedback_surveys/post_event_feedback_survey_template.yaml"
+  },
+  {
+    "id": 124,
+    "title": "Post-training survey",
+    "category": "feedback_surveys",
+    "description": "Gathering feedback on your recent training experience to help us improve future programs.",
+    "filename": "post_training_survey_template.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "feedback_surveys/post_training_survey_template.yaml"
+  },
+  {
+    "id": 125,
+    "title": "Process improvement survey",
+    "category": "feedback_surveys",
+    "description": "Gather feedback on current processes to identify areas for improvement.",
+    "filename": "process_improvement_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "feedback_surveys/process_improvement_survey_template.yaml"
+  },
+  {
+    "id": 126,
+    "title": "Process Improvement Survey",
+    "category": "feedback_surveys",
+    "description": "Gather feedback on current processes to identify areas for improvement",
+    "filename": "process_improvement_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "feedback_surveys/process_improvement_survey_template_2.yaml"
+  },
+  {
+    "id": 127,
+    "title": "Product Feedback Survey",
+    "category": "feedback_surveys",
+    "description": "A survey to gather feedback on our product and identify areas for improvement.",
+    "filename": "product_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "feedback_surveys/product_feedback_survey_template.yaml"
+  },
+  {
+    "id": 128,
+    "title": "Professional Development Feedback Survey",
+    "category": "feedback_surveys",
+    "description": "Gather feedback on professional development experiences to enhance future programs",
+    "filename": "professional_development_feedback_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "feedback_surveys/professional_development_feedback_survey_template_2.yaml"
+  },
+  {
+    "id": 129,
+    "title": "Software update feedback form",
+    "category": "feedback_surveys",
+    "description": "A survey to collect feedback and insights on the recent software update.",
+    "filename": "software_update_feedback_form_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "feedback_surveys/software_update_feedback_form_template.yaml"
+  },
+  {
+    "id": 130,
+    "title": "Software Update Feedback Form",
+    "category": "feedback_surveys",
+    "description": "Comprehensive survey to collect feedback and insights on the recent software update experience.",
+    "filename": "software_update_feedback_form_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "feedback_surveys/software_update_feedback_form_template_2.yaml"
+  },
+  {
+    "id": 131,
+    "title": "Subscription box survey",
+    "category": "feedback_surveys",
+    "description": "Gathering your valuable feedback on your subscription box experience.",
+    "filename": "subscription_box_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "feedback_surveys/subscription_box_survey_template.yaml"
+  },
+  {
+    "id": 132,
+    "title": "Subscription Box Survey",
+    "category": "feedback_surveys",
+    "description": "Gathering your valuable feedback on your subscription box experience",
+    "filename": "subscription_box_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "feedback_surveys/subscription_box_survey_template_2.yaml"
+  },
+  {
+    "id": 133,
+    "title": "Training satisfaction survey",
+    "category": "feedback_surveys",
+    "description": "Gather feedback on recent training sessions to improve future programs.",
+    "filename": "training_satisfaction_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "feedback_surveys/training_satisfaction_survey_template.yaml"
+  },
+  {
+    "id": 134,
+    "title": "Voice of the customer survey",
+    "category": "feedback_surveys",
+    "description": "Help us improve how we listen and respond to your valuable feedback.",
+    "filename": "voice_of_the_customer_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "feedback_surveys/voice_of_the_customer_survey_template.yaml"
+  },
+  {
+    "id": 135,
+    "title": "Voice of the Customer Survey",
+    "category": "feedback_surveys",
+    "description": "Help us improve how we listen and respond to your valuable feedback",
+    "filename": "voice_of_the_customer_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "feedback_surveys/voice_of_the_customer_survey_template_2.yaml"
+  },
+  {
+    "id": 136,
+    "title": "Volunteer feedback survey",
+    "category": "feedback_surveys",
+    "description": "Gathering feedback from our dedicated volunteers to improve their experience and our programs.",
+    "filename": "volunteer_feedback_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "feedback_surveys/volunteer_feedback_survey_template_2.yaml"
+  },
+  {
+    "id": 137,
+    "title": "Market Research Survey",
+    "category": "market_research_surveys",
+    "description": "Gathering insights to understand market perception and inform strategic planning",
+    "filename": "market_research_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "market_research_surveys/market_research_survey_template_2.yaml"
+  },
+  {
+    "id": 138,
+    "title": "Product research survey",
+    "category": "market_research_surveys",
+    "description": "Gathering insights on user satisfaction and product perception for market research.",
+    "filename": "product_research_survey_template copy.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "market_research_surveys/product_research_survey_template copy.yaml"
+  },
+  {
+    "id": 139,
+    "title": "Product Research Survey",
+    "category": "market_research_surveys",
+    "description": "Gathering feedback to understand perceptions and areas for improvement regarding our product",
+    "filename": "product_research_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "market_research_surveys/product_research_survey_template_2.yaml"
+  },
+  {
+    "id": 140,
+    "title": "Demographic survey questionnaire",
+    "category": "nonprofit_surveys",
+    "description": "Generate a Demographic survey questionnaire survey for the \"Nonprofit surveys\" category. Use the template name: \"Demographic survey questionnaire template\".",
+    "filename": "102_nonprofit_surveys_demographic_survey_questionnaire_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "nonprofit_surveys/102_nonprofit_surveys_demographic_survey_questionnaire_result.yaml"
+  },
+  {
+    "id": 141,
+    "title": "Exit survey",
+    "category": "nonprofit_surveys",
+    "description": "Gathering feedback from individuals completing or leaving a nonprofit program or organization.",
+    "filename": "exit_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "nonprofit_surveys/exit_survey_template.yaml"
+  },
+  {
+    "id": 142,
+    "title": "Sponsorship Satisfaction Survey",
+    "category": "nonprofit_surveys",
+    "description": "Gather feedback from our valuable sponsors to improve their experience and strengthen our partnerships",
+    "filename": "sponsorship_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "nonprofit_surveys/sponsorship_satisfaction_survey_template_2.yaml"
+  },
+  {
+    "id": 143,
+    "title": "Brand awareness survey",
+    "category": "other",
+    "description": "Generate a Brand awareness survey survey for the \"Other\" category. Use the template name: \"Brand awareness survey template\".",
+    "filename": "108_other_brand_awareness_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "other/108_other_brand_awareness_survey_result.yaml"
+  },
+  {
+    "id": 144,
+    "title": "Political survey",
+    "category": "other",
+    "description": "Generate a Political survey survey for the \"Other\" category. Use the template name: \"Political survey template\".",
+    "filename": "109_other_political_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "other/109_other_political_survey_result.yaml"
+  },
+  {
+    "id": 145,
+    "title": "User persona survey",
+    "category": "other",
+    "description": "Generate a User persona survey survey for the \"Other\" category. Use the template name: \"User persona survey template\".",
+    "filename": "116_other_user_persona_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "other/116_other_user_persona_survey_result.yaml"
+  },
+  {
+    "id": 146,
+    "title": "Brand Awareness Survey",
+    "category": "other",
+    "description": "A survey to understand public perception and recognition of our brand",
+    "filename": "brand_awareness_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "other/brand_awareness_survey_20_questions.yaml"
+  },
+  {
+    "id": 147,
+    "title": "Brand awareness survey",
+    "category": "other",
+    "description": "A survey to understand public perception and recognition of our brand.",
+    "filename": "brand_awareness_survey_template.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "other/brand_awareness_survey_template.yaml"
+  },
+  {
+    "id": 148,
+    "title": "Company Satisfaction Survey",
+    "category": "other",
+    "description": "This survey aims to gather your valuable feedback on various aspects of your work experience and overall satisfaction at the company.",
+    "filename": "company_satisfaction_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "other/company_satisfaction_survey_20_questions.yaml"
+  },
+  {
+    "id": 149,
+    "title": "Customer success story questionnaire",
+    "category": "other",
+    "description": "Gathering valuable insights from our successful customers to highlight their achievements.",
+    "filename": "customer_success_story_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "other/customer_success_story_questionnaire_template.yaml"
+  },
+  {
+    "id": 150,
+    "title": "Demographic survey questionnaire",
+    "category": "other",
+    "description": "Collecting demographic information to understand our audience and their characteristics.",
+    "filename": "demographic_survey_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 8,
+    "file_path": "other/demographic_survey_questionnaire_template.yaml"
+  },
+  {
+    "id": 151,
+    "title": "Employee of the Month Voting Form",
+    "category": "other",
+    "description": "Nominate a colleague who has demonstrated outstanding performance and contributions this month.",
+    "filename": "employee_of_the_month_voting_form_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "other/employee_of_the_month_voting_form_template_2.yaml"
+  },
+  {
+    "id": 152,
+    "title": "Management survey",
+    "category": "other",
+    "description": "A survey to gather feedback on management performance and effectiveness.",
+    "filename": "management_survey_template.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "other/management_survey_template.yaml"
+  },
+  {
+    "id": 153,
+    "title": "Management Survey",
+    "category": "other",
+    "description": "A survey to gather feedback on management performance and effectiveness",
+    "filename": "management_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "other/management_survey_template_2.yaml"
+  },
+  {
+    "id": 154,
+    "title": "Political survey",
+    "category": "other",
+    "description": "A general survey to gauge opinions on current political topics and engagement.",
+    "filename": "political_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "other/political_survey_template.yaml"
+  },
+  {
+    "id": 155,
+    "title": "Political Survey",
+    "category": "other",
+    "description": "A comprehensive survey to gauge opinions on current political topics, engagement, and policy preferences",
+    "filename": "political_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "other/political_survey_template_2.yaml"
+  },
+  {
+    "id": 156,
+    "title": "Relationship questionnaire",
+    "category": "other",
+    "description": "A survey designed to gather insights and perspectives on personal relationships.",
+    "filename": "relationship_questionnaire_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "other/relationship_questionnaire_template.yaml"
+  },
+  {
+    "id": 157,
+    "title": "Relationship Questionnaire",
+    "category": "other",
+    "description": "A comprehensive survey designed to gather insights and perspectives on personal relationships.",
+    "filename": "relationship_questionnaire_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "other/relationship_questionnaire_template_2.yaml"
+  },
+  {
+    "id": 158,
+    "title": "Skin care survey",
+    "category": "other",
+    "description": "Gathering insights into daily skin care habits and preferences.",
+    "filename": "skin_care_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "other/skin_care_survey_template.yaml"
+  },
+  {
+    "id": 159,
+    "title": "Skin Care Survey",
+    "category": "other",
+    "description": "Comprehensive survey gathering insights into daily skin care habits, preferences, and product usage patterns.",
+    "filename": "skin_care_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 16,
+    "file_path": "other/skin_care_survey_template_2.yaml"
+  },
+  {
+    "id": 160,
+    "title": "User persona survey",
+    "category": "other",
+    "description": "Gathering insights to understand our users' roles, goals, and needs to build comprehensive user personas.",
+    "filename": "user_persona_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "other/user_persona_survey_template.yaml"
+  },
+  {
+    "id": 161,
+    "title": "User Persona Survey",
+    "category": "other",
+    "description": "Gathering insights to understand our users' roles, goals, and needs to build comprehensive user personas",
+    "filename": "user_persona_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "other/user_persona_survey_template_2.yaml"
+  },
+  {
+    "id": 162,
+    "title": "Vendor Satisfaction Survey",
+    "category": "other",
+    "description": "Gather feedback to improve our services and client satisfaction",
+    "filename": "vendor_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "other/vendor_satisfaction_survey_template_2.yaml"
+  },
+  {
+    "id": 163,
+    "title": "360 degree feedback form",
+    "category": "performance_review_surveys",
+    "description": "A comprehensive feedback form designed for peer, direct report, and manager reviews to assess an individual's performance and identify development areas.",
+    "filename": "360_degree_feedback_form_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "performance_review_surveys/360_degree_feedback_form_template.yaml"
+  },
+  {
+    "id": 164,
+    "title": "Employee motivation survey",
+    "category": "performance_review_surveys",
+    "description": "Gathering feedback to understand and improve employee motivation and overall work experience.",
+    "filename": "employee_motivation_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "performance_review_surveys/employee_motivation_survey_template.yaml"
+  },
+  {
+    "id": 165,
+    "title": "Employee performance survey",
+    "category": "performance_review_surveys",
+    "description": "Gathering feedback on employee performance, satisfaction, and development.",
+    "filename": "employee_performance_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "performance_review_surveys/employee_performance_survey_template.yaml"
+  },
+  {
+    "id": 166,
+    "title": "Employee Performance Survey",
+    "category": "performance_review_surveys",
+    "description": "Gathering feedback on employee performance, satisfaction, and development.",
+    "filename": "employee_performance_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "performance_review_surveys/employee_performance_survey_template_2.yaml"
+  },
+  {
+    "id": 167,
+    "title": "Performance Appraisal Survey",
+    "category": "performance_review_surveys",
+    "description": "Collect feedback to improve the performance appraisal process and its effectiveness",
+    "filename": "performance_appraisal_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "performance_review_surveys/performance_appraisal_survey_template_2.yaml"
+  },
+  {
+    "id": 168,
+    "title": "Performance management survey",
+    "category": "performance_review_surveys",
+    "description": "Gathering feedback on the current performance management process and tools to identify areas for improvement.",
+    "filename": "performance_management_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "performance_review_surveys/performance_management_survey_template.yaml"
+  },
+  {
+    "id": 169,
+    "title": "Performance Management Survey",
+    "category": "performance_review_surveys",
+    "description": "Gathering feedback on the current performance management process and tools to identify areas for improvement",
+    "filename": "performance_management_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "performance_review_surveys/performance_management_survey_template_2.yaml"
+  },
+  {
+    "id": 170,
+    "title": "Self evaluation form",
+    "category": "performance_review_surveys",
+    "description": "A self-assessment tool for performance review and development.",
+    "filename": "self_evaluation_form_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "performance_review_surveys/self_evaluation_form_template.yaml"
+  },
+  {
+    "id": 171,
+    "title": "Self Evaluation Form",
+    "category": "performance_review_surveys",
+    "description": "Comprehensive self-assessment tool for performance review, goal setting, and professional development planning.",
+    "filename": "self_evaluation_form_template_2.yaml",
+    "language": "en",
+    "question_count": 16,
+    "file_path": "performance_review_surveys/self_evaluation_form_template_2.yaml"
+  },
+  {
+    "id": 172,
+    "title": "Art submission form",
+    "category": "school_surveys",
+    "description": "Generate a Art submission form survey for the \"School surveys\" category. Use the template name: \"Art submission form template\".",
+    "filename": "127_school_surveys_art_submission_form_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "school_surveys/127_school_surveys_art_submission_form_result.yaml"
+  },
+  {
+    "id": 173,
+    "title": "Post-graduation career outcome survey",
+    "category": "school_surveys",
+    "description": "Generate a Post-graduation career outcome survey survey for the \"School surveys\" category. Use the template name: \"Post-graduation career outcome survey template\".",
+    "filename": "128_school_surveys_post_graduation_career_outcome_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "school_surveys/128_school_surveys_post_graduation_career_outcome_survey_result.yaml"
+  },
+  {
+    "id": 174,
+    "title": "Student demographics survey",
+    "category": "school_surveys",
+    "description": "Generate a Student demographics survey survey for the \"School surveys\" category. Use the template name: \"Student demographics survey template\".",
+    "filename": "129_school_surveys_student_demographics_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "school_surveys/129_school_surveys_student_demographics_survey_result.yaml"
+  },
+  {
+    "id": 175,
+    "title": "Student mental health check-in survey",
+    "category": "school_surveys",
+    "description": "Generate a Student mental health check-in survey survey for the \"School surveys\" category. Use the template name: \"Student mental health check-in survey template\".",
+    "filename": "130_school_surveys_student_mental_health_check_in_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "school_surveys/130_school_surveys_student_mental_health_check_in_survey_result.yaml"
+  },
+  {
+    "id": 176,
+    "title": "School climate survey",
+    "category": "school_surveys",
+    "description": "Generate a School climate survey survey for the \"School surveys\" category. Use the template name: \"School climate survey template\".",
+    "filename": "132_school_surveys_school_climate_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "school_surveys/132_school_surveys_school_climate_survey_result.yaml"
+  },
+  {
+    "id": 177,
+    "title": "Art Submission Form Feedback Survey",
+    "category": "school_surveys",
+    "description": "Feedback on the school's art submission process",
+    "filename": "art_submission_form_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "school_surveys/art_submission_form_20_questions.yaml"
+  },
+  {
+    "id": 178,
+    "title": "Course feedback survey",
+    "category": "school_surveys",
+    "description": "Gathering feedback on the course content and overall experience.",
+    "filename": "course_feedback_survey_template.yaml",
+    "language": "en",
+    "question_count": 8,
+    "file_path": "school_surveys/course_feedback_survey_template.yaml"
+  },
+  {
+    "id": 179,
+    "title": "Course Feedback Survey",
+    "category": "school_surveys",
+    "description": "Gathering comprehensive feedback on the recent course event to improve future offerings and learning experiences.",
+    "filename": "course_feedback_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "school_surveys/course_feedback_survey_template_2.yaml"
+  },
+  {
+    "id": 180,
+    "title": "Post-graduation career outcome survey",
+    "category": "school_surveys",
+    "description": "Gathering insights on graduates' career paths and experiences to inform future academic programs and student support.",
+    "filename": "post_graduation_career_outcome_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "school_surveys/post_graduation_career_outcome_survey_template.yaml"
+  },
+  {
+    "id": 181,
+    "title": "Post-Graduation Career Outcome Survey",
+    "category": "school_surveys",
+    "description": "Gathering insights on graduates' career paths and experiences to inform future academic programs and student support.",
+    "filename": "post_graduation_career_outcome_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "school_surveys/post_graduation_career_outcome_survey_template_2.yaml"
+  },
+  {
+    "id": 182,
+    "title": "School Climate Survey",
+    "category": "school_surveys",
+    "description": "Comprehensive survey gathering insights on the school environment from students, staff, and parents to improve educational outcomes.",
+    "filename": "school_climate_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "school_surveys/school_climate_survey_template_2.yaml"
+  },
+  {
+    "id": 183,
+    "title": "Student demographics survey",
+    "category": "school_surveys",
+    "description": "A survey to gather essential demographic information from students to better understand our student body.",
+    "filename": "student_demographics_survey_template.yaml",
+    "language": "en",
+    "question_count": 8,
+    "file_path": "school_surveys/student_demographics_survey_template.yaml"
+  },
+  {
+    "id": 184,
+    "title": "Student Demographics Survey",
+    "category": "school_surveys",
+    "description": "A survey to gather essential demographic information from students to better understand our student body",
+    "filename": "student_demographics_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "school_surveys/student_demographics_survey_template_2.yaml"
+  },
+  {
+    "id": 185,
+    "title": "Student mental health check-in survey",
+    "category": "school_surveys",
+    "description": "A brief check-in for students to share their current mental well-being and identify areas for school support.",
+    "filename": "student_mental_health_check_in_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "school_surveys/student_mental_health_check_in_survey_template.yaml"
+  },
+  {
+    "id": 186,
+    "title": "Student Mental Health Check-In Survey",
+    "category": "school_surveys",
+    "description": "A brief check-in for students to share their current mental well-being and identify areas for school support",
+    "filename": "student_mental_health_check_in_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "school_surveys/student_mental_health_check_in_survey_template_2.yaml"
+  },
+  {
+    "id": 187,
+    "title": "Student Satisfaction Survey",
+    "category": "school_surveys",
+    "description": "Gather feedback to understand student satisfaction with various aspects of their academic experience and identify areas for improvement",
+    "filename": "student_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "school_surveys/student_satisfaction_survey_template_2.yaml"
+  },
+  {
+    "id": 188,
+    "title": "Commuting Survey",
+    "category": "social_surveys",
+    "description": "A social survey to understand people's daily commuting habits and experiences.",
+    "filename": "commuting_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "social_surveys/commuting_survey_20_questions.yaml"
+  },
+  {
+    "id": 189,
+    "title": "Commuting survey",
+    "category": "social_surveys",
+    "description": "A social survey to understand people's daily commuting habits and experiences.",
+    "filename": "commuting_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "social_surveys/commuting_survey_template.yaml"
+  },
+  {
+    "id": 190,
+    "title": "Corporate social responsibility (CSR) survey",
+    "category": "social_surveys",
+    "description": "A survey to gather feedback on your experience with the Corporate Social Responsibility (CSR) survey process.",
+    "filename": "corporate_social_responsibility_csr_survey_20_questions.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "social_surveys/corporate_social_responsibility_csr_survey_20_questions.yaml"
+  },
+  {
+    "id": 191,
+    "title": "Demographic Survey Questionnaire",
+    "category": "social_surveys",
+    "description": "A comprehensive survey to collect detailed demographic information for program planning, reporting, and audience analysis.",
+    "filename": "demographic_survey_questionnaire_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "social_surveys/demographic_survey_questionnaire_template_2.yaml"
+  },
+  {
+    "id": 192,
+    "title": "Happiness survey",
+    "category": "social_surveys",
+    "description": "A brief survey to understand general well-being and factors contributing to happiness from a social perspective.",
+    "filename": "happiness_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "social_surveys/happiness_survey_template.yaml"
+  },
+  {
+    "id": 193,
+    "title": "Happiness Survey",
+    "category": "social_surveys",
+    "description": "Understand general well-being and satisfaction, and factors contributing to it",
+    "filename": "happiness_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 18,
+    "file_path": "social_surveys/happiness_survey_template_2.yaml"
+  },
+  {
+    "id": 194,
+    "title": "Online community needs assessment survey",
+    "category": "social_surveys",
+    "description": "Assessing the needs and engagement of our online community to enhance its value and services.",
+    "filename": "online_community_needs_assessment_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "social_surveys/online_community_needs_assessment_survey_template.yaml"
+  },
+  {
+    "id": 195,
+    "title": "Online Community Needs Assessment Survey",
+    "category": "social_surveys",
+    "description": "Gathering insights to improve our online community experience and support our members",
+    "filename": "online_community_needs_assessment_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "social_surveys/online_community_needs_assessment_survey_template_2.yaml"
+  },
+  {
+    "id": 196,
+    "title": "Social media survey",
+    "category": "social_surveys",
+    "description": "A survey to understand user habits, satisfaction, and perceptions of social media platforms.",
+    "filename": "social_media_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "social_surveys/social_media_survey_template.yaml"
+  },
+  {
+    "id": 197,
+    "title": "Social Media Survey",
+    "category": "social_surveys",
+    "description": "A comprehensive survey to understand user habits, satisfaction, and perceptions of social media platforms.",
+    "filename": "social_media_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "social_surveys/social_media_survey_template_2.yaml"
+  },
+  {
+    "id": 198,
+    "title": "Work life balance survey",
+    "category": "social_surveys",
+    "description": "Understanding current perceptions and experiences regarding work-life balance within the organization.",
+    "filename": "work_life_balance_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "social_surveys/work_life_balance_survey_template.yaml"
+  },
+  {
+    "id": 199,
+    "title": "Work-Life Balance Survey",
+    "category": "social_surveys",
+    "description": "Understanding current perceptions and experiences regarding work-life balance within the organization.",
+    "filename": "work_life_balance_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "social_surveys/work_life_balance_survey_template_2.yaml"
+  },
+  {
+    "id": 200,
+    "title": "Software customer satisfaction survey",
+    "category": "technology_surveys",
+    "description": "Generate a Software customer satisfaction survey survey for the \"Technology surveys\" category. Use the template name: \"Software customer satisfaction survey template\".",
+    "filename": "144_technology_surveys_software_customer_satisfaction_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "technology_surveys/144_technology_surveys_software_customer_satisfaction_survey_result.yaml"
+  },
+  {
+    "id": 201,
+    "title": "Technology survey",
+    "category": "technology_surveys",
+    "description": "Generate a Technology survey survey for the \"Technology surveys\" category. Use the template name: \"Technology survey template\".",
+    "filename": "146_technology_surveys_technology_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "technology_surveys/146_technology_surveys_technology_survey_result.yaml"
+  },
+  {
+    "id": 202,
+    "title": "Software development request form",
+    "category": "technology_surveys",
+    "description": "Generate a Software development request form survey for the \"Technology surveys\" category. Use the template name: \"Software development request form template\".",
+    "filename": "148_technology_surveys_software_development_request_form_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "technology_surveys/148_technology_surveys_software_development_request_form_result.yaml"
+  },
+  {
+    "id": 203,
+    "title": "Media usage survey",
+    "category": "technology_surveys",
+    "description": "Generate a Media usage survey survey for the \"Technology surveys\" category. Use the template name: \"Media usage survey template\".",
+    "filename": "149_technology_surveys_media_usage_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "technology_surveys/149_technology_surveys_media_usage_survey_result.yaml"
+  },
+  {
+    "id": 204,
+    "title": "Media usage survey",
+    "category": "technology_surveys",
+    "description": "A survey to understand current digital media consumption habits and preferences.",
+    "filename": "media_usage_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "technology_surveys/media_usage_survey_template.yaml"
+  },
+  {
+    "id": 205,
+    "title": "Media Usage Survey",
+    "category": "technology_surveys",
+    "description": "A comprehensive survey to understand current digital media consumption habits and preferences",
+    "filename": "media_usage_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "technology_surveys/media_usage_survey_template_2.yaml"
+  },
+  {
+    "id": 206,
+    "title": "Phone survey",
+    "category": "technology_surveys",
+    "description": "A quick survey to gather insights on phone usage and satisfaction with current mobile technology.",
+    "filename": "phone_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "technology_surveys/phone_survey_template.yaml"
+  },
+  {
+    "id": 207,
+    "title": "Phone Survey",
+    "category": "technology_surveys",
+    "description": "A comprehensive survey to gather insights on phone usage and satisfaction with current mobile technology",
+    "filename": "phone_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 21,
+    "file_path": "technology_surveys/phone_survey_template_2.yaml"
+  },
+  {
+    "id": 208,
+    "title": "Software Development Request Form",
+    "category": "technology_surveys",
+    "description": "Gathering comprehensive feedback on the software development request process and user experience.",
+    "filename": "software_development_request_form_template_2.yaml",
+    "language": "en",
+    "question_count": 17,
+    "file_path": "technology_surveys/software_development_request_form_template_2.yaml"
+  },
+  {
+    "id": 209,
+    "title": "System usability survey",
+    "category": "technology_surveys",
+    "description": "Understand user experience and identify areas for improvement in the system.",
+    "filename": "system_usability_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "technology_surveys/system_usability_survey_template.yaml"
+  },
+  {
+    "id": 210,
+    "title": "System Usability Survey",
+    "category": "technology_surveys",
+    "description": "Understand user experience and identify areas for improvement in the system",
+    "filename": "system_usability_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "technology_surveys/system_usability_survey_template_2.yaml"
+  },
+  {
+    "id": 211,
+    "title": "SaaS onboarding survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "Generate a SaaS onboarding survey survey for the \"Training and onboarding surveys\" category. Use the template name: \"SaaS onboarding survey template\".",
+    "filename": "152_training_and_onboarding_surveys_saas_onboarding_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "training_and_onboarding_surveys/152_training_and_onboarding_surveys_saas_onboarding_survey_result.yaml"
+  },
+  {
+    "id": 212,
+    "title": "Training needs assessment survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "Generate a Training needs assessment survey survey for the \"Training and onboarding surveys\" category. Use the template name: \"Training needs assessment survey template\".",
+    "filename": "153_training_and_onboarding_surveys_training_needs_assessment_survey_result.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "training_and_onboarding_surveys/153_training_and_onboarding_surveys_training_needs_assessment_survey_result.yaml"
+  },
+  {
+    "id": 213,
+    "title": "Online course",
+    "category": "training_and_onboarding_surveys",
+    "description": "Feedback on the Online Course to improve future training programs.",
+    "filename": "online_course_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "training_and_onboarding_surveys/online_course_template.yaml"
+  },
+  {
+    "id": 214,
+    "title": "Product onboarding form",
+    "category": "training_and_onboarding_surveys",
+    "description": "A survey to gather feedback on the product onboarding experience and training process.",
+    "filename": "product_onboarding_form_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "training_and_onboarding_surveys/product_onboarding_form_template.yaml"
+  },
+  {
+    "id": 215,
+    "title": "Product Onboarding Form",
+    "category": "training_and_onboarding_surveys",
+    "description": "A survey to gather feedback on the product onboarding experience and training process",
+    "filename": "product_onboarding_form_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "training_and_onboarding_surveys/product_onboarding_form_template_2.yaml"
+  },
+  {
+    "id": 216,
+    "title": "SaaS onboarding survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "A survey to gather feedback on your recent SaaS onboarding experience and training.",
+    "filename": "saas_onboarding_survey_template.yaml",
+    "language": "en",
+    "question_count": 6,
+    "file_path": "training_and_onboarding_surveys/saas_onboarding_survey_template.yaml"
+  },
+  {
+    "id": 217,
+    "title": "SaaS Onboarding Survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "A comprehensive survey to gather detailed feedback on your recent SaaS onboarding experience and training process.",
+    "filename": "saas_onboarding_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 16,
+    "file_path": "training_and_onboarding_surveys/saas_onboarding_survey_template_2.yaml"
+  },
+  {
+    "id": 218,
+    "title": "Staff induction form",
+    "category": "training_and_onboarding_surveys",
+    "description": "Feedback on your induction and initial experience within the organization.",
+    "filename": "staff_induction_form_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "training_and_onboarding_surveys/staff_induction_form_template.yaml"
+  },
+  {
+    "id": 219,
+    "title": "Staff Induction Form",
+    "category": "training_and_onboarding_surveys",
+    "description": "Feedback on your induction and initial experience within the organization",
+    "filename": "staff_induction_form_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "training_and_onboarding_surveys/staff_induction_form_template_2.yaml"
+  },
+  {
+    "id": 220,
+    "title": "Training evaluation survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "Collect feedback on your recent training experience to help us improve future programs and content.",
+    "filename": "training_evaluation_survey_template.yaml",
+    "language": "en",
+    "question_count": 7,
+    "file_path": "training_and_onboarding_surveys/training_evaluation_survey_template.yaml"
+  },
+  {
+    "id": 221,
+    "title": "Training Evaluation Survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "Help us improve future training programs by providing your valuable feedback",
+    "filename": "training_evaluation_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 19,
+    "file_path": "training_and_onboarding_surveys/training_evaluation_survey_template_2.yaml"
+  },
+  {
+    "id": 222,
+    "title": "Training needs assessment survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "To identify current training needs, preferences, and key areas for skill development and improvement.",
+    "filename": "training_needs_assessment_survey_template.yaml",
+    "language": "en",
+    "question_count": 5,
+    "file_path": "training_and_onboarding_surveys/training_needs_assessment_survey_template.yaml"
+  },
+  {
+    "id": 223,
+    "title": "Training Satisfaction Survey",
+    "category": "training_and_onboarding_surveys",
+    "description": "Gather feedback on recent training sessions to improve future programs",
+    "filename": "training_satisfaction_survey_template_2.yaml",
+    "language": "en",
+    "question_count": 20,
+    "file_path": "training_and_onboarding_surveys/training_satisfaction_survey_template_2.yaml"
+  }
+]

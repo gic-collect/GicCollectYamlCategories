@@ -1,0 +1,113 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Personality questionnaire
+    pages:
+    - id: 1
+      name: how_would_you_describe_your_general_approach_to_new_experiences
+      label: How would you describe your general approach to new experiences?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: eager_and_adventurous
+        label: Eager and adventurous
+      - name: cautious_and_analytical
+        label: Cautious and analytical
+      - name: open_but_observant
+        label: Open but observant
+      - name: prefer_familiar_situations
+        label: Prefer familiar situations
+    - id: 2
+      name: which_of_these_environments_makes_you_feel_most_energized_select_all_that_apply
+      label: Which of these environments makes you feel most energized? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: busy_social_events
+        label: Busy social events
+      - name: quiet_reflection
+        label: Quiet reflection
+      - name: collaborative_teams
+        label: Collaborative teams
+      - name: structured_tasks
+        label: Structured tasks
+      - name: exploring_new_ideas
+        label: Exploring new ideas
+      - name: creative_solitude
+        label: Creative solitude
+    - id: 3
+      name: how_do_you_typically_handle_unexpected_challenges
+      label: How do you typically handle unexpected challenges?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: adapt_quickly
+        label: Adapt quickly
+      - name: plan_meticulously
+        label: Plan meticulously
+      - name: seek_advice
+        label: Seek advice
+      - name: stay_calm_and_assess
+        label: Stay calm and assess
+      - name: delegate
+        label: Delegate
+    - id: 4
+      name: what_motivates_you_the_most_in_your_daily_life_select_all_that_apply
+      label: What motivates you the most in your daily life? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: achieving_personal_goals
+        label: Achieving personal goals
+      - name: helping_others
+        label: Helping others
+      - name: learning_new_things
+        label: Learning new things
+      - name: stability_and_security
+        label: Stability and security
+      - name: creative_expression
+        label: Creative expression
+      - name: recognition
+        label: Recognition
+    - id: 5
+      name: what_is_one_quality_you_value_most_in_others
+      label: What is one quality you value most in others?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_do_you_prefer_to_spend_your_free_time
+      label: How do you prefer to spend your free time?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: socializing_with_friends
+        label: Socializing with friends
+      - name: pursuing_personal_hobbies
+        label: Pursuing personal hobbies
+      - name: engaging_in_quiet_relaxation
+        label: Engaging in quiet relaxation
+      - name: learning_a_new_skill
+        label: Learning a new skill
+      - name: exercising
+        label: Exercising
+    - id: 7
+      name: is_there_anything_else_you_would_like_to_share_about_your_personality_or_how_you_perceive_yourself
+      label: Is there anything else you would like to share about your personality
+        or how you perceive yourself?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

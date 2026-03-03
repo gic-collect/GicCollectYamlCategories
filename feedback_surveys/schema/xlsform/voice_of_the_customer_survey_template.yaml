@@ -1,0 +1,120 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Voice of the customer survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_experience_participating_in_our_voice_of_the_customer_initiatives
+      label: How satisfied are you with your experience participating in our Voice
+        of the Customer initiatives?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_typically_engage_with_voice_of_the_customer_activities_eg_surveys_feedback_forms
+      label: How often do you typically engage with Voice of the Customer activities
+        (e.g., surveys, feedback forms)?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: quarterly
+        label: Quarterly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describes_your_perception_of_our_voice_of_the_customer_feedback_process_select_all_that_apply
+      label: Which of the following best describes your perception of our Voice of
+        the Customer feedback process? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: easy_to_use
+        label: Easy to use
+      - name: fast
+        label: Fast
+      - name: reliable
+        label: Reliable
+      - name: actionable
+        label: Actionable
+      - name: transparent
+        label: Transparent
+      - name: confusing
+        label: Confusing
+      - name: timeconsuming
+        label: Time-consuming
+    - id: 4
+      name: what_motivated_you_to_provide_feedback_today
+      label: What motivated you to provide feedback today?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: positive_experience
+        label: Positive experience
+      - name: negative_experience
+        label: Negative experience
+      - name: specific_issue
+        label: Specific issue
+      - name: general_improvement
+        label: General improvement
+      - name: requested_feedback
+        label: Requested feedback
+    - id: 5
+      name: do_you_feel_your_feedback_is_heard_and_acted_upon_effectively
+      label: Do you feel your feedback is heard and acted upon effectively?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always
+        label: Always
+      - name: often
+        label: Often
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 6
+      name: what_improvements_or_changes_would_you_suggest_for_our_voice_of_the_customer_feedback_mechanisms
+      label: What improvements or changes would you suggest for our Voice of the Customer
+        feedback mechanisms?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: any_additional_comments_or_suggestions_related_to_our_voice_of_the_customer_program
+      label: Any additional comments or suggestions related to our Voice of the Customer
+        program?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

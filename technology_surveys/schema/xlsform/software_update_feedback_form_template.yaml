@@ -1,0 +1,94 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Software update feedback form
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_recent_software_update
+      label: How satisfied are you with the recent software update?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_of_the_following_improvements_did_you_notice_select_all_that_apply
+      label: Which of the following improvements did you notice? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: improved_performance
+        label: Improved performance
+      - name: new_features
+        label: New features
+      - name: bug_fixes
+        label: Bug fixes
+      - name: enhanced_security
+        label: Enhanced security
+      - name: better_stability
+        label: Better stability
+    - id: 3
+      name: did_you_encounter_any_issues_or_problems_after_the_update_select_all_that_apply
+      label: Did you encounter any issues or problems after the update? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: performance_slowdowns
+        label: Performance slowdowns
+      - name: software_bugs
+        label: Software bugs
+      - name: ui_glitches
+        label: UI glitches
+      - name: compatibility_issues
+        label: Compatibility issues
+      - name: installation_problems
+        label: Installation problems
+    - id: 4
+      name: how_easy_was_it_to_install_and_get_started_with_the_new_update
+      label: How easy was it to install and get started with the new update?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_easy
+        label: Very easy
+      - name: easy
+        label: Easy
+      - name: neutral
+        label: Neutral
+      - name: difficult
+        label: Difficult
+      - name: very_difficult
+        label: Very difficult
+    - id: 5
+      name: what_was_your_favorite_new_feature_or_improvement_in_this_update
+      label: What was your favorite new feature or improvement in this update?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: what_would_you_improve_or_change_in_future_software_updates
+      label: What would you improve or change in future software updates?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,92 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Employee orientation survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_overall_employee_orientation_program
+      label: How satisfied were you with the overall employee orientation program?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_usefulness_of_the_information_provided_during_orientation
+      label: How would you rate the usefulness of the information provided during
+        orientation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: which_of_the_following_topics_were_covered_effectively_during_orientation_select_all_that_apply
+      label: Which of the following topics were covered effectively during orientation?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: company_culture
+        label: Company culture
+      - name: job_responsibilities
+        label: Job responsibilities
+      - name: benefits_hr
+        label: Benefits & HR
+      - name: it_setup
+        label: IT setup
+      - name: safety_procedures
+        label: Safety procedures
+      - name: team_introductions
+        label: Team introductions
+    - id: 4
+      name: do_you_feel_adequately_supported_as_a_new_employee_after_orientation
+      label: Do you feel adequately supported as a new employee after orientation?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: somewhat
+        label: Somewhat
+      - name: not_yet
+        label: Not yet
+    - id: 5
+      name: what_one_thing_could_significantly_improve_the_employee_orientation_experience
+      label: What one thing could significantly improve the employee orientation experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_your_onboarding
+      label: Do you have any additional comments or suggestions regarding your onboarding?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

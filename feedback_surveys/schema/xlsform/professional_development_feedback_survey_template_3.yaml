@@ -1,0 +1,117 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Professional development feedback survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_professional_development_opportunities_provided
+      label: How satisfied are you with the professional development opportunities
+        provided?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_participate_in_professional_development_activities
+      label: How often do you participate in professional development activities?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: regularly
+        label: Regularly
+      - name: often
+        label: Often
+      - name: occasionally
+        label: Occasionally
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_benefits_have_you_gained_from_professional_development_select_all_that_apply
+      label: Which of the following benefits have you gained from professional development?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: improved_skills
+        label: Improved skills
+      - name: enhanced_knowledge
+        label: Enhanced knowledge
+      - name: career_advancement
+        label: Career advancement
+      - name: networking
+        label: Networking
+      - name: increased_motivation
+        label: Increased motivation
+      - name: no_significant_benefit
+        label: No significant benefit
+    - id: 4
+      name: what_formats_for_professional_development_do_you_prefer_select_all_that_apply
+      label: What formats for professional development do you prefer? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: workshops
+        label: Workshops
+      - name: online_courses
+        label: Online courses
+      - name: mentorship
+        label: Mentorship
+      - name: conferences
+        label: Conferences
+      - name: selfstudy
+        label: Self-study
+    - id: 5
+      name: what_are_the_main_barriers_preventing_your_participation_in_professional_development_select_all_that_apply
+      label: What are the main barriers preventing your participation in professional
+        development? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: lack_of_time
+        label: Lack of time
+      - name: cost
+        label: Cost
+      - name: relevance
+        label: Relevance
+      - name: awareness
+        label: Awareness
+      - name: management_support
+        label: Management support
+    - id: 6
+      name: what_specific_improvements_would_you_suggest_for_future_professional_development_programs
+      label: What specific improvements would you suggest for future professional
+        development programs?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_professional_development
+      label: Do you have any additional comments or suggestions regarding professional
+        development?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

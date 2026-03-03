@@ -1,0 +1,73 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Focus group survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_the_concept_presented
+      label: Overall, how satisfied are you with the concept presented?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_of_the_concept_most_influenced_your_opinion
+      label: Which aspects of the concept most influenced your opinion?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: overall_idea
+        label: Overall idea
+      - name: potential_benefits
+        label: Potential benefits
+      - name: ease_of_use
+        label: Ease of use
+      - name: design_aesthetics
+        label: Design aesthetics
+      - name: innovativeness
+        label: Innovativeness
+      - name: perceived_value
+        label: Perceived value
+    - id: 3
+      name: would_you_recommend_this_concept_to_others
+      label: Would you recommend this concept to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: maybe
+        label: Maybe
+    - id: 4
+      name: what_would_you_improve_or_change_about_the_concept
+      label: What would you improve or change about the concept?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

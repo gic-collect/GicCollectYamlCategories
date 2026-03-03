@@ -1,0 +1,107 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Online course
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_overall_online_course_experience
+      label: How satisfied were you with the overall Online Course experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_topics_or_modules_did_you_find_most_valuable_select_all_that_apply
+      label: Which topics or modules did you find most valuable? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: module_1_introduction
+        label: '{''Module 1'': ''Introduction''}'
+      - name: module_2_core_concepts
+        label: '{''Module 2'': ''Core Concepts''}'
+      - name: module_3_advanced_practice
+        label: '{''Module 3'': ''Advanced Practice''}'
+      - name: practical_exercises
+        label: Practical Exercises
+      - name: qa_sessions
+        label: Q&A Sessions
+      - name: supplementary_materials
+        label: Supplementary Materials
+    - id: 3
+      name: was_the_online_course_platform_easy_to_navigate_and_use
+      label: Was the online course platform easy to navigate and use?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: did_the_course_content_meet_your_learning_objectives
+      label: Did the course content meet your learning objectives?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: completely
+        label: Completely
+      - name: mostly
+        label: Mostly
+      - name: partially
+        label: Partially
+      - name: not_at_all
+        label: Not at all
+    - id: 5
+      name: how_likely_are_you_to_recommend_this_online_course_to_a_colleague_or_friend
+      label: How likely are you to recommend this online course to a colleague or
+        friend?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_aspects_of_the_online_course_could_be_improved
+      label: What aspects of the online course could be improved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,108 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Candidate experience survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_your_candidate_experience
+      label: Overall, how satisfied were you with your candidate experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_clear_was_the_job_description_and_requirements_for_the_role
+      label: How clear was the job description and requirements for the role?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_clear
+        label: Very clear
+      - name: clear
+        label: Clear
+      - name: somewhat_clear
+        label: Somewhat clear
+      - name: unclear
+        label: Unclear
+      - name: very_unclear
+        label: Very unclear
+    - id: 3
+      name: how_would_you_rate_the_communication_you_received_throughout_the_process
+      label: How would you rate the communication you received throughout the process?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 4
+      name: which_aspects_of_the_interview_process_were_effective_select_all_that_apply
+      label: Which aspects of the interview process were effective? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: timeliness
+        label: Timeliness
+      - name: interviewer_professionalism
+        label: Interviewer professionalism
+      - name: question_relevance
+        label: Question relevance
+      - name: clear_next_steps
+        label: Clear next steps
+      - name: interview_structure
+        label: Interview structure
+    - id: 5
+      name: based_on_your_experience_would_you_recommend_applying_to_our_company
+      label: Based on your experience, would you recommend applying to our company?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: definitely_yes
+        label: Definitely Yes
+      - name: likely_yes
+        label: Likely Yes
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: definitely_no
+        label: Definitely No
+    - id: 6
+      name: what_specific_changes_would_improve_our_candidate_experience
+      label: What specific changes would improve our candidate experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_other_feedback_or_comments
+      label: Do you have any other feedback or comments?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

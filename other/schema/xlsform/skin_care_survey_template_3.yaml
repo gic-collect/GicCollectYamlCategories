@@ -1,0 +1,122 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Skin care survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_current_skin_care_routine
+      label: How satisfied are you with your current skin care routine?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_perform_a_dedicated_skin_care_routine
+      label: How often do you perform a dedicated skin care routine?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily_morning_night
+        label: Daily (morning & night)
+      - name: daily_once_a_day
+        label: Daily (once a day)
+      - name: a_few_times_a_week
+        label: A few times a week
+      - name: weekly
+        label: Weekly
+      - name: rarelynever
+        label: Rarely/Never
+    - id: 3
+      name: which_types_of_skin_care_products_do_you_regularly_use_select_all_that_apply
+      label: Which types of skin care products do you regularly use? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: cleanser
+        label: Cleanser
+      - name: toner
+        label: Toner
+      - name: serum
+        label: Serum
+      - name: moisturizer
+        label: Moisturizer
+      - name: sunscreen
+        label: Sunscreen
+      - name: exfoliant
+        label: Exfoliant
+      - name: face_mask
+        label: Face Mask
+    - id: 4
+      name: what_are_your_primary_skin_concerns_select_all_that_apply
+      label: What are your primary skin concerns? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: acnebreakouts
+        label: Acne/Breakouts
+      - name: dryness
+        label: Dryness
+      - name: oiliness
+        label: Oiliness
+      - name: sensitivity
+        label: Sensitivity
+      - name: antiaging
+        label: Anti-aging
+      - name: uneven_tone
+        label: Uneven tone
+      - name: redness
+        label: Redness
+    - id: 5
+      name: where_do_you_typically_get_your_skin_care_information_or_product_recommendations_select_all_that_apply
+      label: Where do you typically get your skin care information or product recommendations?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: dermatologist
+        label: Dermatologist
+      - name: social_media
+        label: Social media
+      - name: friendsfamily
+        label: Friends/Family
+      - name: beauty_blogs
+        label: Beauty blogs
+      - name: retail_staff
+        label: Retail staff
+      - name: magazinestv
+        label: Magazines/TV
+    - id: 6
+      name: what_is_one_thing_you_would_like_to_improve_about_your_skin_or_skin_care_routine
+      label: What is one thing you would like to improve about your skin or skin care
+        routine?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_other_comments_or_suggestions_regarding_skin_care
+      label: Do you have any other comments or suggestions regarding skin care?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

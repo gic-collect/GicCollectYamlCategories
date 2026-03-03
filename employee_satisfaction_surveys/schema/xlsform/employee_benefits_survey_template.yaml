@@ -1,0 +1,96 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Employee benefits survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_the_current_employee_benefits_package
+      label: Overall, how satisfied are you with the current employee benefits package?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_of_the_following_benefits_are_most_important_to_you_select_all_that_apply
+      label: Which of the following benefits are most important to you? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: health_insurance
+        label: Health insurance
+      - name: retirement_plan
+        label: Retirement plan
+      - name: paid_time_off
+        label: Paid time off
+      - name: flexible_work_options
+        label: Flexible work options
+      - name: professional_development
+        label: Professional development
+      - name: wellness_programs
+        label: Wellness programs
+      - name: childcare_support
+        label: Childcare support
+    - id: 3
+      name: how_well_do_you_understand_the_benefits_available_to_you
+      label: How well do you understand the benefits available to you?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_well
+        label: Very well
+      - name: well
+        label: Well
+      - name: somewhat
+        label: Somewhat
+      - name: not_well
+        label: Not well
+      - name: not_at_all
+        label: Not at all
+    - id: 4
+      name: do_you_feel_the_current_paid_time_off_pto_policy_meets_your_needs_for_worklife_balance
+      label: Do you feel the current paid time off (PTO) policy meets your needs for
+        work-life balance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: sometimes
+        label: Sometimes
+      - name: unsure
+        label: Unsure
+    - id: 5
+      name: what_additional_benefits_would_you_find_most_valuable
+      label: What additional benefits would you find most valuable?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_other_comments_or_suggestions_regarding_employee_benefits
+      label: Do you have any other comments or suggestions regarding employee benefits?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

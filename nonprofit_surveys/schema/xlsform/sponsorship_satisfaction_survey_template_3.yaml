@@ -1,0 +1,111 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Sponsorship satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_experience_as_a_sponsor_of_our_organization
+      label: Overall, how satisfied are you with your experience as a sponsor of our
+        organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_clarity_and_frequency_of_communication_from_our_organization
+      label: How would you rate the clarity and frequency of communication from our
+        organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: which_of_the_following_benefits_are_most_important_to_your_organization_when_sponsoring_select_all_that_apply
+      label: Which of the following benefits are most important to your organization
+        when sponsoring? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: brand_exposure
+        label: Brand exposure
+      - name: community_impact
+        label: Community impact
+      - name: networking_opportunities
+        label: Networking opportunities
+      - name: employee_engagement
+        label: Employee engagement
+      - name: alignment_with_values
+        label: Alignment with values
+    - id: 4
+      name: do_you_feel_your_sponsorship_effectively_supports_your_organizations_goals
+      label: Do you feel your sponsorship effectively supports your organization's
+        goals?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 5
+      name: how_likely_are_you_to_renew_your_sponsorship_with_us_in_the_future
+      label: How likely are you to renew your sponsorship with us in the future?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_specific_improvements_could_enhance_your_sponsorship_experience
+      label: What specific improvements could enhance your sponsorship experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

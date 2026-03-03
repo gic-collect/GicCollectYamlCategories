@@ -1,0 +1,120 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Performance management survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_current_performance_management_process_overall
+      label: How satisfied are you with the current performance management process
+        overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_engage_in_formal_performance_discussions_or_reviews_with_your_managerteam_lead
+      label: How often do you engage in formal performance discussions or reviews
+        with your manager/team lead?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: weekly
+        label: Weekly
+      - name: biweekly
+        label: Bi-weekly
+      - name: monthly
+        label: Monthly
+      - name: quarterly
+        label: Quarterly
+      - name: annually
+        label: Annually
+      - name: rarely
+        label: Rarely
+    - id: 3
+      name: which_of_the_following_best_describes_the_clarity_of_performance_goals_and_expectations
+      label: Which of the following best describes the clarity of performance goals
+        and expectations?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_clear
+        label: Very clear
+      - name: mostly_clear
+        label: Mostly clear
+      - name: moderately_clear
+        label: Moderately clear
+      - name: somewhat_unclear
+        label: Somewhat unclear
+      - name: very_unclear
+        label: Very unclear
+    - id: 4
+      name: what_aspects_of_the_performance_review_process_do_you_find_most_effective_select_all_that_apply
+      label: What aspects of the performance review process do you find most effective?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: goal_setting
+        label: Goal setting
+      - name: feedback_delivery
+        label: Feedback delivery
+      - name: development_planning
+        label: Development planning
+      - name: recognition_of_achievements
+        label: Recognition of achievements
+      - name: twoway_discussion
+        label: Two-way discussion
+      - name: documentation
+        label: Documentation
+    - id: 5
+      name: what_specific_improvements_would_you_suggest_for_our_performance_management_process_or_tools
+      label: What specific improvements would you suggest for our performance management
+        process or tools?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_feel_the_performance_management_process_contributes_to_your_professional_growth_and_development
+      label: Do you feel the performance management process contributes to your professional
+        growth and development?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 7
+      name: please_share_any_additional_comments_or_feedback_regarding_performance_management
+      label: Please share any additional comments or feedback regarding performance
+        management.
+      hint: null
+      type: text
+      required: 'false'
+      options: []

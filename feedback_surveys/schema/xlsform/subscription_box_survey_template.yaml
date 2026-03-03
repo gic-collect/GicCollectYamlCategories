@@ -1,0 +1,89 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Subscription box survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_subscription_box_experience
+      label: How satisfied are you with your overall subscription box experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_long_have_you_been_subscribed_to_this_box
+      label: How long have you been subscribed to this box?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: less_than_3_months
+        label: Less than 3 months
+      - name: 36_months
+        label: 3-6 months
+      - name: 612_months
+        label: 6-12 months
+      - name: 12_years
+        label: 1-2 years
+      - name: more_than_2_years
+        label: More than 2 years
+    - id: 3
+      name: which_of_the_following_best_describe_your_experience_with_the_box_select_all_that_apply
+      label: Which of the following best describe your experience with the box? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: good_product_value
+        label: Good product value
+      - name: exciting_curation
+        label: Exciting curation
+      - name: great_packaging
+        label: Great packaging
+      - name: timely_delivery
+        label: Timely delivery
+      - name: discover_new_brands
+        label: Discover new brands
+      - name: lacking_variety
+        label: Lacking variety
+      - name: not_worth_the_cost
+        label: Not worth the cost
+      - name: slow_delivery
+        label: Slow delivery
+    - id: 4
+      name: what_types_of_products_or_themes_would_you_like_to_see_more_of
+      label: What types of products or themes would you like to see more of?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: what_is_one_thing_you_would_improve_about_your_subscription_box
+      label: What is one thing you would improve about your subscription box?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

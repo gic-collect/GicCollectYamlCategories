@@ -1,0 +1,109 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Demographic survey questionnaire
+    pages:
+    - id: 1
+      name: what_is_your_age_group
+      label: What is your age group?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: under_18
+        label: Under 18
+      - name: '1829'
+        label: 18-29
+      - name: '3044'
+        label: 30-44
+      - name: '4559'
+        label: 45-59
+      - name: '6074'
+        label: 60-74
+      - name: 75_or_older
+        label: 75 or older
+    - id: 2
+      name: what_is_your_gender_identity
+      label: What is your gender identity?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: woman
+        label: Woman
+      - name: man
+        label: Man
+      - name: nonbinary
+        label: Non-binary
+      - name: prefer_not_to_say
+        label: Prefer not to say
+    - id: 3
+      name: what_is_your_highest_level_of_education_completed
+      label: What is your highest level of education completed?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: high_school
+        label: High School
+      - name: some_college
+        label: Some College
+      - name: associates_degree
+        label: Associate's Degree
+      - name: bachelors_degree
+        label: Bachelor's Degree
+      - name: masters_degree
+        label: Master's Degree
+      - name: doctoral_degree
+        label: Doctoral Degree
+    - id: 4
+      name: which_of_the_following_best_describes_your_current_employment_status_select_all_that_apply
+      label: Which of the following best describes your current employment status?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: employed_fulltime
+        label: Employed full-time
+      - name: employed_parttime
+        label: Employed part-time
+      - name: selfemployed
+        label: Self-employed
+      - name: student
+        label: Student
+      - name: unemployed
+        label: Unemployed
+      - name: retired
+        label: Retired
+    - id: 5
+      name: what_is_your_approximate_annual_household_income_range
+      label: What is your approximate annual household income range?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: under_25k
+        label: Under $25K
+      - name: 25k49k
+        label: $25K-$49K
+      - name: 50k74k
+        label: $50K-$74K
+      - name: 75k99k
+        label: $75K-$99K
+      - name: 100k149k
+        label: $100K-$149K
+      - name: 150k
+        label: $150K+
+    - id: 6
+      name: do_you_have_any_additional_demographic_information_youd_like_to_share
+      label: Do you have any additional demographic information you'd like to share?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

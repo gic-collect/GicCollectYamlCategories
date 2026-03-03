@@ -1,0 +1,95 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Event feedback form
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_overall_event_experience
+      label: How satisfied were you with the overall event experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_of_the_event_did_you_find_most_valuable_select_all_that_apply
+      label: Which aspects of the event did you find most valuable? (Select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: keynote_speeches
+        label: Keynote speeches
+      - name: interactive_workshops
+        label: Interactive workshops
+      - name: networking_opportunities
+        label: Networking opportunities
+      - name: panel_discussions
+        label: Panel discussions
+      - name: product_demosexhibits
+        label: Product demos/exhibits
+      - name: social_activities
+        label: Social activities
+    - id: 3
+      name: was_the_event_wellorganized_and_easy_to_navigate
+      label: Was the event well-organized and easy to navigate?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: partially
+        label: Partially
+    - id: 4
+      name: how_likely_are_you_to_recommend_this_event_to_a_colleague_or_friend
+      label: How likely are you to recommend this event to a colleague or friend?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: not_likely
+        label: Not likely
+    - id: 5
+      name: how_would_you_rate_the_event_venue_and_facilities
+      label: How would you rate the event venue and facilities?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 6
+      name: please_share_any_additional_comments_or_suggestions_for_improvement
+      label: Please share any additional comments or suggestions for improvement.
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,102 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Net promoter score (NPS) survey
+    pages:
+    - id: 1
+      name: how_likely_are_you_to_recommend_our_productservice_to_a_friend_or_colleague
+      label: How likely are you to recommend our product/service to a friend or colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: extremely_likely
+        label: Extremely likely
+      - name: very_likely
+        label: Very likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: extremely_unlikely
+        label: Extremely unlikely
+    - id: 2
+      name: what_is_the_primary_reason_for_your_recommendation_likelihood_score
+      label: What is the primary reason for your recommendation likelihood score?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 3
+      name: overall_how_satisfied_are_you_with_our_productservice
+      label: Overall, how satisfied are you with our product/service?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 4
+      name: how_would_you_rate_the_quality_of_our_customer_support
+      label: How would you rate the quality of our customer support?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: not_applicable
+        label: Not applicable
+    - id: 5
+      name: which_of_the_following_features_or_aspects_do_you_value_most_select_all_that_apply
+      label: Which of the following features or aspects do you value most? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: ease_of_use
+        label: Ease of use
+      - name: performance
+        label: Performance
+      - name: feature_set
+        label: Feature set
+      - name: reliability
+        label: Reliability
+      - name: pricevalue
+        label: Price/Value
+      - name: user_interface
+        label: User interface
+    - id: 6
+      name: what_is_one_thing_we_could_do_to_improve_your_experience_with_our_productservice
+      label: What is one thing we could do to improve your experience with our product/service?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

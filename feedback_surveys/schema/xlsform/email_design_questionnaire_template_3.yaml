@@ -1,0 +1,114 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Email design questionnaire
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_overall_design_of_our_emails
+      label: How satisfied are you with the overall design of our emails?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_find_yourself_paying_attention_to_our_email_designs
+      label: How often do you find yourself paying attention to our email designs?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: always
+        label: Always
+      - name: often
+        label: Often
+      - name: sometimes
+        label: Sometimes
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describes_our_email_designs_select_all_that_apply
+      label: Which of the following best describes our email designs? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: visually_appealing
+        label: Visually appealing
+      - name: easy_to_read
+        label: Easy to read
+      - name: clear_calltoaction
+        label: Clear Call-to-action
+      - name: mobilefriendly
+        label: Mobile-friendly
+      - name: engaging
+        label: Engaging
+      - name: too_busy
+        label: Too busy
+    - id: 4
+      name: what_elements_do_you_find_most_important_in_an_emails_design
+      label: What elements do you find most important in an email's design?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: images
+        label: Images
+      - name: headings
+        label: Headings
+      - name: cta_buttons
+        label: CTA buttons
+      - name: layout
+        label: Layout
+      - name: brand_colors
+        label: Brand colors
+      - name: personalization
+        label: Personalization
+    - id: 5
+      name: what_style_of_email_design_do_you_generally_prefer
+      label: What style of email design do you generally prefer?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: minimalist
+        label: Minimalist
+      - name: bold_and_vibrant
+        label: Bold and vibrant
+      - name: classic_and_elegant
+        label: Classic and elegant
+      - name: informationrich
+        label: Information-rich
+      - name: imageheavy
+        label: Image-heavy
+    - id: 6
+      name: what_specific_improvements_would_you_suggest_for_our_email_designs
+      label: What specific improvements would you suggest for our email designs?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_feedback_regarding_our_email_designs
+      label: Do you have any additional comments or feedback regarding our email designs?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

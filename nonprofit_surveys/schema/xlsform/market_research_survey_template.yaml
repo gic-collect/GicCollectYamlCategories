@@ -1,0 +1,80 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Market research survey
+    pages:
+    - id: 1
+      name: how_would_you_describe_your_overall_impression_of_our_organizations_work_in_the_community
+      label: How would you describe your overall impression of our organization's
+        work in the community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_positive
+        label: Very positive
+      - name: positive
+        label: Positive
+      - name: neutral
+        label: Neutral
+      - name: negative
+        label: Negative
+      - name: very_negative
+        label: Very negative
+    - id: 2
+      name: which_aspects_of_our_nonprofits_work_are_most_important_to_you_select_all_that_apply
+      label: Which aspects of our nonprofit's work are most important to you? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: impact_on_community
+        label: Impact on community
+      - name: transparency
+        label: Transparency
+      - name: communication
+        label: Communication
+      - name: specific_programs
+        label: Specific programs
+      - name: volunteer_opportunities
+        label: Volunteer opportunities
+      - name: mission_alignment
+        label: Mission alignment
+    - id: 3
+      name: how_likely_are_you_to_recommend_supporting_our_nonprofit_to_others
+      label: How likely are you to recommend supporting our nonprofit to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 4
+      name: what_specific_improvements_or_changes_would_you_suggest_for_our_organizations_efforts
+      label: What specific improvements or changes would you suggest for our organization's
+        efforts?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_regarding_our_nonprofit
+      label: Do you have any additional comments or feedback regarding our nonprofit?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

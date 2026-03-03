@@ -1,0 +1,79 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Beta product feedback survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_experience_using_the_beta_product
+      label: How satisfied are you with your experience using the beta product?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_features_or_aspects_of_the_product_did_you_use_or_interact_with_select_all_that_apply
+      label: Which features or aspects of the product did you use or interact with?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: core_functionality
+        label: Core functionality
+      - name: user_interfacedesign
+        label: User interface/Design
+      - name: performancespeed
+        label: Performance/Speed
+      - name: integration_with_other_tools
+        label: Integration with other tools
+      - name: helpdocumentation
+        label: Help/Documentation
+      - name: customer_support
+        label: Customer support
+    - id: 3
+      name: how_likely_are_you_to_recommend_this_beta_product_to_a_colleague
+      label: How likely are you to recommend this beta product to a colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: neutral
+        label: Neutral
+      - name: not_very_likely
+        label: Not very likely
+      - name: not_at_all_likely
+        label: Not at all likely
+    - id: 4
+      name: what_is_the_single_most_important_thing_you_would_improve_or_change_in_the_product
+      label: What is the single most important thing you would improve or change in
+        the product?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

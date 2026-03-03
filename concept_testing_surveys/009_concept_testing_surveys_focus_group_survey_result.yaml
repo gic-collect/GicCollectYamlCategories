@@ -1,0 +1,21 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+title: Focus group survey
+description: Generate a Focus group survey survey for the "Concept testing surveys" category. Use the template name: "Focus group survey template".
+questions:
+  - text: Overall, how satisfied are you with focus group survey?
+    type: single
+    options: [Very satisfied, Somewhat satisfied, Neutral, Somewhat dissatisfied, Very dissatisfied]
+  - text: Which of the following did you use? (select all that apply)
+    type: multiple
+    options: [Focus, Group, Survey, Concept]
+  - text: How often do you interact with focus group survey?
+    type: single
+    options: [Daily, Weekly, Monthly, Rarely, Never]
+  - text: What would you improve about it?
+    type: text
+  - text: Any additional comments or suggestions?
+    type: text

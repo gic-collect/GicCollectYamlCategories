@@ -1,0 +1,104 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Training satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_the_training_program
+      label: Overall, how satisfied were you with the training program?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_clarity_and_presentation_of_the_training_content
+      label: How would you rate the clarity and presentation of the training content?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: did_the_training_meet_your_expectations_for_learning_new_skillsknowledge
+      label: Did the training meet your expectations for learning new skills/knowledge?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: fully_met
+        label: Fully met
+      - name: mostly_met
+        label: Mostly met
+      - name: partially_met
+        label: Partially met
+      - name: did_not_meet
+        label: Did not meet
+    - id: 4
+      name: which_aspects_of_the_training_did_you_find_most_valuable_select_all_that_apply
+      label: Which aspects of the training did you find most valuable? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: instructors_expertise
+        label: Instructor's expertise
+      - name: handson_exercises
+        label: Hands-on exercises
+      - name: course_materials
+        label: Course materials
+      - name: peer_discussions
+        label: Peer discussions
+      - name: relevance_to_job
+        label: Relevance to job
+    - id: 5
+      name: do_you_feel_confident_applying_what_you_learned_in_your_role
+      label: Do you feel confident applying what you learned in your role?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_confident
+        label: Very confident
+      - name: moderately_confident
+        label: Moderately confident
+      - name: slightly_confident
+        label: Slightly confident
+      - name: not_confident
+        label: Not confident
+    - id: 6
+      name: what_specific_improvements_could_be_made_to_future_training_sessions
+      label: What specific improvements could be made to future training sessions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

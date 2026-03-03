@@ -1,0 +1,94 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Course evaluation survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_course_overall
+      label: How satisfied were you with the course overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_of_the_course_did_you_find_most_valuable
+      label: Which aspects of the course did you find most valuable?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: lectures
+        label: Lectures
+      - name: practical_exercises
+        label: Practical exercises
+      - name: discussions
+        label: Discussions
+      - name: instructor_interaction
+        label: Instructor interaction
+      - name: course_materials
+        label: Course materials
+      - name: guest_speakers
+        label: Guest speakers
+    - id: 3
+      name: how_well_was_the_course_organized
+      label: How well was the course organized?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_well
+        label: Very well
+      - name: well
+        label: Well
+      - name: moderately
+        label: Moderately
+      - name: not_very_well
+        label: Not very well
+      - name: poorly
+        label: Poorly
+    - id: 4
+      name: how_likely_are_you_to_recommend_this_course_to_others
+      label: How likely are you to recommend this course to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 5
+      name: what_is_one_thing_that_could_improve_this_course
+      label: What is one thing that could improve this course?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback
+      label: Do you have any additional comments or feedback?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

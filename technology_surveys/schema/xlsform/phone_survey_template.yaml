@@ -1,0 +1,99 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Phone survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_current_smartphone_experience
+      label: How satisfied are you with your current smartphone experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_upgrade_your_smartphone
+      label: How often do you upgrade your smartphone?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: annually
+        label: Annually
+      - name: every_23_years
+        label: Every 2-3 years
+      - name: every_4_years
+        label: Every 4+ years
+      - name: only_when_broken
+        label: Only when broken
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_factors_are_most_important_when_choosing_a_new_smartphone_select_all_that_apply
+      label: Which of the following factors are most important when choosing a new
+        smartphone? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: battery_life
+        label: Battery life
+      - name: camera_quality
+        label: Camera quality
+      - name: price
+        label: Price
+      - name: brand
+        label: Brand
+      - name: screen_size
+        label: Screen size
+      - name: performance
+        label: Performance
+      - name: operating_system
+        label: Operating system
+    - id: 4
+      name: what_is_your_primary_use_for_your_smartphone
+      label: What is your primary use for your smartphone?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: communication
+        label: Communication
+      - name: social_media
+        label: Social media
+      - name: web_browsing
+        label: Web browsing
+      - name: gaming
+        label: Gaming
+      - name: workproductivity
+        label: Work/Productivity
+      - name: entertainment
+        label: Entertainment
+    - id: 5
+      name: what_would_you_improve_about_your_current_smartphone_or_mobile_service
+      label: What would you improve about your current smartphone or mobile service?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_about_mobile_technology
+      label: Do you have any additional comments or feedback about mobile technology?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

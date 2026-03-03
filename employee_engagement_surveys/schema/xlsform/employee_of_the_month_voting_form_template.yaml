@@ -1,0 +1,82 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Employee of the month voting form
+    pages:
+    - id: 1
+      name: which_colleague_are_you_nominating_for_employee_of_the_month
+      label: Which colleague are you nominating for Employee of the Month?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 2
+      name: why_are_you_nominating_this_individual_select_all_that_apply
+      label: Why are you nominating this individual? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: exceeded_expectations
+        label: Exceeded expectations
+      - name: demonstrated_teamwork
+        label: Demonstrated teamwork
+      - name: showed_leadership
+        label: Showed leadership
+      - name: improved_processes
+        label: Improved processes
+      - name: helped_colleagues
+        label: Helped colleagues
+      - name: positive_attitude
+        label: Positive attitude
+    - id: 3
+      name: in_what_specific_ways_did_they_contribute_outstandingly_this_month
+      label: In what specific ways did they contribute outstandingly this month?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 4
+      name: how_would_you_rate_their_overall_impact_this_month
+      label: How would you rate their overall impact this month?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: outstanding
+        label: Outstanding
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+    - id: 5
+      name: do_you_believe_they_embody_our_company_values
+      label: Do you believe they embody our company values?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 6
+      name: any_additional_comments_to_support_your_nomination
+      label: Any additional comments to support your nomination?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,114 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Branding questionnaire
+    pages:
+    - id: 1
+      name: how_would_you_describe_your_overall_perception_of_our_brand
+      label: How would you describe your overall perception of our brand?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_positive
+        label: Very positive
+      - name: positive
+        label: Positive
+      - name: neutral
+        label: Neutral
+      - name: negative
+        label: Negative
+      - name: very_negative
+        label: Very negative
+    - id: 2
+      name: which_of_the_following_elements_most_influence_your_perception_of_our_brand_select_all_that_apply
+      label: Which of the following elements most influence your perception of our
+        brand? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: productservice_quality
+        label: Product/Service quality
+      - name: customer_service
+        label: Customer service
+      - name: marketingadvertising
+        label: Marketing/Advertising
+      - name: company_values
+        label: Company values
+      - name: brand_reputation
+        label: Brand reputation
+      - name: price
+        label: Price
+    - id: 3
+      name: would_you_recommend_our_brand_to_others
+      label: Would you recommend our brand to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: unsure
+        label: Unsure
+    - id: 4
+      name: which_words_best_describe_our_brand_select_up_to_3
+      label: Which words best describe our brand? (Select up to 3)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: innovative
+        label: Innovative
+      - name: trustworthy
+        label: Trustworthy
+      - name: modern
+        label: Modern
+      - name: affordable
+        label: Affordable
+      - name: premium
+        label: Premium
+      - name: friendly
+        label: Friendly
+      - name: reliable
+        label: Reliable
+      - name: dynamic
+        label: Dynamic
+    - id: 5
+      name: compared_to_competitors_how_unique_do_you_perceive_our_brand_to_be
+      label: Compared to competitors, how unique do you perceive our brand to be?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_unique
+        label: Very unique
+      - name: somewhat_unique
+        label: Somewhat unique
+      - name: neutral
+        label: Neutral
+      - name: not_very_unique
+        label: Not very unique
+      - name: not_unique_at_all
+        label: Not unique at all
+    - id: 6
+      name: what_aspects_of_our_brand_do_you_think_could_be_improved_or_changed
+      label: What aspects of our brand do you think could be improved or changed?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_feedback_regarding_our_brand
+      label: Do you have any additional comments or feedback regarding our brand?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

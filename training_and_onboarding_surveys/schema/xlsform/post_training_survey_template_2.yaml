@@ -1,0 +1,84 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Post-training survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_overall_training_program
+      label: How satisfied were you with the overall training program?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_sessions_or_topics_did_you_find_most_valuable_select_all_that_apply
+      label: Which sessions or topics did you find most valuable? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: core_concepts
+        label: Core Concepts
+      - name: advanced_techniques
+        label: Advanced Techniques
+      - name: practical_exercises
+        label: Practical Exercises
+      - name: qa_and_discussion
+        label: Q&A and Discussion
+      - name: networking_opportunities
+        label: Networking Opportunities
+    - id: 3
+      name: was_the_training_program_well_organized_and_structured
+      label: Was the training program well organized and structured?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: not_really
+        label: Not really
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: how_likely_are_you_to_recommend_this_training_program_to_a_colleague
+      label: How likely are you to recommend this training program to a colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 5
+      name: what_is_one_thing_that_could_significantly_improve_future_training_programs
+      label: What is one thing that could significantly improve future training programs?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

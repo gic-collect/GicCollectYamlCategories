@@ -1,0 +1,110 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: 360 degree feedback form
+    pages:
+    - id: 1
+      name: how_often_do_you_interact_with_the_employee_being_reviewed
+      label: How often do you interact with the employee being reviewed?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: biweekly
+        label: Bi-weekly
+      - name: monthly
+        label: Monthly
+      - name: quarterly
+        label: Quarterly
+      - name: rarely
+        label: Rarely
+    - id: 2
+      name: how_would_you_rate_the_employees_overall_performance
+      label: How would you rate the employee's overall performance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: outstanding
+        label: Outstanding
+      - name: exceeds_expectations
+        label: Exceeds expectations
+      - name: meets_expectations
+        label: Meets expectations
+      - name: needs_development
+        label: Needs development
+      - name: below_expectations
+        label: Below expectations
+    - id: 3
+      name: which_of_the_following_strengths_best_describe_the_employee_select_all_that_apply
+      label: Which of the following strengths best describe the employee? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: communication_skills
+        label: Communication skills
+      - name: teamwork_collaboration
+        label: Teamwork & collaboration
+      - name: problemsolving
+        label: Problem-solving
+      - name: adaptability
+        label: Adaptability
+      - name: leadership_potential
+        label: Leadership potential
+      - name: proactiveness
+        label: Proactiveness
+      - name: technical_expertise
+        label: Technical expertise
+      - name: customer_focus
+        label: Customer focus
+    - id: 4
+      name: how_effectively_does_the_employee_contribute_to_team_goals_and_objectives
+      label: How effectively does the employee contribute to team goals and objectives?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_effectively
+        label: Very effectively
+      - name: effectively
+        label: Effectively
+      - name: moderately_effectively
+        label: Moderately effectively
+      - name: needs_improvement
+        label: Needs improvement
+      - name: not_applicable
+        label: Not applicable
+    - id: 5
+      name: what_is_one_area_where_the_employee_could_further_develop_or_improve
+      label: What is one area where the employee could further develop or improve?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: please_provide_a_specific_example_of_when_the_employee_demonstrated_excellence_or_positive_impact
+      label: Please provide a specific example of when the employee demonstrated excellence
+        or positive impact.
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_feedback_or_comments_about_the_employees_performance_or_potential
+      label: Do you have any additional feedback or comments about the employee's
+        performance or potential?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

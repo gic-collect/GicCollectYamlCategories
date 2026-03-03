@@ -1,0 +1,100 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Software customer satisfaction survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_our_software_overall
+      label: How satisfied are you with our software overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_the_softwares_ease_of_use
+      label: How would you rate the software's ease of use?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: which_features_do_you_find_most_valuable_select_all_that_apply
+      label: Which features do you find most valuable? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: core_functions
+        label: Core functions
+      - name: reporting
+        label: Reporting
+      - name: integrations
+        label: Integrations
+      - name: customization
+        label: Customization
+      - name: support_resources
+        label: Support resources
+    - id: 4
+      name: how_would_you_rate_the_responsiveness_of_our_customer_support
+      label: How would you rate the responsiveness of our customer support?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: not_applicable
+        label: Not applicable
+    - id: 5
+      name: what_specific_improvements_would_you_suggest_for_the_software
+      label: What specific improvements would you suggest for the software?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_likely_are_you_to_recommend_our_software_to_others
+      label: How likely are you to recommend our software to others?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely

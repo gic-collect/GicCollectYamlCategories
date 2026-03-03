@@ -1,0 +1,95 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Help desk feedback survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_were_you_with_your_recent_help_desk_experience
+      label: Overall, how satisfied were you with your recent help desk experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_quickly_was_your_issue_resolved
+      label: How quickly was your issue resolved?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: immediately
+        label: Immediately
+      - name: within_hours
+        label: Within hours
+      - name: within_12_days
+        label: Within 1-2 days
+      - name: more_than_2_days
+        label: More than 2 days
+      - name: not_yet_resolved
+        label: Not yet resolved
+    - id: 3
+      name: which_of_the_following_best_describes_the_help_desk_agent_you_interacted_with_select_all_that_apply
+      label: Which of the following best describes the help desk agent you interacted
+        with? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: knowledgeable
+        label: Knowledgeable
+      - name: friendly
+        label: Friendly
+      - name: efficient
+        label: Efficient
+      - name: understanding
+        label: Understanding
+      - name: unhelpful
+        label: Unhelpful
+      - name: unprofessional
+        label: Unprofessional
+    - id: 4
+      name: how_clear_and_helpful_was_the_resolution_provided
+      label: How clear and helpful was the resolution provided?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_clear_and_helpful
+        label: Very clear and helpful
+      - name: clear
+        label: Clear
+      - name: somewhat_clear
+        label: Somewhat clear
+      - name: unclear
+        label: Unclear
+      - name: not_helpful
+        label: Not helpful
+    - id: 5
+      name: what_specific_aspects_of_our_help_desk_service_could_be_improved
+      label: What specific aspects of our help desk service could be improved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

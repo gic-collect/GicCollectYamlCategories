@@ -1,0 +1,97 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Manager effectiveness survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_direct_manager
+      label: Overall, how satisfied are you with your direct manager?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_your_direct_managers_communication_style_and_clarity
+      label: How would you rate your direct manager's communication style and clarity?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: very_poor
+        label: Very Poor
+    - id: 3
+      name: does_your_manager_provide_effective_feedback_and_support_your_professional_development
+      label: Does your manager provide effective feedback and support your professional
+        development?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 4
+      name: in_what_areas_does_your_manager_excel_select_all_that_apply
+      label: In what areas does your manager excel? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: provides_clear_direction
+        label: Provides clear direction
+      - name: offers_constructive_feedback
+        label: Offers constructive feedback
+      - name: empowers_the_team
+        label: Empowers the team
+      - name: promotes_collaboration
+        label: Promotes collaboration
+      - name: manages_workload_effectively
+        label: Manages workload effectively
+      - name: values_my_input
+        label: Values my input
+    - id: 5
+      name: what_specific_actions_could_your_manager_take_to_improve_your_work_experience_or_teams_effectiveness
+      label: What specific actions could your manager take to improve your work experience
+        or team's effectiveness?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: is_there_anything_else_youd_like_to_share_regarding_your_managers_effectiveness_or_impact
+      label: Is there anything else you'd like to share regarding your manager's effectiveness
+        or impact?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

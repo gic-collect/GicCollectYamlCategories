@@ -1,0 +1,96 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Relationship questionnaire
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_closest_relationships
+      label: How satisfied are you with your closest relationships?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_intentionally_connect_with_important_people_in_your_life
+      label: How often do you intentionally connect with important people in your
+        life?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_qualities_are_most_important_in_a_healthy_relationship_select_all_that_apply
+      label: Which qualities are most important in a healthy relationship? (select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: trust
+        label: Trust
+      - name: communication
+        label: Communication
+      - name: support
+        label: Support
+      - name: honesty
+        label: Honesty
+      - name: respect
+        label: Respect
+      - name: shared_interests
+        label: Shared interests
+    - id: 4
+      name: what_is_one_area_you_would_like_to_improve_in_your_current_relationships
+      label: What is one area you would like to improve in your current relationships?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: how_much_effort_do_you_feel_you_put_into_maintaining_your_relationships
+      label: How much effort do you feel you put into maintaining your relationships?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: a_great_deal
+        label: A great deal
+      - name: a_fair_amount
+        label: A fair amount
+      - name: some
+        label: Some
+      - name: not_much
+        label: Not much
+      - name: very_little
+        label: Very little
+    - id: 6
+      name: do_you_have_any_additional_comments_or_thoughts_on_relationships
+      label: Do you have any additional comments or thoughts on relationships?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

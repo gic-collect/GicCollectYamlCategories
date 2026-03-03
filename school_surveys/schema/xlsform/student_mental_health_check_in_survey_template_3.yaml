@@ -1,0 +1,117 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Student mental health check-in survey
+    pages:
+    - id: 1
+      name: how_would_you_describe_your_current_overall_wellbeing
+      label: How would you describe your current overall well-being?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: very_poor
+        label: Very Poor
+    - id: 2
+      name: which_of_the_following_emotions_have_you_experienced_frequently_recently_select_all_that_apply
+      label: Which of the following emotions have you experienced frequently recently?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: happy
+        label: Happy
+      - name: stressed
+        label: Stressed
+      - name: anxious
+        label: Anxious
+      - name: sad
+        label: Sad
+      - name: hopeful
+        label: Hopeful
+      - name: overwhelmed
+        label: Overwhelmed
+      - name: calm
+        label: Calm
+    - id: 3
+      name: how_has_your_mental_health_affected_your_academic_performance
+      label: How has your mental health affected your academic performance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: positively
+        label: Positively
+      - name: slightly_positively
+        label: Slightly positively
+      - name: no_effect
+        label: No effect
+      - name: slightly_negatively
+        label: Slightly negatively
+      - name: significantly_negatively
+        label: Significantly negatively
+    - id: 4
+      name: what_sources_of_support_do_you_currently_utilize_select_all_that_apply
+      label: What sources of support do you currently utilize? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: friends
+        label: Friends
+      - name: family
+        label: Family
+      - name: school_counselor
+        label: School counselor
+      - name: teachers
+        label: Teachers
+      - name: online_resources
+        label: Online resources
+      - name: no_formal_support
+        label: No formal support
+    - id: 5
+      name: if_you_needed_mental_health_support_how_comfortable_would_you_be_seeking_help_from_school_resources
+      label: If you needed mental health support, how comfortable would you be seeking
+        help from school resources?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_comfortable
+        label: Very comfortable
+      - name: somewhat_comfortable
+        label: Somewhat comfortable
+      - name: neutral
+        label: Neutral
+      - name: somewhat_uncomfortable
+        label: Somewhat uncomfortable
+      - name: very_uncomfortable
+        label: Very uncomfortable
+    - id: 6
+      name: what_is_one_thing_that_has_been_most_helpful_for_your_mental_health_recently
+      label: What is one thing that has been most helpful for your mental health recently?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: what_could_the_school_do_to_better_support_student_mental_health
+      label: What could the school do to better support student mental health?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

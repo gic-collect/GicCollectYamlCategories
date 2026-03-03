@@ -1,0 +1,84 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Post-training survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_training_program_overall
+      label: How satisfied were you with the training program overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_specific_sessions_or_topics_did_you_find_most_valuable_select_all_that_apply
+      label: Which specific sessions or topics did you find most valuable? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: module_a_core_concepts
+        label: '{''Module A'': ''Core Concepts''}'
+      - name: module_b_advanced_techniques
+        label: '{''Module B'': ''Advanced Techniques''}'
+      - name: workshop_practical_application
+        label: '{''Workshop'': ''Practical Application''}'
+      - name: qa_session
+        label: Q&A Session
+      - name: networking_event
+        label: Networking Event
+      - name: other
+        label: Other
+    - id: 3
+      name: was_the_training_event_well_organized_and_structured
+      label: Was the training event well organized and structured?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: partially
+        label: Partially
+    - id: 4
+      name: how_likely_are_you_to_attend_a_similar_training_in_the_future
+      label: How likely are you to attend a similar training in the future?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 5
+      name: do_you_have_any_additional_comments_or_suggestions_for_improvement
+      label: Do you have any additional comments or suggestions for improvement?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,75 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Lead generation survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_quality_of_leads_generated
+      label: How satisfied are you with the quality of leads generated?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: is_the_current_volume_of_leads_sufficient_for_your_needs
+      label: Is the current volume of leads sufficient for your needs?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: too_high
+        label: Too high
+      - name: just_right
+        label: Just right
+      - name: too_low
+        label: Too low
+    - id: 3
+      name: which_characteristics_best_describe_the_leads_you_receive_select_all_that_apply
+      label: Which characteristics best describe the leads you receive? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: highly_qualified
+        label: Highly qualified
+      - name: good_fit
+        label: Good fit
+      - name: engaged
+        label: Engaged
+      - name: timely
+        label: Timely
+      - name: early_stage
+        label: Early stage
+      - name: not_relevant
+        label: Not relevant
+    - id: 4
+      name: what_specific_improvements_would_you_suggest_for_our_lead_generation_process
+      label: What specific improvements would you suggest for our lead generation
+        process?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_additional_comments_or_feedback_regarding_lead_generation
+      label: Do you have any additional comments or feedback regarding lead generation?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

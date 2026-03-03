@@ -1,0 +1,112 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Office feedback survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_office_environment
+      label: How satisfied are you with your overall office environment?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_typically_work_from_the_office
+      label: How often do you typically work from the office?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: 34_times_a_week
+        label: 3-4 times a week
+      - name: 12_times_a_week
+        label: 1-2 times a week
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describe_your_current_office_experience_select_all_that_apply
+      label: Which of the following best describe your current office experience?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: productive
+        label: Productive
+      - name: collaborative
+        label: Collaborative
+      - name: comfortable
+        label: Comfortable
+      - name: distracting
+        label: Distracting
+      - name: lacking_amenities
+        label: Lacking amenities
+      - name: wellequipped
+        label: Well-equipped
+    - id: 4
+      name: how_would_you_rate_the_cleanliness_of_the_office_space
+      label: How would you rate the cleanliness of the office space?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: very_poor
+        label: Very poor
+    - id: 5
+      name: what_is_your_primary_mode_of_commute_to_the_office
+      label: What is your primary mode of commute to the office?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: car
+        label: Car
+      - name: public_transport
+        label: Public transport
+      - name: walk
+        label: Walk
+      - name: cycle
+        label: Cycle
+      - name: other
+        label: Other
+    - id: 6
+      name: what_one_thing_would_you_most_improve_about_the_office_environment
+      label: What one thing would you most improve about the office environment?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions_for_the_office
+      label: Do you have any additional comments or suggestions for the office?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

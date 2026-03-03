@@ -1,0 +1,101 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Social media survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_overall_social_media_experience
+      label: How satisfied are you with your overall social media experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_interact_with_social_media_platforms
+      label: How often do you interact with social media platforms?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: several_times_a_week
+        label: Several times a week
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_best_describes_your_main_reason_for_using_social_media
+      label: Which of the following best describes your main reason for using social
+        media?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: connecting_with_friendsfamily
+        label: Connecting with friends/family
+      - name: newsinformation
+        label: News/Information
+      - name: entertainment
+        label: Entertainment
+      - name: professional_networking
+        label: Professional networking
+      - name: shopping
+        label: Shopping
+      - name: other
+        label: Other
+    - id: 4
+      name: which_of_the_following_applies_to_your_experience_with_social_media_select_all_that_apply
+      label: Which of the following applies to your experience with social media?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: connects_me_with_others
+        label: Connects me with others
+      - name: source_of_newsinfo
+        label: Source of news/info
+      - name: entertaining
+        label: Entertaining
+      - name: causes_anxietystress
+        label: Causes anxiety/stress
+      - name: timeconsuming
+        label: Time-consuming
+      - name: privacy_concerns
+        label: Privacy concerns
+    - id: 5
+      name: what_would_you_most_like_to_improve_or_change_about_your_social_media_experience
+      label: What would you most like to improve or change about your social media
+        experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_feedback_regarding_social_media
+      label: Do you have any additional comments or feedback regarding social media?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,303 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Conference evaluation survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_conference_overall
+      label: How satisfied were you with the conference overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_aspects_of_the_conference_did_you_find_most_valuable_select_all_that_apply
+      label: Which aspects of the conference did you find most valuable? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: keynote_speeches
+        label: Keynote Speeches
+      - name: panel_discussions
+        label: Panel Discussions
+      - name: workshops
+        label: Workshops
+      - name: networking_events
+        label: Networking Events
+      - name: poster_sessions
+        label: Poster Sessions
+      - name: exhibition_hall
+        label: Exhibition Hall
+    - id: 3
+      name: was_the_event_well_organized_and_managed
+      label: Was the event well organized and managed?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: partially
+        label: Partially
+      - name: 'false'
+        label: 'False'
+    - id: 4
+      name: how_likely_are_you_to_attend_this_conference_again_in_the_future
+      label: How likely are you to attend this conference again in the future?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: somewhat_likely
+        label: Somewhat likely
+      - name: not_likely
+        label: Not likely
+    - id: 5
+      name: what_suggestions_do_you_have_for_improving_future_conferences
+      label: What suggestions do you have for improving future conferences?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: how_would_you_rate_the_quality_of_the_keynote_speakers
+      label: How would you rate the quality of the keynote speakers?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 7
+      name: how_would_you_rate_the_networking_opportunities_provided
+      label: How would you rate the networking opportunities provided?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 8
+      name: how_would_you_rate_the_conference_venue_and_facilities
+      label: How would you rate the conference venue and facilities?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 9
+      name: how_would_you_rate_the_conference_mobile_appwebsite
+      label: How would you rate the conference mobile app/website?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 10
+      name: how_would_you_rate_the_food_and_beverage_options
+      label: How would you rate the food and beverage options?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 11
+      name: how_would_you_rate_the_diversity_and_inclusion_at_the_conference
+      label: How would you rate the diversity and inclusion at the conference?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 12
+      name: how_would_you_rate_the_value_for_money_of_the_conference
+      label: How would you rate the value for money of the conference?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent_value
+        label: Excellent value
+      - name: good_value
+        label: Good value
+      - name: fair_value
+        label: Fair value
+      - name: poor_value
+        label: Poor value
+      - name: very_poor_value
+        label: Very poor value
+    - id: 13
+      name: what_was_the_most_valuable_session_or_activity_you_attended
+      label: What was the most valuable session or activity you attended?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 14
+      name: what_topics_would_you_like_to_see_covered_in_future_conferences
+      label: What topics would you like to see covered in future conferences?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 15
+      name: how_effective_was_the_conference_in_helping_you_achieve_your_professional_goals
+      label: How effective was the conference in helping you achieve your professional
+        goals?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_effective
+        label: Very effective
+      - name: effective
+        label: Effective
+      - name: somewhat_effective
+        label: Somewhat effective
+      - name: not_very_effective
+        label: Not very effective
+      - name: not_effective_at_all
+        label: Not effective at all
+    - id: 16
+      name: how_would_you_rate_the_conferences_environmental_sustainability_efforts
+      label: How would you rate the conference's environmental sustainability efforts?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 17
+      name: how_accessible_was_the_conference_for_people_with_disabilities
+      label: How accessible was the conference for people with disabilities?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_accessible
+        label: Very accessible
+      - name: accessible
+        label: Accessible
+      - name: somewhat_accessible
+        label: Somewhat accessible
+      - name: not_very_accessible
+        label: Not very accessible
+      - name: not_accessible_at_all
+        label: Not accessible at all
+    - id: 18
+      name: what_improvements_would_you_suggest_for_the_conference_registration_process
+      label: What improvements would you suggest for the conference registration process?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 19
+      name: how_would_you_rate_the_conferences_social_media_presence_and_engagement
+      label: How would you rate the conference's social media presence and engagement?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: average
+        label: Average
+      - name: below_average
+        label: Below average
+      - name: poor
+        label: Poor
+    - id: 20
+      name: what_was_your_favorite_aspect_of_the_conference_experience
+      label: What was your favorite aspect of the conference experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 21
+      name: what_was_your_least_favorite_aspect_of_the_conference_experience
+      label: What was your least favorite aspect of the conference experience?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

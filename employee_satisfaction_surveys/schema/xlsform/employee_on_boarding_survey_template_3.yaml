@@ -1,0 +1,106 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Employee on-boarding survey
+    pages:
+    - id: 1
+      name: how_would_you_describe_your_overall_onboarding_experience
+      label: How would you describe your overall on-boarding experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 2
+      name: did_you_receive_adequate_information_and_resources_to_get_started_in_your_role
+      label: Did you receive adequate information and resources to get started in
+        your role?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: mostly
+        label: Mostly
+      - name: partially
+        label: Partially
+      - name: 'false'
+        label: 'False'
+    - id: 3
+      name: how_would_you_rate_the_support_you_received_from_your_manager_during_onboarding
+      label: How would you rate the support you received from your manager during
+        on-boarding?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 4
+      name: which_of_the_following_aspects_of_your_onboarding_were_most_helpful_select_all_that_apply
+      label: Which of the following aspects of your on-boarding were most helpful?
+        (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: hr_paperwork
+        label: HR paperwork
+      - name: system_access
+        label: System access
+      - name: role_clarity
+        label: Role clarity
+      - name: team_introductions
+        label: Team introductions
+      - name: initial_training
+        label: Initial training
+      - name: company_culture_overview
+        label: Company culture overview
+    - id: 5
+      name: do_you_feel_integrated_into_your_team_and_the_company_culture
+      label: Do you feel integrated into your team and the company culture?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: completely
+        label: Completely
+      - name: mostly
+        label: Mostly
+      - name: somewhat
+        label: Somewhat
+      - name: not_yet
+        label: Not yet
+    - id: 6
+      name: what_could_be_improved_in_the_onboarding_process_for_future_employees
+      label: What could be improved in the on-boarding process for future employees?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions_regarding_your_onboarding
+      label: Do you have any additional comments or suggestions regarding your on-boarding?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,123 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Course feedback survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_this_course_overall
+      label: How satisfied were you with this course overall?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_topics_or_sessions_did_you_find_most_valuable_select_all_that_apply
+      label: Which topics or sessions did you find most valuable? (select all that
+        apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: lectures
+        label: Lectures
+      - name: group_discussions
+        label: Group discussions
+      - name: practical_exercises
+        label: Practical exercises
+      - name: guest_speakers
+        label: Guest speakers
+      - name: readings
+        label: Readings
+      - name: labs
+        label: Labs
+    - id: 3
+      name: was_the_course_material_well_organized_and_easy_to_follow
+      label: Was the course material well organized and easy to follow?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 4
+      name: how_effective_was_the_instructor_in_teaching_the_material
+      label: How effective was the instructor in teaching the material?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 5
+      name: how_would_you_describe_the_course_workload
+      label: How would you describe the course workload?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: too_heavy
+        label: Too heavy
+      - name: just_right
+        label: Just right
+      - name: too_light
+        label: Too light
+    - id: 6
+      name: how_likely_are_you_to_recommend_this_course_to_a_friend_or_colleague
+      label: How likely are you to recommend this course to a friend or colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 7
+      name: what_specific_aspects_of_the_course_could_be_improved
+      label: What specific aspects of the course could be improved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 8
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

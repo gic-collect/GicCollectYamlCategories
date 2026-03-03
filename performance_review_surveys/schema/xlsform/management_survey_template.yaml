@@ -1,0 +1,76 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Management survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_your_managers_overall_performance
+      label: How satisfied are you with your manager's overall performance?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_often_do_you_receive_constructive_feedback_from_your_manager
+      label: How often do you receive constructive feedback from your manager?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: daily
+        label: Daily
+      - name: weekly
+        label: Weekly
+      - name: monthly
+        label: Monthly
+      - name: rarely
+        label: Rarely
+      - name: never
+        label: Never
+    - id: 3
+      name: which_of_the_following_leadership_qualities_does_your_manager_consistently_demonstrate_select_all_that_apply
+      label: Which of the following leadership qualities does your manager consistently
+        demonstrate? (select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: clear_communication
+        label: Clear communication
+      - name: supports_growth
+        label: Supports growth
+      - name: empowers_team
+        label: Empowers team
+      - name: decisive
+        label: Decisive
+      - name: approachable
+        label: Approachable
+    - id: 4
+      name: what_specific_areas_could_your_manager_improve_upon
+      label: What specific areas could your manager improve upon?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 5
+      name: do_you_have_any_other_comments_or_suggestions_regarding_management
+      label: Do you have any other comments or suggestions regarding management?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

@@ -1,0 +1,91 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Customer Effort Score (CES) Survey
+    pages:
+    - id: 1
+      name: to_what_extent_do_you_agree_or_disagree_with_the_following_statement_our_service_made_it_easy_for_me_to_handle_my_issuecomplete_my_task
+      label: 'To what extent do you agree or disagree with the following statement:
+        ''Our service made it easy for me to handle my issue/complete my task.'''
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_disagree
+        label: Strongly disagree
+      - name: disagree
+        label: Disagree
+      - name: neutral
+        label: Neutral
+      - name: agree
+        label: Agree
+      - name: strongly_agree
+        label: Strongly agree
+    - id: 2
+      name: how_much_effort_did_you_personally_have_to_put_forth_to_handle_your_request
+      label: How much effort did you personally have to put forth to handle your request?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_low_effort
+        label: Very low effort
+      - name: low_effort
+        label: Low effort
+      - name: moderate_effort
+        label: Moderate effort
+      - name: high_effort
+        label: High effort
+      - name: very_high_effort
+        label: Very high effort
+    - id: 3
+      name: was_your_issue_resolved_or_task_completed
+      label: Was your issue resolved or task completed?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: partially
+        label: Partially
+    - id: 4
+      name: what_made_your_experience_difficult_select_all_that_apply
+      label: What made your experience difficult? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: unclear_instructions
+        label: Unclear instructions
+      - name: long_wait_times
+        label: Long wait times
+      - name: technical_issues
+        label: Technical issues
+      - name: multiple_contacts
+        label: Multiple contacts
+      - name: agent_knowledge
+        label: Agent knowledge
+      - name: other
+        label: Other
+    - id: 5
+      name: what_could_have_made_your_experience_easier
+      label: What could have made your experience easier?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

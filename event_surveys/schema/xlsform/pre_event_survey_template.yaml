@@ -1,0 +1,93 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Pre-event survey
+    pages:
+    - id: 1
+      name: how_satisfied_are_you_with_the_information_provided_before_the_event
+      label: How satisfied are you with the information provided before the event?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_sessions_or_topics_are_you_most_looking_forward_to_select_all_that_apply
+      label: Which sessions or topics are you most looking forward to? (select all
+        that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: keynote_speeches
+        label: Keynote speeches
+      - name: interactive_workshops
+        label: Interactive workshops
+      - name: networking_sessions
+        label: Networking sessions
+      - name: panel_discussions
+        label: Panel discussions
+      - name: product_demos
+        label: Product demos
+    - id: 3
+      name: how_easy_was_the_event_registration_process
+      label: How easy was the event registration process?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_easy
+        label: Very easy
+      - name: easy
+        label: Easy
+      - name: neutral
+        label: Neutral
+      - name: difficult
+        label: Difficult
+      - name: very_difficult
+        label: Very difficult
+    - id: 4
+      name: what_is_your_primary_goal_for_attending_this_event
+      label: What is your primary goal for attending this event?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: networking
+        label: Networking
+      - name: learning_new_skills
+        label: Learning new skills
+      - name: gaining_industry_insights
+        label: Gaining industry insights
+      - name: discovering_new_products
+        label: Discovering new products
+      - name: career_development
+        label: Career development
+    - id: 5
+      name: do_you_have_any_specific_questions_or_concerns_before_the_event_begins
+      label: Do you have any specific questions or concerns before the event begins?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: what_additional_information_would_be_helpful_for_you_prior_to_the_event
+      label: What additional information would be helpful for you prior to the event?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

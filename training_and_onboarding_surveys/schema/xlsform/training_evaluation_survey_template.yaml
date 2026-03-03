@@ -1,0 +1,106 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Training evaluation survey
+    pages:
+    - id: 1
+      name: how_satisfied_were_you_with_the_overall_training_experience
+      label: How satisfied were you with the overall training experience?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: satisfied
+        label: Satisfied
+      - name: neutral
+        label: Neutral
+      - name: dissatisfied
+        label: Dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: which_training_sessions_or_modules_did_you_find_most_valuable_select_all_that_apply
+      label: Which training sessions or modules did you find most valuable? (Select
+        all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: module_1_foundations
+        label: '{''Module 1'': ''Foundations''}'
+      - name: module_2_advanced_topics
+        label: '{''Module 2'': ''Advanced Topics''}'
+      - name: handson_workshop
+        label: Hands-on Workshop
+      - name: qa_and_discussion
+        label: Q&A and Discussion
+      - name: networking_session
+        label: Networking Session
+    - id: 3
+      name: was_the_training_event_wellorganized_and_clearly_structured
+      label: Was the training event well-organized and clearly structured?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 4
+      name: how_relevant_was_the_training_content_to_your_job_responsibilities
+      label: How relevant was the training content to your job responsibilities?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: extremely_relevant
+        label: Extremely relevant
+      - name: very_relevant
+        label: Very relevant
+      - name: moderately_relevant
+        label: Moderately relevant
+      - name: slightly_relevant
+        label: Slightly relevant
+      - name: not_relevant_at_all
+        label: Not relevant at all
+    - id: 5
+      name: how_likely_are_you_to_recommend_this_training_to_a_colleague
+      label: How likely are you to recommend this training to a colleague?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_likely
+        label: Very likely
+      - name: likely
+        label: Likely
+      - name: neutral
+        label: Neutral
+      - name: unlikely
+        label: Unlikely
+      - name: very_unlikely
+        label: Very unlikely
+    - id: 6
+      name: what_aspect_of_the_training_would_you_most_like_to_see_improved
+      label: What aspect of the training would you most like to see improved?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions_for_future_training
+      label: Do you have any additional comments or suggestions for future training?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

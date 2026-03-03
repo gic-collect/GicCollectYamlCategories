@@ -1,0 +1,106 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Employee wellness survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_your_role_at_the_organization
+      label: Overall, how satisfied are you with your role at the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_communication_from_management
+      label: How would you rate communication from management?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 3
+      name: do_you_feel_supported_in_your_professional_development
+      label: Do you feel supported in your professional development?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: 'true'
+        label: 'True'
+      - name: 'false'
+        label: 'False'
+      - name: somewhat
+        label: Somewhat
+    - id: 4
+      name: what_initiatives_or_resources_would_most_improve_your_overall_wellness_at_work
+      label: What initiatives or resources would most improve your overall wellness
+        at work?
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: mental_health_support
+        label: Mental health support
+      - name: physical_fitness_programs
+        label: Physical fitness programs
+      - name: flexible_work_options
+        label: Flexible work options
+      - name: stress_management_workshops
+        label: Stress management workshops
+      - name: financial_wellness_guidance
+        label: Financial wellness guidance
+      - name: social_activities
+        label: Social activities
+    - id: 5
+      name: what_could_improve_your_daytoday_experience_at_work
+      label: What could improve your day-to-day experience at work?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 6
+      name: do_you_feel_a_sense_of_belonging_within_the_organization
+      label: Do you feel a sense of belonging within the organization?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 7
+      name: any_additional_comments_or_suggestions_regarding_employee_wellness
+      label: Any additional comments or suggestions regarding employee wellness?
+      hint: null
+      type: text
+      required: 'false'
+      options: []

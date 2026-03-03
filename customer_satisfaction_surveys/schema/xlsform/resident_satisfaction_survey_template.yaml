@@ -1,0 +1,111 @@
+# AI-Generated Form — Not affiliated with Jotform
+# This form was created by AI using only public survey topic metadata
+# (title + industry/category) as inspiration. It is an original adaptation
+# released under CC BY 4.0. You are free to use, modify, and even sell
+# forms derived from it — just give credit.
+inputSchema:
+  type: object
+  properties:
+    title: Resident satisfaction survey
+    pages:
+    - id: 1
+      name: overall_how_satisfied_are_you_with_living_in_this_community
+      label: Overall, how satisfied are you with living in this community?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: very_satisfied
+        label: Very satisfied
+      - name: somewhat_satisfied
+        label: Somewhat satisfied
+      - name: neutral
+        label: Neutral
+      - name: somewhat_dissatisfied
+        label: Somewhat dissatisfied
+      - name: very_dissatisfied
+        label: Very dissatisfied
+    - id: 2
+      name: how_would_you_rate_communication_from_community_management
+      label: How would you rate communication from community management?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+      - name: not_applicable
+        label: Not applicable
+    - id: 3
+      name: how_would_you_rate_the_upkeep_and_cleanliness_of_common_areas
+      label: How would you rate the upkeep and cleanliness of common areas?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: excellent
+        label: Excellent
+      - name: good
+        label: Good
+      - name: fair
+        label: Fair
+      - name: poor
+        label: Poor
+    - id: 4
+      name: which_community_amenities_do_you_use_regularly_select_all_that_apply
+      label: Which community amenities do you use regularly? (Select all that apply)
+      hint: null
+      type: select_multiple
+      required: 'false'
+      options:
+      - name: gym
+        label: Gym
+      - name: pool
+        label: Pool
+      - name: community_room
+        label: Community Room
+      - name: laundry_facilities
+        label: Laundry Facilities
+      - name: pet_park
+        label: Pet Park
+      - name: parking
+        label: Parking
+      - name: none_of_the_above
+        label: None of the above
+    - id: 5
+      name: do_you_feel_a_sense_of_community_where_you_live
+      label: Do you feel a sense of community where you live?
+      hint: null
+      type: select_one
+      required: 'false'
+      options:
+      - name: strongly_agree
+        label: Strongly agree
+      - name: agree
+        label: Agree
+      - name: neutral
+        label: Neutral
+      - name: disagree
+        label: Disagree
+      - name: strongly_disagree
+        label: Strongly disagree
+    - id: 6
+      name: what_improvements_would_most_enhance_your_living_experience_here
+      label: What improvements would most enhance your living experience here?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
+    - id: 7
+      name: do_you_have_any_additional_comments_or_suggestions
+      label: Do you have any additional comments or suggestions?
+      hint: null
+      type: text
+      required: 'false'
+      options: []
